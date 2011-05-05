@@ -1,0 +1,413 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		19190F5D13286C0700550793 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 19190F5C13286C0700550793 /* UIKit.framework */; };
+		19190F5F13286C0700550793 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 19190F5E13286C0700550793 /* Foundation.framework */; };
+		19190F6113286C0700550793 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 19190F6013286C0700550793 /* CoreGraphics.framework */; };
+		19190F8E13286C5400550793 /* Problem.m in Sources */ = {isa = PBXBuildFile; fileRef = 19190F7D13286C5400550793 /* Problem.m */; };
+		19190F9013286C5400550793 /* ProblemStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 19190F8113286C5400550793 /* ProblemStore.m */; };
+		19190F9113286C5400550793 /* SolutionPoint.m in Sources */ = {isa = PBXBuildFile; fileRef = 19190F8313286C5400550793 /* SolutionPoint.m */; };
+		19190F9213286C5400550793 /* SolutionStroke.m in Sources */ = {isa = PBXBuildFile; fileRef = 19190F8513286C5400550793 /* SolutionStroke.m */; };
+		19190F9313286C5400550793 /* SolvalyzerAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 19190F8713286C5400550793 /* SolvalyzerAppDelegate.m */; };
+		19190F9413286C5400550793 /* SolvalyzerRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 19190F8913286C5400550793 /* SolvalyzerRootViewController.m */; };
+		19190F9513286C5400550793 /* SolvalyzerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 19190F8B13286C5400550793 /* SolvalyzerViewController.m */; };
+		19190F9613286C5400550793 /* SolverView.m in Sources */ = {isa = PBXBuildFile; fileRef = 19190F8D13286C5400550793 /* SolverView.m */; };
+		19190F9B13286C6A00550793 /* ImageScaleKludgeView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 19190F9713286C6A00550793 /* ImageScaleKludgeView.xib */; };
+		19190F9C13286C6A00550793 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 19190F9813286C6A00550793 /* MainWindow.xib */; };
+		19190F9D13286C6A00550793 /* SolvalyzerRootView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 19190F9913286C6A00550793 /* SolvalyzerRootView.xib */; };
+		19190FA813286C7700550793 /* icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = 19190F9F13286C7700550793 /* icon-72.png */; };
+		19190FA913286C7700550793 /* icon-small-50.png in Resources */ = {isa = PBXBuildFile; fileRef = 19190FA013286C7700550793 /* icon-small-50.png */; };
+		19190FAA13286C7700550793 /* icon-small.png in Resources */ = {isa = PBXBuildFile; fileRef = 19190FA113286C7700550793 /* icon-small.png */; };
+		19190FAB13286C7700550793 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 19190FA213286C7700550793 /* icon.png */; };
+		19190FAC13286C7700550793 /* icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 19190FA313286C7700550793 /* icon@2x.png */; };
+		19190FAE13286C7700550793 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 19190FA513286C7700550793 /* main.m */; };
+		19190FB113286D7100550793 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 19190FB013286D7100550793 /* MessageUI.framework */; };
+		19190FB313286DEB00550793 /* Entitlements.plist in Resources */ = {isa = PBXBuildFile; fileRef = 19190FB213286DEB00550793 /* Entitlements.plist */; };
+		19CE78CC13311ECF0097C054 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 19CE78CB13311ECF0097C054 /* CoreMotion.framework */; };
+		AB01B86F134BEA3B00729183 /* ProblemSolution.m in Sources */ = {isa = PBXBuildFile; fileRef = 19190F7F13286C5400550793 /* ProblemSolution.m */; };
+		AB2F8ADC1362E94C00171651 /* questions.m in Sources */ = {isa = PBXBuildFile; fileRef = AB2F8ADB1362E94C00171651 /* questions.m */; };
+		AB5E7BD313477BF100226393 /* theBest.png in Resources */ = {isa = PBXBuildFile; fileRef = AB5E7BD213477BF100226393 /* theBest.png */; };
+		AB85CA081355F38F0021A7DB /* SolvalyzerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AB85CA071355F38F0021A7DB /* SolvalyzerViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		19190F5813286C0700550793 /* Solvalyzer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Solvalyzer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		19190F5C13286C0700550793 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		19190F5E13286C0700550793 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		19190F6013286C0700550793 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		19190F7C13286C5400550793 /* Problem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; name = Problem.h; path = Classes/Problem.h; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		19190F7D13286C5400550793 /* Problem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; name = Problem.m; path = Classes/Problem.m; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		19190F7E13286C5400550793 /* ProblemSolution.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; name = ProblemSolution.h; path = Classes/ProblemSolution.h; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		19190F7F13286C5400550793 /* ProblemSolution.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ProblemSolution.m; path = Classes/ProblemSolution.m; sourceTree = SOURCE_ROOT; };
+		19190F8013286C5400550793 /* ProblemStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; name = ProblemStore.h; path = Classes/ProblemStore.h; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		19190F8113286C5400550793 /* ProblemStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ProblemStore.m; path = Classes/ProblemStore.m; sourceTree = SOURCE_ROOT; };
+		19190F8213286C5400550793 /* SolutionPoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SolutionPoint.h; path = Classes/SolutionPoint.h; sourceTree = SOURCE_ROOT; };
+		19190F8313286C5400550793 /* SolutionPoint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SolutionPoint.m; path = Classes/SolutionPoint.m; sourceTree = SOURCE_ROOT; };
+		19190F8413286C5400550793 /* SolutionStroke.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SolutionStroke.h; path = Classes/SolutionStroke.h; sourceTree = SOURCE_ROOT; };
+		19190F8513286C5400550793 /* SolutionStroke.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SolutionStroke.m; path = Classes/SolutionStroke.m; sourceTree = SOURCE_ROOT; };
+		19190F8613286C5400550793 /* SolvalyzerAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SolvalyzerAppDelegate.h; path = Classes/SolvalyzerAppDelegate.h; sourceTree = SOURCE_ROOT; };
+		19190F8713286C5400550793 /* SolvalyzerAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SolvalyzerAppDelegate.m; path = Classes/SolvalyzerAppDelegate.m; sourceTree = SOURCE_ROOT; };
+		19190F8813286C5400550793 /* SolvalyzerRootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SolvalyzerRootViewController.h; path = Classes/SolvalyzerRootViewController.h; sourceTree = SOURCE_ROOT; };
+		19190F8913286C5400550793 /* SolvalyzerRootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SolvalyzerRootViewController.m; path = Classes/SolvalyzerRootViewController.m; sourceTree = SOURCE_ROOT; };
+		19190F8A13286C5400550793 /* SolvalyzerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; name = SolvalyzerViewController.h; path = Classes/SolvalyzerViewController.h; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		19190F8B13286C5400550793 /* SolvalyzerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; name = SolvalyzerViewController.m; path = Classes/SolvalyzerViewController.m; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		19190F8C13286C5400550793 /* SolverView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SolverView.h; path = Classes/SolverView.h; sourceTree = SOURCE_ROOT; };
+		19190F8D13286C5400550793 /* SolverView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SolverView.m; path = Classes/SolverView.m; sourceTree = SOURCE_ROOT; };
+		19190F9713286C6A00550793 /* ImageScaleKludgeView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ImageScaleKludgeView.xib; sourceTree = SOURCE_ROOT; };
+		19190F9813286C6A00550793 /* MainWindow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = SOURCE_ROOT; };
+		19190F9913286C6A00550793 /* SolvalyzerRootView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SolvalyzerRootView.xib; sourceTree = SOURCE_ROOT; };
+		19190F9F13286C7700550793 /* icon-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-72.png"; sourceTree = SOURCE_ROOT; };
+		19190FA013286C7700550793 /* icon-small-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-small-50.png"; sourceTree = SOURCE_ROOT; };
+		19190FA113286C7700550793 /* icon-small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-small.png"; sourceTree = SOURCE_ROOT; };
+		19190FA213286C7700550793 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = SOURCE_ROOT; };
+		19190FA313286C7700550793 /* icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon@2x.png"; sourceTree = SOURCE_ROOT; };
+		19190FA413286C7700550793 /* Logo.opacity */ = {isa = PBXFileReference; lastKnownFileType = file; path = Logo.opacity; sourceTree = SOURCE_ROOT; };
+		19190FA513286C7700550793 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = SOURCE_ROOT; };
+		19190FA613286C7700550793 /* Solvalyzer_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Solvalyzer_Prefix.pch; sourceTree = SOURCE_ROOT; };
+		19190FA713286C7700550793 /* Solvalyzer-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Solvalyzer-Info.plist"; sourceTree = SOURCE_ROOT; };
+		19190FB013286D7100550793 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		19190FB213286DEB00550793 /* Entitlements.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Entitlements.plist; sourceTree = "<group>"; };
+		19CE78CB13311ECF0097C054 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
+		AB2F8ADA1362E94C00171651 /* questions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = questions.h; sourceTree = SOURCE_ROOT; };
+		AB2F8ADB1362E94C00171651 /* questions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = questions.m; sourceTree = SOURCE_ROOT; };
+		AB5E7BD213477BF100226393 /* theBest.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = theBest.png; sourceTree = "<group>"; };
+		AB85CA071355F38F0021A7DB /* SolvalyzerViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SolvalyzerViewController.xib; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		19190F5513286C0700550793 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19CE78CC13311ECF0097C054 /* CoreMotion.framework in Frameworks */,
+				19190F5D13286C0700550793 /* UIKit.framework in Frameworks */,
+				19190F5F13286C0700550793 /* Foundation.framework in Frameworks */,
+				19190F6113286C0700550793 /* CoreGraphics.framework in Frameworks */,
+				19190FB113286D7100550793 /* MessageUI.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		19190F4D13286C0700550793 = {
+			isa = PBXGroup;
+			children = (
+				AB5E7BD213477BF100226393 /* theBest.png */,
+				19CE78CB13311ECF0097C054 /* CoreMotion.framework */,
+				19190FB213286DEB00550793 /* Entitlements.plist */,
+				19190F6213286C0700550793 /* Solvalyzer */,
+				19190F5B13286C0700550793 /* Frameworks */,
+				19190F5913286C0700550793 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		19190F5913286C0700550793 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				19190F5813286C0700550793 /* Solvalyzer.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		19190F5B13286C0700550793 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				19190FB013286D7100550793 /* MessageUI.framework */,
+				19190F5C13286C0700550793 /* UIKit.framework */,
+				19190F5E13286C0700550793 /* Foundation.framework */,
+				19190F6013286C0700550793 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		19190F6213286C0700550793 /* Solvalyzer */ = {
+			isa = PBXGroup;
+			children = (
+				19190F9713286C6A00550793 /* ImageScaleKludgeView.xib */,
+				19190F9813286C6A00550793 /* MainWindow.xib */,
+				19190F9913286C6A00550793 /* SolvalyzerRootView.xib */,
+				AB85CA071355F38F0021A7DB /* SolvalyzerViewController.xib */,
+				19CE78C713311DD90097C054 /* Model */,
+				19CE78CA13311DF60097C054 /* View */,
+				19CE78C913311DE80097C054 /* Controller */,
+				19190F8613286C5400550793 /* SolvalyzerAppDelegate.h */,
+				19190F8713286C5400550793 /* SolvalyzerAppDelegate.m */,
+				19190F6313286C0700550793 /* Supporting Files */,
+			);
+			path = Solvalyzer;
+			sourceTree = "<group>";
+		};
+		19190F6313286C0700550793 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				19190F9F13286C7700550793 /* icon-72.png */,
+				19190FA013286C7700550793 /* icon-small-50.png */,
+				19190FA113286C7700550793 /* icon-small.png */,
+				19190FA213286C7700550793 /* icon.png */,
+				19190FA313286C7700550793 /* icon@2x.png */,
+				19190FA413286C7700550793 /* Logo.opacity */,
+				19190FA513286C7700550793 /* main.m */,
+				19190FA613286C7700550793 /* Solvalyzer_Prefix.pch */,
+				19190FA713286C7700550793 /* Solvalyzer-Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		19CE78C713311DD90097C054 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				AB2F8ADA1362E94C00171651 /* questions.h */,
+				AB2F8ADB1362E94C00171651 /* questions.m */,
+				19190F7C13286C5400550793 /* Problem.h */,
+				19190F7D13286C5400550793 /* Problem.m */,
+				19190F7E13286C5400550793 /* ProblemSolution.h */,
+				19190F7F13286C5400550793 /* ProblemSolution.m */,
+				19190F8013286C5400550793 /* ProblemStore.h */,
+				19190F8113286C5400550793 /* ProblemStore.m */,
+				19190F8213286C5400550793 /* SolutionPoint.h */,
+				19190F8313286C5400550793 /* SolutionPoint.m */,
+				19190F8413286C5400550793 /* SolutionStroke.h */,
+				19190F8513286C5400550793 /* SolutionStroke.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		19CE78C913311DE80097C054 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				19190F8813286C5400550793 /* SolvalyzerRootViewController.h */,
+				19190F8913286C5400550793 /* SolvalyzerRootViewController.m */,
+				19190F8A13286C5400550793 /* SolvalyzerViewController.h */,
+				19190F8B13286C5400550793 /* SolvalyzerViewController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		19CE78CA13311DF60097C054 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				19190F8C13286C5400550793 /* SolverView.h */,
+				19190F8D13286C5400550793 /* SolverView.m */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		19190F5713286C0700550793 /* Solvalyzer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 19190F7913286C0700550793 /* Build configuration list for PBXNativeTarget "Solvalyzer" */;
+			buildPhases = (
+				19190F5413286C0700550793 /* Sources */,
+				19190F5513286C0700550793 /* Frameworks */,
+				19190F5613286C0700550793 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Solvalyzer;
+			productName = Solvalyzer;
+			productReference = 19190F5813286C0700550793 /* Solvalyzer.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		19190F4F13286C0700550793 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "Diabolical Labs, LLC";
+			};
+			buildConfigurationList = 19190F5213286C0700550793 /* Build configuration list for PBXProject "Solvalyzer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 19190F4D13286C0700550793;
+			productRefGroup = 19190F5913286C0700550793 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				19190F5713286C0700550793 /* Solvalyzer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		19190F5613286C0700550793 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19190F9B13286C6A00550793 /* ImageScaleKludgeView.xib in Resources */,
+				19190F9C13286C6A00550793 /* MainWindow.xib in Resources */,
+				19190F9D13286C6A00550793 /* SolvalyzerRootView.xib in Resources */,
+				19190FA813286C7700550793 /* icon-72.png in Resources */,
+				19190FA913286C7700550793 /* icon-small-50.png in Resources */,
+				19190FAA13286C7700550793 /* icon-small.png in Resources */,
+				19190FAB13286C7700550793 /* icon.png in Resources */,
+				19190FAC13286C7700550793 /* icon@2x.png in Resources */,
+				19190FB313286DEB00550793 /* Entitlements.plist in Resources */,
+				AB5E7BD313477BF100226393 /* theBest.png in Resources */,
+				AB85CA081355F38F0021A7DB /* SolvalyzerViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		19190F5413286C0700550793 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19190F8E13286C5400550793 /* Problem.m in Sources */,
+				19190F9013286C5400550793 /* ProblemStore.m in Sources */,
+				19190F9113286C5400550793 /* SolutionPoint.m in Sources */,
+				19190F9213286C5400550793 /* SolutionStroke.m in Sources */,
+				19190F9313286C5400550793 /* SolvalyzerAppDelegate.m in Sources */,
+				19190F9413286C5400550793 /* SolvalyzerRootViewController.m in Sources */,
+				19190F9513286C5400550793 /* SolvalyzerViewController.m in Sources */,
+				19190F9613286C5400550793 /* SolverView.m in Sources */,
+				19190FAE13286C7700550793 /* main.m in Sources */,
+				AB01B86F134BEA3B00729183 /* ProblemSolution.m in Sources */,
+				AB2F8ADC1362E94C00171651 /* questions.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		19190F7713286C0700550793 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_UNIVERSAL_IPHONE_OS)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		19190F7813286C0700550793 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_UNIVERSAL_IPHONE_OS)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Release;
+		};
+		19190F7A13286C0700550793 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Solvalyzer_Prefix.pch;
+				INFOPLIST_FILE = "Solvalyzer-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		19190F7B13286C0700550793 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Solvalyzer_Prefix.pch;
+				INFOPLIST_FILE = "Solvalyzer-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		19190FB413286DFA00550793 /* Ad Hoc */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_UNIVERSAL_IPHONE_OS)";
+				CODE_SIGN_ENTITLEMENTS = Entitlements.plist;
+				"CODE_SIGN_ENTITLEMENTS[sdk=*]" = Entitlements.plist;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Diabolical Games, LLC";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Diabolical Games, LLC";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PROVISIONING_PROFILE = "C63C71E6-F2A9-40FE-9FE0-6C65DD7E3B33";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "C63C71E6-F2A9-40FE-9FE0-6C65DD7E3B33";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = "Ad Hoc";
+		};
+		19190FB513286DFA00550793 /* Ad Hoc */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Solvalyzer_Prefix.pch;
+				INFOPLIST_FILE = "Solvalyzer-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = "Ad Hoc";
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		19190F5213286C0700550793 /* Build configuration list for PBXProject "Solvalyzer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				19190F7713286C0700550793 /* Debug */,
+				19190F7813286C0700550793 /* Release */,
+				19190FB413286DFA00550793 /* Ad Hoc */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		19190F7913286C0700550793 /* Build configuration list for PBXNativeTarget "Solvalyzer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				19190F7A13286C0700550793 /* Debug */,
+				19190F7B13286C0700550793 /* Release */,
+				19190FB513286DFA00550793 /* Ad Hoc */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 19190F4F13286C0700550793 /* Project object */;
+}

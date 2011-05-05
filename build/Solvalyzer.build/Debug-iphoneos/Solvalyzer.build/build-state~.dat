@@ -1,0 +1,816 @@
+TSolvalyzer
+v7
+r0
+t323566146.452946
+cCheck dependencies
+cCpResource build/Debug-iphoneos/Solvalyzer.app/ResourceRules.plist "/Developer 3/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/ResourceRules.plist"
+cProcessInfoPlistFile /Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/build/Debug-iphoneos/Solvalyzer.app/Info.plist Solvalyzer-Info.plist
+cProcessPCH /var/folders/uj/ujTCxuZ+Er486Hq-CH0Q-E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Solvalyzer_Prefix-gjlkbxhvuokjiwfqplrqpkldqtxx/Solvalyzer_Prefix.pch.gch Solvalyzer_Prefix.pch normal armv7 objective-c com.apple.compilers.llvmgcc42
+cCompileC build/Solvalyzer.build/Debug-iphoneos/Solvalyzer.build/Objects-normal/armv7/Problem.o /Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/Classes/Problem.m normal armv7 objective-c com.apple.compilers.llvmgcc42
+cCompileC build/Solvalyzer.build/Debug-iphoneos/Solvalyzer.build/Objects-normal/armv7/ProblemSolution.o /Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/Classes/ProblemSolution.m normal armv7 objective-c com.apple.compilers.llvmgcc42
+cCompileC build/Solvalyzer.build/Debug-iphoneos/Solvalyzer.build/Objects-normal/armv7/ProblemStore.o /Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/Classes/ProblemStore.m normal armv7 objective-c com.apple.compilers.llvmgcc42
+cCompileC build/Solvalyzer.build/Debug-iphoneos/Solvalyzer.build/Objects-normal/armv7/SolutionPoint.o /Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/Classes/SolutionPoint.m normal armv7 objective-c com.apple.compilers.llvmgcc42
+cCompileC build/Solvalyzer.build/Debug-iphoneos/Solvalyzer.build/Objects-normal/armv7/SolutionStroke.o /Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/Classes/SolutionStroke.m normal armv7 objective-c com.apple.compilers.llvmgcc42
+cCompileC build/Solvalyzer.build/Debug-iphoneos/Solvalyzer.build/Objects-normal/armv7/SolvalyzerAppDelegate.o /Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/Classes/SolvalyzerAppDelegate.m normal armv7 objective-c com.apple.compilers.llvmgcc42
+cCompileC build/Solvalyzer.build/Debug-iphoneos/Solvalyzer.build/Objects-normal/armv7/SolvalyzerRootViewController.o /Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/Classes/SolvalyzerRootViewController.m normal armv7 objective-c com.apple.compilers.llvmgcc42
+cCompileC build/Solvalyzer.build/Debug-iphoneos/Solvalyzer.build/Objects-normal/armv7/SolvalyzerViewController.o /Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/Classes/SolvalyzerViewController.m normal armv7 objective-c com.apple.compilers.llvmgcc42
+cCompileC build/Solvalyzer.build/Debug-iphoneos/Solvalyzer.build/Objects-normal/armv7/SolverView.o /Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/Classes/SolverView.m normal armv7 objective-c com.apple.compilers.llvmgcc42
+cCompileC build/Solvalyzer.build/Debug-iphoneos/Solvalyzer.build/Objects-normal/armv7/main.o /Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/main.m normal armv7 objective-c com.apple.compilers.llvmgcc42
+cLd /Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/build/Debug-iphoneos/Solvalyzer.app/Solvalyzer normal armv7
+cGenerateDSYMFile /Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/build/Debug-iphoneos/Solvalyzer.app.dSYM /Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/build/Debug-iphoneos/Solvalyzer.app/Solvalyzer
+cCompileXIB /Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/ImageScaleKludgeView.xib
+cCompileXIB /Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/MainWindow.xib
+cCompileXIB /Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/SolvalyzerRootView.xib
+cCompileXIB /Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/SolvalyzerViewController.xib
+cCopyPNGFile /Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/build/Debug-iphoneos/Solvalyzer.app/icon-72.png icon-72.png
+cCopyPNGFile /Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/build/Debug-iphoneos/Solvalyzer.app/icon-small-50.png icon-small-50.png
+cCopyPNGFile /Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/build/Debug-iphoneos/Solvalyzer.app/icon-small.png icon-small.png
+cCopyPNGFile /Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/build/Debug-iphoneos/Solvalyzer.app/icon.png icon.png
+cCopyPNGFile /Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/build/Debug-iphoneos/Solvalyzer.app/icon@2x.png icon@2x.png
+cCopyPlistFile /Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/build/Debug-iphoneos/Solvalyzer.app/Entitlements.plist Entitlements.plist
+cCopyPNGFile /Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/build/Debug-iphoneos/Solvalyzer.app/theBest.png theBest.png
+cProcessProductPackaging "/Users/dhs/Library/MobileDevice/Provisioning Profiles/9BE0B653-A834-4752-B43E-CCFDDB8A2521.mobileprovision" /Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/build/Debug-iphoneos/Solvalyzer.app/embedded.mobileprovision
+cTouch /Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/build/Debug-iphoneos/Solvalyzer.app
+cProcessProductPackaging "/Developer 3/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/Entitlements.plist" /Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/build/Solvalyzer.build/Debug-iphoneos/Solvalyzer.build/Solvalyzer.xcent
+cCodeSign /Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/build/Debug-iphoneos/Solvalyzer.app
+
+N/Developer 3/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk
+c000000004D7401890000000000000110
+t1299448201
+s272
+
+N/Developer 3/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/Entitlements.plist
+c000000004D4F6A4700000000000001A7
+t1297050183
+s423
+
+N/Developer 3/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/ResourceRules.plist
+c000000004D4F6A4700000000000001E5
+t1297050183
+s485
+
+N/Developer 3/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004D54D18C00000000003532A0
+t1297404300
+s3486368
+
+N/Developer 3/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/System/Library/Frameworks/CoreMotion.framework/CoreMotion
+c000000004D5DE7C4000000000011FAB0
+t1297999812
+s1178288
+
+N/Developer 3/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/System/Library/Frameworks/CoreMotion.framework/Headers/CoreMotion.h
+c000000004D5DE7AF00000000000001CB
+t1297999791
+s459
+
+N/Developer 3/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004D54D1F500000000003E22F0
+t1297404405
+s4072176
+
+N/Developer 3/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004D54D1DD0000000000001466
+t1297404381
+s5222
+
+N/Developer 3/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/System/Library/Frameworks/MessageUI.framework/Headers/MessageUI.h
+c000000004D5DEA8100000000000000CD
+t1298000513
+s205
+
+N/Developer 3/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/System/Library/Frameworks/MessageUI.framework/MessageUI
+c000000004D5DEA9B0000000000113080
+t1298000539
+s1126528
+
+N/Developer 3/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.h
+c000000004D54D49500000000000000C4
+t1297405077
+s196
+
+N/Developer 3/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004D5A28AB0000000000000AA1
+t1297754283
+s2721
+
+N/Developer 3/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004D5A292A0000000000CA2AE0
+t1297754410
+s13249248
+
+N/Developer 3/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/usr/include/stdlib.h
+c000000004D4F6E9100000000000030A7
+t1297051281
+s12455
+
+N/Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/Classes/Problem.h
+c000000004D974B2F00000000000003E8
+t1301760815
+s1000
+i<Foundation/Foundation.h>
+
+N/Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/Classes/Problem.m
+c000000004D974B70000000000000055C
+t1301760880
+s1372
+i<stdlib.h>
+i"Problem.h"
+
+N/Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/Classes/ProblemSolution.h
+c000000004D94BCEF00000000000003F7
+t1301593327
+s1015
+i<Foundation/Foundation.h>
+
+N/Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/Classes/ProblemSolution.m
+c000000004D94BCEF0000000000000629
+t1301593327
+s1577
+i"ProblemSolution.h"
+
+N/Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/Classes/ProblemStore.h
+c000000004D94BCEF0000000000000537
+t1301593327
+s1335
+i<Foundation/Foundation.h>
+i<CoreMotion/CoreMotion.h>
+i"ProblemSolution.h"
+
+N/Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/Classes/ProblemStore.m
+c000000004D94BCEF0000000000001643
+t1301593327
+s5699
+i"Problem.h"
+i"ProblemSolution.h"
+i"SolutionStroke.h"
+i"SolutionPoint.h"
+i"ProblemStore.h"
+
+N/Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/Classes/SolutionPoint.h
+c000000004D94BCEF0000000000000319
+t1301593327
+s793
+i<Foundation/Foundation.h>
+i<CoreMotion/CoreMotion.h>
+
+N/Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/Classes/SolutionPoint.m
+c000000004D94BCEF00000000000003F9
+t1301593327
+s1017
+i"SolutionPoint.h"
+
+N/Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/Classes/SolutionStroke.h
+c000000004D94BCEF00000000000002BE
+t1301593327
+s702
+i<Foundation/Foundation.h>
+
+N/Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/Classes/SolutionStroke.m
+c000000004D94BCEF0000000000000413
+t1301593327
+s1043
+i"SolutionStroke.h"
+
+N/Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/Classes/SolvalyzerAppDelegate.h
+c000000004D94BCEF00000000000001FC
+t1301593327
+s508
+i<UIKit/UIKit.h>
+
+N/Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/Classes/SolvalyzerAppDelegate.m
+c000000004D94BCEF00000000000008D8
+t1301593327
+s2264
+i"SolvalyzerRootViewController.h"
+i"SolvalyzerViewController.h"
+i"SolvalyzerAppDelegate.h"
+
+N/Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/Classes/SolvalyzerRootViewController.h
+c000000004D94BCEF000000000000021C
+t1301593327
+s540
+i<UIKit/UIKit.h>
+i<MessageUI/MessageUI.h>
+i"SolvalyzerViewController.h"
+
+N/Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/Classes/SolvalyzerRootViewController.m
+c000000004D94BCEF0000000000000AB2
+t1301593327
+s2738
+i"ProblemStore.h"
+i"Problem.h"
+i"ProblemSolution.h"
+i"SolvalyzerRootViewController.h"
+
+N/Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/Classes/SolvalyzerViewController.h
+c000000004D94E7070000000000000470
+t1301604103
+s1136
+i<UIKit/UIKit.h>
+
+N/Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/Classes/SolvalyzerViewController.m
+c000000004D95EAB30000000000000C2E
+t1301670579
+s3118
+i<QuartzCore/QuartzCore.h>
+i"ProblemStore.h"
+i"Problem.h"
+i"SolverView.h"
+i"SolvalyzerViewController.h"
+
+N/Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/Classes/SolverView.h
+c000000004D94BCEF000000000000015C
+t1301593327
+s348
+i<UIKit/UIKit.h>
+i<CoreMotion/CoreMotion.h>
+
+N/Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/Classes/SolverView.m
+c000000004D94BCEF0000000000000B83
+t1301593327
+s2947
+i"SolutionPoint.h"
+i"SolutionStroke.h"
+i"ProblemStore.h"
+i"SolverView.h"
+
+N/Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/Entitlements.plist
+c000000004D94BCEF00000000000000E1
+t1301593327
+s225
+
+N/Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/ImageScaleKludgeView.xib
+c000000004D94BCEF00000000000049DA
+t1301593327
+s18906
+
+N/Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/MainWindow.xib
+c000000004D94BCEF0000000000004D39
+t1301593327
+s19769
+
+N/Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/SolvalyzerRootView.xib
+c000000004D94BCEF0000000000004CF0
+t1301593327
+s19696
+
+N/Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/SolvalyzerViewController.xib
+c000000004D974A030000000000004998
+t1301760515
+s18840
+
+N/Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/Solvalyzer_Prefix.pch
+c000000004D94BCEF00000000000000BD
+t1301593327
+s189
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/build/Debug-iphoneos/Solvalyzer.app
+t1301873346
+s680
+
+N/Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/build/Debug-iphoneos/Solvalyzer.app.dSYM
+t1301873342
+s102
+
+N/Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/build/Debug-iphoneos/Solvalyzer.app/Entitlements.plist
+t1301873345
+s62
+
+N/Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/build/Debug-iphoneos/Solvalyzer.app/ImageScaleKludgeView.nib
+t1301873344
+s1112
+
+N/Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/build/Debug-iphoneos/Solvalyzer.app/Info.plist
+t1301873338
+s1173
+
+N/Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/build/Debug-iphoneos/Solvalyzer.app/MainWindow.nib
+t1301873344
+s1716
+
+N/Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/build/Debug-iphoneos/Solvalyzer.app/PkgInfo
+t1301873338
+s8
+
+N/Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/build/Debug-iphoneos/Solvalyzer.app/ResourceRules.plist
+t1301873338
+s485
+
+N/Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/build/Debug-iphoneos/Solvalyzer.app/Solvalyzer
+t1301873342
+s72192
+
+N/Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/build/Debug-iphoneos/Solvalyzer.app/SolvalyzerRootView.nib
+t1301873344
+s2483
+
+N/Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/build/Debug-iphoneos/Solvalyzer.app/SolvalyzerViewController.nib
+t1301873345
+s5008
+
+N/Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/build/Debug-iphoneos/Solvalyzer.app/embedded.mobileprovision
+t1301873345
+s7233
+
+N/Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/build/Debug-iphoneos/Solvalyzer.app/icon-72.png
+t1301873345
+s1728
+
+N/Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/build/Debug-iphoneos/Solvalyzer.app/icon-small-50.png
+t1301873345
+s1221
+
+N/Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/build/Debug-iphoneos/Solvalyzer.app/icon-small.png
+t1301873345
+s1346
+
+N/Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/build/Debug-iphoneos/Solvalyzer.app/icon.png
+t1301873345
+s1376
+
+N/Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/build/Debug-iphoneos/Solvalyzer.app/icon@2x.png
+t1301873345
+s2770
+
+N/Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/build/Debug-iphoneos/Solvalyzer.app/theBest.png
+t1301873345
+s5820
+
+N/Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/build/Solvalyzer.build/Debug-iphoneos/Solvalyzer.build/Objects-normal/armv7/Problem.o
+t1301873340
+s11848
+
+N/Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/build/Solvalyzer.build/Debug-iphoneos/Solvalyzer.build/Objects-normal/armv7/ProblemSolution.o
+t1301873340
+s14956
+
+N/Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/build/Solvalyzer.build/Debug-iphoneos/Solvalyzer.build/Objects-normal/armv7/ProblemStore.o
+t1301873341
+s34076
+
+N/Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/build/Solvalyzer.build/Debug-iphoneos/Solvalyzer.build/Objects-normal/armv7/SolutionPoint.o
+t1301873340
+s8776
+
+N/Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/build/Solvalyzer.build/Debug-iphoneos/Solvalyzer.build/Objects-normal/armv7/SolutionStroke.o
+t1301873341
+s10996
+
+N/Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/build/Solvalyzer.build/Debug-iphoneos/Solvalyzer.build/Objects-normal/armv7/Solvalyzer.LinkFileList
+c000000004D9902BA000000000000062A
+t1301873338
+s1578
+
+N/Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/build/Solvalyzer.build/Debug-iphoneos/Solvalyzer.build/Objects-normal/armv7/SolvalyzerAppDelegate.o
+t1301873341
+s48352
+
+N/Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/build/Solvalyzer.build/Debug-iphoneos/Solvalyzer.build/Objects-normal/armv7/SolvalyzerRootViewController.o
+t1301873341
+s49700
+
+N/Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/build/Solvalyzer.build/Debug-iphoneos/Solvalyzer.build/Objects-normal/armv7/SolvalyzerViewController.o
+t1301873341
+s49400
+
+N/Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/build/Solvalyzer.build/Debug-iphoneos/Solvalyzer.build/Objects-normal/armv7/SolverView.o
+t1301873341
+s47320
+
+N/Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/build/Solvalyzer.build/Debug-iphoneos/Solvalyzer.build/Objects-normal/armv7/main.o
+t1301873341
+s3056
+
+N/Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/build/Solvalyzer.build/Debug-iphoneos/Solvalyzer.build/Solvalyzer.xcent
+t1301873345
+s434
+
+N/Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/icon-72.png
+c000000004D94BCEF000000000000058B
+t1301593327
+s1419
+
+N/Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/icon-small-50.png
+c000000004D94BCEF00000000000003E0
+t1301593327
+s992
+
+N/Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/icon-small.png
+c000000004D94BCEF00000000000003DC
+t1301593327
+s988
+
+N/Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/icon.png
+c000000004D94BCEF000000000000046D
+t1301593327
+s1133
+
+N/Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/icon@2x.png
+c000000004D94BCEF00000000000008E0
+t1301593327
+s2272
+
+N/Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/main.m
+c000000004D94BCEF000000000000016F
+t1301593327
+s367
+i<UIKit/UIKit.h>
+
+N/Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/theBest.png
+c000000004D974358000000000000130B
+t1301758808
+s4875
+
+N/Users/dhs/Library/MobileDevice/Provisioning Profiles/9BE0B653-A834-4752-B43E-CCFDDB8A2521.mobileprovision
+c000000004D9536800000000000001C41
+t1301624448
+s7233
+
+N/var/folders/uj/ujTCxuZ+Er486Hq-CH0Q-E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Solvalyzer_Prefix-gjlkbxhvuokjiwfqplrqpkldqtxx/Solvalyzer_Prefix.pch.gch
+t1301873340
+s8435612
+
+NSolvalyzer-Info.plist
+c000000004D94BCEF0000000000000515
+t1301593327
+s1301
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies323566138#323566138#0(0"0(0#1#0"7161117524010233856#0"0#
+
+CCodeSign /Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/build/Debug-iphoneos/Solvalyzer.app
+s323566145.621428
+e323566146.452835
+r1
+xCodeSign
+x/Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/build/Debug-iphoneos/Solvalyzer.app
+lSLF07#2@44"CodeSign build/Debug-iphoneos/Solvalyzer.app323566145#323566146#0(0"0(0#0#99"/Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/build/Debug-iphoneos/Solvalyzer.app8622828288#775"    cd /Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer    setenv PATH "/Developer 3/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer 3/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv _CODESIGN_ALLOCATE_ "/Developer 3/Platforms/iPhoneOS.platform/Developer/usr/bin/codesign_allocate"    /usr/bin/codesign -f -s "iPhone Developer: david shanabrook (73736TG3R6)" --resource-rules=/Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/build/Debug-iphoneos/Solvalyzer.app/ResourceRules.plist --entitlements /Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/build/Solvalyzer.build/Debug-iphoneos/Solvalyzer.build/Solvalyzer.xcent /Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/build/Debug-iphoneos/Solvalyzer.app0#
+
+CCompileC build/Solvalyzer.build/Debug-iphoneos/Solvalyzer.build/Objects-normal/armv7/Problem.o /Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/Classes/Problem.m normal armv7 objective-c com.apple.compilers.llvmgcc42
+s323566140.452824
+e323566140.823056
+r1
+xCompileC
+xbuild/Solvalyzer.build/Debug-iphoneos/Solvalyzer.build/Objects-normal/armv7/Problem.o
+x/Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/Classes/Problem.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvmgcc42
+oIn file included from /Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/Classes/Problem.m:10:
+o/Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/Classes/Problem.h:15:2: warning: #warning dhs2
+o/Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/Classes/Problem.h:22:2: warning: #warning dhs2
+o/Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/Classes/Problem.m:26:2: warning: #warning PoC Hack
+o/Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/Classes/Problem.m:28:2: warning: #warning dhs2
+lSLF07#2@89"Compile /Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/Classes/Problem.m323566140#323566140#0(556"In file included from /Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/Classes/Problem.m:10:/Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/Classes/Problem.h:15:2: warning: #warning dhs2/Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/Classes/Problem.h:22:2: warning: #warning dhs2/Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/Classes/Problem.m:26:2: warning: #warning PoC Hack/Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/Classes/Problem.m:28:2: warning: #warning dhs24(22@13"#warning dhs2323566140#108#111#2(7@103"In file included from /Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/Classes/Problem.m323566140#18446744073709551615#0#0(6@81"/Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/Classes/Problem.m323453680#10#0#10#0#0"0(13@98"#warning dhs2 in /Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/Classes/Problem.h323566140#18446744073709551615#0#0(6@81"/Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/Classes/Problem.h323453615#15#0#15#0#0"0(6@81"/Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/Classes/Problem.h323453615#15#0#15#0#10"#warning *0(22@13"#warning dhs2323566140#219#111#2(7@103"In file included from /Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/Classes/Problem.m323566140#18446744073709551615#0#0(6@81"/Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/Classes/Problem.m323453680#10#0#10#0#0"0(13@98"#warning dhs2 in /Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/Classes/Problem.h323566140#18446744073709551615#0#0(6@81"/Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/Classes/Problem.h323453615#22#0#22#0#0"0(6@81"/Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/Classes/Problem.h323453615#22#0#22#0#10"#warning *0(22@17"#warning PoC Hack323566140#330#115#0(6@81"/Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/Classes/Problem.m323453680#26#0#26#0#10"#warning *0(22@13"#warning dhs2323566140#445#111#0(6@81"/Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/Classes/Problem.m323453680#28#0#28#0#10"#warning *0(0#0#81"/Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/Classes/Problem.m8622165760#2080"    cd /Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer    setenv LANG en_US.US-ASCII    setenv PATH "/Developer 3/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer 3/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer 3/Platforms/iPhoneOS.platform/Developer/usr/bin/llvm-gcc-4.2" -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -DDEBUG -isysroot "/Developer 3/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk" -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote /Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/build/Solvalyzer.build/Debug-iphoneos/Solvalyzer.build/Solvalyzer-generated-files.hmap -I/Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/build/Solvalyzer.build/Debug-iphoneos/Solvalyzer.build/Solvalyzer-own-target-headers.hmap -I/Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/build/Solvalyzer.build/Debug-iphoneos/Solvalyzer.build/Solvalyzer-all-target-headers.hmap -iquote /Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/build/Solvalyzer.build/Debug-iphoneos/Solvalyzer.build/Solvalyzer-project-headers.hmap -F/Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/build/Debug-iphoneos -I/Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/build/Debug-iphoneos/include -I/Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/build/Solvalyzer.build/Debug-iphoneos/Solvalyzer.build/DerivedSources/armv7 -I/Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/build/Solvalyzer.build/Debug-iphoneos/Solvalyzer.build/DerivedSources -include /var/folders/uj/ujTCxuZ+Er486Hq-CH0Q-E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Solvalyzer_Prefix-gjlkbxhvuokjiwfqplrqpkldqtxx/Solvalyzer_Prefix.pch -c /Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/Classes/Problem.m -o /Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/build/Solvalyzer.build/Debug-iphoneos/Solvalyzer.build/Objects-normal/armv7/Problem.o0#
+
+CCompileC build/Solvalyzer.build/Debug-iphoneos/Solvalyzer.build/Objects-normal/armv7/ProblemSolution.o /Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/Classes/ProblemSolution.m normal armv7 objective-c com.apple.compilers.llvmgcc42
+s323566140.453847
+e323566140.825203
+r1
+xCompileC
+xbuild/Solvalyzer.build/Debug-iphoneos/Solvalyzer.build/Objects-normal/armv7/ProblemSolution.o
+x/Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/Classes/ProblemSolution.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvmgcc42
+oIn file included from /Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/Classes/ProblemSolution.m:9:
+o/Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/Classes/ProblemSolution.h:17:2: warning: #warning dhs
+o/Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/Classes/ProblemSolution.h:27:2: warning: #warning dhs
+o/Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/Classes/ProblemSolution.h:39:2: warning: #warning kludge
+o/Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/Classes/ProblemSolution.m:21:2: warning: #warning dhs
+o/Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/Classes/ProblemSolution.m:62:2: warning: #warning Kludge part 2
+o/Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/Classes/ProblemSolution.m:68:2: warning: #warning Kludge part 3
+lSLF07#2@97"Compile /Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/Classes/ProblemSolution.m323566140#323566140#0(846"In file included from /Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/Classes/ProblemSolution.m:9:/Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/Classes/ProblemSolution.h:17:2: warning: #warning dhs/Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/Classes/ProblemSolution.h:27:2: warning: #warning dhs/Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/Classes/ProblemSolution.h:39:2: warning: #warning kludge/Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/Classes/ProblemSolution.m:21:2: warning: #warning dhs/Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/Classes/ProblemSolution.m:62:2: warning: #warning Kludge part 2/Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/Classes/ProblemSolution.m:68:2: warning: #warning Kludge part 36(22@12"#warning dhs323566140#115#118#2(7@111"In file included from /Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/Classes/ProblemSolution.m323566140#18446744073709551615#0#0(6@89"/Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/Classes/ProblemSolution.m323286127#9#0#9#0#0"0(13@105"#warning dhs in /Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/Classes/ProblemSolution.h323566140#18446744073709551615#0#0(6@89"/Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/Classes/ProblemSolution.h323286127#17#0#17#0#0"0(6@89"/Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/Classes/ProblemSolution.h323286127#17#0#17#0#10"#warning *0(22@12"#warning dhs323566140#233#118#2(7@111"In file included from /Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/Classes/ProblemSolution.m323566140#18446744073709551615#0#0(6@89"/Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/Classes/ProblemSolution.m323286127#9#0#9#0#0"0(13@105"#warning dhs in /Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/Classes/ProblemSolution.h323566140#18446744073709551615#0#0(6@89"/Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/Classes/ProblemSolution.h323286127#27#0#27#0#0"0(6@89"/Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/Classes/ProblemSolution.h323286127#27#0#27#0#10"#warning *0(22@15"#warning kludge323566140#351#121#2(7@111"In file included from /Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/Classes/ProblemSolution.m323566140#18446744073709551615#0#0(6@89"/Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/Classes/ProblemSolution.m323286127#9#0#9#0#0"0(13@108"#warning kludge in /Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/Classes/ProblemSolution.h323566140#18446744073709551615#0#0(6@89"/Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/Classes/ProblemSolution.h323286127#39#0#39#0#0"0(6@89"/Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/Classes/ProblemSolution.h323286127#39#0#39#0#10"#warning *0(22@12"#warning dhs323566140#472#118#0(6@89"/Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/Classes/ProblemSolution.m323286127#21#0#21#0#10"#warning *0(22@22"#warning Kludge part 2323566140#590#128#0(6@89"/Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/Classes/ProblemSolution.m323286127#62#0#62#0#10"#warning *0(22@22"#warning Kludge part 3323566140#718#128#0(6@89"/Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/Classes/ProblemSolution.m323286127#68#0#68#0#10"#warning *0(0#0#89"/Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/Classes/ProblemSolution.m8623981600#2096"    cd /Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer    setenv LANG en_US.US-ASCII    setenv PATH "/Developer 3/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer 3/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer 3/Platforms/iPhoneOS.platform/Developer/usr/bin/llvm-gcc-4.2" -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -DDEBUG -isysroot "/Developer 3/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk" -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote /Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/build/Solvalyzer.build/Debug-iphoneos/Solvalyzer.build/Solvalyzer-generated-files.hmap -I/Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/build/Solvalyzer.build/Debug-iphoneos/Solvalyzer.build/Solvalyzer-own-target-headers.hmap -I/Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/build/Solvalyzer.build/Debug-iphoneos/Solvalyzer.build/Solvalyzer-all-target-headers.hmap -iquote /Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/build/Solvalyzer.build/Debug-iphoneos/Solvalyzer.build/Solvalyzer-project-headers.hmap -F/Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/build/Debug-iphoneos -I/Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/build/Debug-iphoneos/include -I/Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/build/Solvalyzer.build/Debug-iphoneos/Solvalyzer.build/DerivedSources/armv7 -I/Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/build/Solvalyzer.build/Debug-iphoneos/Solvalyzer.build/DerivedSources -include /var/folders/uj/ujTCxuZ+Er486Hq-CH0Q-E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Solvalyzer_Prefix-gjlkbxhvuokjiwfqplrqpkldqtxx/Solvalyzer_Prefix.pch -c /Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/Classes/ProblemSolution.m -o /Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/build/Solvalyzer.build/Debug-iphoneos/Solvalyzer.build/Objects-normal/armv7/ProblemSolution.o0#
+
+CCompileC build/Solvalyzer.build/Debug-iphoneos/Solvalyzer.build/Objects-normal/armv7/ProblemStore.o /Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/Classes/ProblemStore.m normal armv7 objective-c com.apple.compilers.llvmgcc42
+s323566140.823185
+e323566141.142394
+r1
+xCompileC
+xbuild/Solvalyzer.build/Debug-iphoneos/Solvalyzer.build/Objects-normal/armv7/ProblemStore.o
+x/Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/Classes/ProblemStore.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvmgcc42
+oIn file included from /Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/Classes/ProblemStore.m:9:
+o/Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/Classes/Problem.h:15:2: warning: #warning dhs2
+o/Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/Classes/Problem.h:22:2: warning: #warning dhs2
+oIn file included from /Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/Classes/ProblemStore.m:10:
+o/Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/Classes/ProblemSolution.h:17:2: warning: #warning dhs
+o/Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/Classes/ProblemSolution.h:27:2: warning: #warning dhs
+o/Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/Classes/ProblemSolution.h:39:2: warning: #warning kludge
+o/Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/Classes/ProblemStore.m:131:2: warning: #warning Quick hacked approach:
+o/Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/Classes/ProblemStore.m:132:2: warning: #warning dhs
+o/Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/Classes/ProblemStore.m:159:2: warning: #warning dhs
+lSLF07#2@94"Compile /Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/Classes/ProblemStore.m323566140#323566141#0(1171"In file included from /Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/Classes/ProblemStore.m:9:/Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/Classes/Problem.h:15:2: warning: #warning dhs2/Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/Classes/Problem.h:22:2: warning: #warning dhs2In file included from /Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/Classes/ProblemStore.m:10:/Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/Classes/ProblemSolution.h:17:2: warning: #warning dhs/Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/Classes/ProblemSolution.h:27:2: warning: #warning dhs/Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/Classes/ProblemSolution.h:39:2: warning: #warning kludge/Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/Classes/ProblemStore.m:131:2: warning: #warning Quick hacked approach:/Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/Classes/ProblemStore.m:132:2: warning: #warning dhs/Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/Classes/ProblemStore.m:159:2: warning: #warning dhs8(22@13"#warning dhs2323566140#112#111#2(7@108"In file included from /Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/Classes/ProblemStore.m323566140#18446744073709551615#0#0(6@86"/Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/Classes/ProblemStore.m323286127#9#0#9#0#0"0(13@98"#warning dhs2 in /Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/Classes/Problem.h323566140#18446744073709551615#0#0(6@81"/Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/Classes/Problem.h323453615#15#0#15#0#0"0(6@81"/Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/Classes/Problem.h323453615#15#0#15#0#10"#warning *0(22@13"#warning dhs2323566140#223#111#2(7@108"In file included from /Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/Classes/ProblemStore.m323566140#18446744073709551615#0#0(6@86"/Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/Classes/ProblemStore.m323286127#9#0#9#0#0"0(13@98"#warning dhs2 in /Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/Classes/Problem.h323566140#18446744073709551615#0#0(6@81"/Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/Classes/Problem.h323453615#22#0#22#0#0"0(6@81"/Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/Classes/Problem.h323453615#22#0#22#0#10"#warning *0(22@12"#warning dhs323566140#447#118#2(7@108"In file included from /Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/Classes/ProblemStore.m323566140#18446744073709551615#0#0(6@86"/Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/Classes/ProblemStore.m323286127#10#0#10#0#0"0(13@105"#warning dhs in /Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/Classes/ProblemSolution.h323566140#18446744073709551615#0#0(6@89"/Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/Classes/ProblemSolution.h323286127#17#0#17#0#0"0(6@89"/Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/Classes/ProblemSolution.h323286127#17#0#17#0#10"#warning *0(22@12"#warning dhs323566140#565#118#2(7@108"In file included from /Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/Classes/ProblemStore.m323566140#18446744073709551615#0#0(6@86"/Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/Classes/ProblemStore.m323286127#10#0#10#0#0"0(13@105"#warning dhs in /Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/Classes/ProblemSolution.h323566140#18446744073709551615#0#0(6@89"/Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/Classes/ProblemSolution.h323286127#27#0#27#0#0"0(6@89"/Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/Classes/ProblemSolution.h323286127#27#0#27#0#10"#warning *0(22@15"#warning kludge323566140#683#121#2(7@108"In file included from /Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/Classes/ProblemStore.m323566140#18446744073709551615#0#0(6@86"/Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/Classes/ProblemStore.m323286127#10#0#10#0#0"0(13@108"#warning kludge in /Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/Classes/ProblemSolution.h323566140#18446744073709551615#0#0(6@89"/Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/Classes/ProblemSolution.h323286127#39#0#39#0#0"0(6@89"/Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/Classes/ProblemSolution.h323286127#39#0#39#0#10"#warning *0(22@31"#warning Quick hacked approach:323566140#804#135#0(6@86"/Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/Classes/ProblemStore.m323286127#131#0#131#0#10"#warning *0(22@12"#warning dhs323566140#939#116#0(6@86"/Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/Classes/ProblemStore.m323286127#132#0#132#0#10"#warning *0(22@12"#warning dhs323566140#1055#116#0(6@86"/Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/Classes/ProblemStore.m323286127#159#0#159#0#10"#warning *0(0#0#86"/Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/Classes/ProblemStore.m3704320036422120448#2090"    cd /Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer    setenv LANG en_US.US-ASCII    setenv PATH "/Developer 3/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer 3/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer 3/Platforms/iPhoneOS.platform/Developer/usr/bin/llvm-gcc-4.2" -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -DDEBUG -isysroot "/Developer 3/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk" -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote /Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/build/Solvalyzer.build/Debug-iphoneos/Solvalyzer.build/Solvalyzer-generated-files.hmap -I/Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/build/Solvalyzer.build/Debug-iphoneos/Solvalyzer.build/Solvalyzer-own-target-headers.hmap -I/Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/build/Solvalyzer.build/Debug-iphoneos/Solvalyzer.build/Solvalyzer-all-target-headers.hmap -iquote /Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/build/Solvalyzer.build/Debug-iphoneos/Solvalyzer.build/Solvalyzer-project-headers.hmap -F/Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/build/Debug-iphoneos -I/Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/build/Debug-iphoneos/include -I/Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/build/Solvalyzer.build/Debug-iphoneos/Solvalyzer.build/DerivedSources/armv7 -I/Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/build/Solvalyzer.build/Debug-iphoneos/Solvalyzer.build/DerivedSources -include /var/folders/uj/ujTCxuZ+Er486Hq-CH0Q-E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Solvalyzer_Prefix-gjlkbxhvuokjiwfqplrqpkldqtxx/Solvalyzer_Prefix.pch -c /Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/Classes/ProblemStore.m -o /Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/build/Solvalyzer.build/Debug-iphoneos/Solvalyzer.build/Objects-normal/armv7/ProblemStore.o0#
+
+CCompileC build/Solvalyzer.build/Debug-iphoneos/Solvalyzer.build/Objects-normal/armv7/SolutionPoint.o /Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/Classes/SolutionPoint.m normal armv7 objective-c com.apple.compilers.llvmgcc42
+s323566140.825279
+e323566140.991305
+r1
+xCompileC
+xbuild/Solvalyzer.build/Debug-iphoneos/Solvalyzer.build/Objects-normal/armv7/SolutionPoint.o
+x/Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/Classes/SolutionPoint.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvmgcc42
+lSLF07#2@95"Compile /Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/Classes/SolutionPoint.m323566140#323566140#0(0"0(0#0#87"/Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/Classes/SolutionPoint.m8622784032#2092"    cd /Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer    setenv LANG en_US.US-ASCII    setenv PATH "/Developer 3/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer 3/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer 3/Platforms/iPhoneOS.platform/Developer/usr/bin/llvm-gcc-4.2" -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -DDEBUG -isysroot "/Developer 3/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk" -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote /Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/build/Solvalyzer.build/Debug-iphoneos/Solvalyzer.build/Solvalyzer-generated-files.hmap -I/Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/build/Solvalyzer.build/Debug-iphoneos/Solvalyzer.build/Solvalyzer-own-target-headers.hmap -I/Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/build/Solvalyzer.build/Debug-iphoneos/Solvalyzer.build/Solvalyzer-all-target-headers.hmap -iquote /Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/build/Solvalyzer.build/Debug-iphoneos/Solvalyzer.build/Solvalyzer-project-headers.hmap -F/Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/build/Debug-iphoneos -I/Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/build/Debug-iphoneos/include -I/Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/build/Solvalyzer.build/Debug-iphoneos/Solvalyzer.build/DerivedSources/armv7 -I/Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/build/Solvalyzer.build/Debug-iphoneos/Solvalyzer.build/DerivedSources -include /var/folders/uj/ujTCxuZ+Er486Hq-CH0Q-E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Solvalyzer_Prefix-gjlkbxhvuokjiwfqplrqpkldqtxx/Solvalyzer_Prefix.pch -c /Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/Classes/SolutionPoint.m -o /Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/build/Solvalyzer.build/Debug-iphoneos/Solvalyzer.build/Objects-normal/armv7/SolutionPoint.o0#
+
+CCompileC build/Solvalyzer.build/Debug-iphoneos/Solvalyzer.build/Objects-normal/armv7/SolutionStroke.o /Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/Classes/SolutionStroke.m normal armv7 objective-c com.apple.compilers.llvmgcc42
+s323566140.991413
+e323566141.054241
+r1
+xCompileC
+xbuild/Solvalyzer.build/Debug-iphoneos/Solvalyzer.build/Objects-normal/armv7/SolutionStroke.o
+x/Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/Classes/SolutionStroke.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvmgcc42
+lSLF07#2@96"Compile /Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/Classes/SolutionStroke.m323566140#323566141#0(0"0(0#0#88"/Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/Classes/SolutionStroke.m8614943680#2094"    cd /Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer    setenv LANG en_US.US-ASCII    setenv PATH "/Developer 3/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer 3/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer 3/Platforms/iPhoneOS.platform/Developer/usr/bin/llvm-gcc-4.2" -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -DDEBUG -isysroot "/Developer 3/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk" -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote /Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/build/Solvalyzer.build/Debug-iphoneos/Solvalyzer.build/Solvalyzer-generated-files.hmap -I/Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/build/Solvalyzer.build/Debug-iphoneos/Solvalyzer.build/Solvalyzer-own-target-headers.hmap -I/Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/build/Solvalyzer.build/Debug-iphoneos/Solvalyzer.build/Solvalyzer-all-target-headers.hmap -iquote /Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/build/Solvalyzer.build/Debug-iphoneos/Solvalyzer.build/Solvalyzer-project-headers.hmap -F/Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/build/Debug-iphoneos -I/Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/build/Debug-iphoneos/include -I/Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/build/Solvalyzer.build/Debug-iphoneos/Solvalyzer.build/DerivedSources/armv7 -I/Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/build/Solvalyzer.build/Debug-iphoneos/Solvalyzer.build/DerivedSources -include /var/folders/uj/ujTCxuZ+Er486Hq-CH0Q-E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Solvalyzer_Prefix-gjlkbxhvuokjiwfqplrqpkldqtxx/Solvalyzer_Prefix.pch -c /Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/Classes/SolutionStroke.m -o /Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/build/Solvalyzer.build/Debug-iphoneos/Solvalyzer.build/Objects-normal/armv7/SolutionStroke.o0#
+
+CCompileC build/Solvalyzer.build/Debug-iphoneos/Solvalyzer.build/Objects-normal/armv7/SolvalyzerAppDelegate.o /Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/Classes/SolvalyzerAppDelegate.m normal armv7 objective-c com.apple.compilers.llvmgcc42
+s323566141.054342
+e323566141.201549
+r1
+xCompileC
+xbuild/Solvalyzer.build/Debug-iphoneos/Solvalyzer.build/Objects-normal/armv7/SolvalyzerAppDelegate.o
+x/Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/Classes/SolvalyzerAppDelegate.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvmgcc42
+lSLF07#2@103"Compile /Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/Classes/SolvalyzerAppDelegate.m323566141#323566141#0(0"0(0#0#95"/Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/Classes/SolvalyzerAppDelegate.m8611934464#2108"    cd /Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer    setenv LANG en_US.US-ASCII    setenv PATH "/Developer 3/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer 3/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer 3/Platforms/iPhoneOS.platform/Developer/usr/bin/llvm-gcc-4.2" -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -DDEBUG -isysroot "/Developer 3/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk" -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote /Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/build/Solvalyzer.build/Debug-iphoneos/Solvalyzer.build/Solvalyzer-generated-files.hmap -I/Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/build/Solvalyzer.build/Debug-iphoneos/Solvalyzer.build/Solvalyzer-own-target-headers.hmap -I/Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/build/Solvalyzer.build/Debug-iphoneos/Solvalyzer.build/Solvalyzer-all-target-headers.hmap -iquote /Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/build/Solvalyzer.build/Debug-iphoneos/Solvalyzer.build/Solvalyzer-project-headers.hmap -F/Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/build/Debug-iphoneos -I/Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/build/Debug-iphoneos/include -I/Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/build/Solvalyzer.build/Debug-iphoneos/Solvalyzer.build/DerivedSources/armv7 -I/Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/build/Solvalyzer.build/Debug-iphoneos/Solvalyzer.build/DerivedSources -include /var/folders/uj/ujTCxuZ+Er486Hq-CH0Q-E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Solvalyzer_Prefix-gjlkbxhvuokjiwfqplrqpkldqtxx/Solvalyzer_Prefix.pch -c /Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/Classes/SolvalyzerAppDelegate.m -o /Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/build/Solvalyzer.build/Debug-iphoneos/Solvalyzer.build/Objects-normal/armv7/SolvalyzerAppDelegate.o0#
+
+CCompileC build/Solvalyzer.build/Debug-iphoneos/Solvalyzer.build/Objects-normal/armv7/SolvalyzerRootViewController.o /Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/Classes/SolvalyzerRootViewController.m normal armv7 objective-c com.apple.compilers.llvmgcc42
+s323566141.142477
+e323566141.255614
+r1
+xCompileC
+xbuild/Solvalyzer.build/Debug-iphoneos/Solvalyzer.build/Objects-normal/armv7/SolvalyzerRootViewController.o
+x/Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/Classes/SolvalyzerRootViewController.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvmgcc42
+oIn file included from /Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/Classes/ProblemStore.h:11,
+o                 from /Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/Classes/SolvalyzerRootViewController.m:9:
+o/Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/Classes/ProblemSolution.h:17:2: warning: #warning dhs
+o/Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/Classes/ProblemSolution.h:27:2: warning: #warning dhs
+o/Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/Classes/ProblemSolution.h:39:2: warning: #warning kludge
+oIn file included from /Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/Classes/SolvalyzerRootViewController.m:10:
+o/Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/Classes/Problem.h:15:2: warning: #warning dhs2
+o/Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/Classes/Problem.h:22:2: warning: #warning dhs2
+lSLF07#2@110"Compile /Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/Classes/SolvalyzerRootViewController.m323566141#323566141#0(949"In file included from /Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/Classes/ProblemStore.h:11,                 from /Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/Classes/SolvalyzerRootViewController.m:9:/Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/Classes/ProblemSolution.h:17:2: warning: #warning dhs/Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/Classes/ProblemSolution.h:27:2: warning: #warning dhs/Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/Classes/ProblemSolution.h:39:2: warning: #warning kludgeIn file included from /Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/Classes/SolvalyzerRootViewController.m:10:/Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/Classes/Problem.h:15:2: warning: #warning dhs2/Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/Classes/Problem.h:22:2: warning: #warning dhs25(22@12"#warning dhs323566141#241#118#3(7@124"In file included from /Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/Classes/SolvalyzerRootViewController.m323566141#18446744073709551615#0#0(6@102"/Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/Classes/SolvalyzerRootViewController.m323286127#9#0#9#0#0"0(7@108"In file included from /Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/Classes/ProblemStore.h323566141#18446744073709551615#0#0(6@86"/Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/Classes/ProblemStore.h323286127#11#0#11#0#0"0(13@105"#warning dhs in /Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/Classes/ProblemSolution.h323566141#18446744073709551615#0#0(6@89"/Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/Classes/ProblemSolution.h323286127#17#0#17#0#0"0(6@89"/Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/Classes/ProblemSolution.h323286127#17#0#17#0#10"#warning *0(22@12"#warning dhs323566141#359#118#3(7@124"In file included from /Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/Classes/SolvalyzerRootViewController.m323566141#18446744073709551615#0#0(6@102"/Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/Classes/SolvalyzerRootViewController.m323286127#9#0#9#0#0"0(7@108"In file included from /Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/Classes/ProblemStore.h323566141#18446744073709551615#0#0(6@86"/Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/Classes/ProblemStore.h323286127#11#0#11#0#0"0(13@105"#warning dhs in /Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/Classes/ProblemSolution.h323566141#18446744073709551615#0#0(6@89"/Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/Classes/ProblemSolution.h323286127#27#0#27#0#0"0(6@89"/Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/Classes/ProblemSolution.h323286127#27#0#27#0#10"#warning *0(22@15"#warning kludge323566141#477#121#3(7@124"In file included from /Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/Classes/SolvalyzerRootViewController.m323566141#18446744073709551615#0#0(6@102"/Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/Classes/SolvalyzerRootViewController.m323286127#9#0#9#0#0"0(7@108"In file included from /Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/Classes/ProblemStore.h323566141#18446744073709551615#0#0(6@86"/Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/Classes/ProblemStore.h323286127#11#0#11#0#0"0(13@108"#warning kludge in /Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/Classes/ProblemSolution.h323566141#18446744073709551615#0#0(6@89"/Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/Classes/ProblemSolution.h323286127#39#0#39#0#0"0(6@89"/Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/Classes/ProblemSolution.h323286127#39#0#39#0#10"#warning *0(22@13"#warning dhs2323566141#727#111#2(7@124"In file included from /Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/Classes/SolvalyzerRootViewController.m323566141#18446744073709551615#0#0(6@102"/Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/Classes/SolvalyzerRootViewController.m323286127#10#0#10#0#0"0(13@98"#warning dhs2 in /Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/Classes/Problem.h323566141#18446744073709551615#0#0(6@81"/Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/Classes/Problem.h323453615#15#0#15#0#0"0(6@81"/Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/Classes/Problem.h323453615#15#0#15#0#10"#warning *0(22@13"#warning dhs2323566141#838#111#2(7@124"In file included from /Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/Classes/SolvalyzerRootViewController.m323566141#18446744073709551615#0#0(6@102"/Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/Classes/SolvalyzerRootViewController.m323286127#10#0#10#0#0"0(13@98"#warning dhs2 in /Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/Classes/Problem.h323566141#18446744073709551615#0#0(6@81"/Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/Classes/Problem.h323453615#22#0#22#0#0"0(6@81"/Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/Classes/Problem.h323453615#22#0#22#0#10"#warning *0(0#0#102"/Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/Classes/SolvalyzerRootViewController.m8624670144#2122"    cd /Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer    setenv LANG en_US.US-ASCII    setenv PATH "/Developer 3/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer 3/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer 3/Platforms/iPhoneOS.platform/Developer/usr/bin/llvm-gcc-4.2" -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -DDEBUG -isysroot "/Developer 3/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk" -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote /Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/build/Solvalyzer.build/Debug-iphoneos/Solvalyzer.build/Solvalyzer-generated-files.hmap -I/Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/build/Solvalyzer.build/Debug-iphoneos/Solvalyzer.build/Solvalyzer-own-target-headers.hmap -I/Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/build/Solvalyzer.build/Debug-iphoneos/Solvalyzer.build/Solvalyzer-all-target-headers.hmap -iquote /Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/build/Solvalyzer.build/Debug-iphoneos/Solvalyzer.build/Solvalyzer-project-headers.hmap -F/Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/build/Debug-iphoneos -I/Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/build/Debug-iphoneos/include -I/Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/build/Solvalyzer.build/Debug-iphoneos/Solvalyzer.build/DerivedSources/armv7 -I/Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/build/Solvalyzer.build/Debug-iphoneos/Solvalyzer.build/DerivedSources -include /var/folders/uj/ujTCxuZ+Er486Hq-CH0Q-E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Solvalyzer_Prefix-gjlkbxhvuokjiwfqplrqpkldqtxx/Solvalyzer_Prefix.pch -c /Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/Classes/SolvalyzerRootViewController.m -o /Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/build/Solvalyzer.build/Debug-iphoneos/Solvalyzer.build/Objects-normal/armv7/SolvalyzerRootViewController.o0#
+
+CCompileC build/Solvalyzer.build/Debug-iphoneos/Solvalyzer.build/Objects-normal/armv7/SolvalyzerViewController.o /Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/Classes/SolvalyzerViewController.m normal armv7 objective-c com.apple.compilers.llvmgcc42
+s323566141.201646
+e323566141.410279
+r1
+xCompileC
+xbuild/Solvalyzer.build/Debug-iphoneos/Solvalyzer.build/Objects-normal/armv7/SolvalyzerViewController.o
+x/Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/Classes/SolvalyzerViewController.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvmgcc42
+oIn file included from /Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/Classes/ProblemStore.h:11,
+o                 from /Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/Classes/SolvalyzerViewController.m:10:
+o/Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/Classes/ProblemSolution.h:17:2: warning: #warning dhs
+o/Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/Classes/ProblemSolution.h:27:2: warning: #warning dhs
+o/Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/Classes/ProblemSolution.h:39:2: warning: #warning kludge
+oIn file included from /Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/Classes/SolvalyzerViewController.m:11:
+o/Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/Classes/Problem.h:15:2: warning: #warning dhs2
+o/Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/Classes/Problem.h:22:2: warning: #warning dhs2
+oIn file included from /Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/Classes/SolvalyzerViewController.m:12:
+o/Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/Classes/SolverView.h:13:2: warning: #warning See the documentation about why this solution does not scale
+o/Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/Classes/SolvalyzerViewController.m: In function '-[SolvalyzerViewController viewWillAppear:]':
+o/Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/Classes/SolvalyzerViewController.m:38: warning: incompatible Objective-C types 'struct UIImage *', expected 'struct NSString *' when passing argument 1 of 'setText:' from distinct Objective-C type
+o/Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/Classes/SolvalyzerViewController.m: In function '-[SolvalyzerViewController writeSolutionImage:]':
+o/Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/Classes/SolvalyzerViewController.m:76: warning: local declaration of 'isCorrect' hides instance variable
+o/Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/Classes/SolvalyzerViewController.m:83:2: warning: #warning dhs
+o/Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/Classes/SolvalyzerViewController.m:96:2: warning: #warning Treating 'quit' like solution!
+lSLF07#2@106"Compile /Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/Classes/SolvalyzerViewController.m323566141#323566141#0(2270"In file included from /Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/Classes/ProblemStore.h:11,                 from /Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/Classes/SolvalyzerViewController.m:10:/Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/Classes/ProblemSolution.h:17:2: warning: #warning dhs/Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/Classes/ProblemSolution.h:27:2: warning: #warning dhs/Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/Classes/ProblemSolution.h:39:2: warning: #warning kludgeIn file included from /Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/Classes/SolvalyzerViewController.m:11:/Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/Classes/Problem.h:15:2: warning: #warning dhs2/Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/Classes/Problem.h:22:2: warning: #warning dhs2In file included from /Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/Classes/SolvalyzerViewController.m:12:/Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/Classes/SolverView.h:13:2: warning: #warning See the documentation about why this solution does not scale/Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/Classes/SolvalyzerViewController.m: In function '-[SolvalyzerViewController viewWillAppear:]':/Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/Classes/SolvalyzerViewController.m:38: warning: incompatible Objective-C types 'struct UIImage *', expected 'struct NSString *' when passing argument 1 of 'setText:' from distinct Objective-C type/Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/Classes/SolvalyzerViewController.m: In function '-[SolvalyzerViewController writeSolutionImage:]':/Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/Classes/SolvalyzerViewController.m:76: warning: local declaration of 'isCorrect' hides instance variable/Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/Classes/SolvalyzerViewController.m:83:2: warning: #warning dhs/Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/Classes/SolvalyzerViewController.m:96:2: warning: #warning Treating 'quit' like solution!10(22@12"#warning dhs323566141#238#118#3(7@120"In file included from /Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/Classes/SolvalyzerViewController.m323566141#18446744073709551615#0#0(6@98"/Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/Classes/SolvalyzerViewController.m323363379#10#0#10#0#0"0(7@108"In file included from /Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/Classes/ProblemStore.h323566141#18446744073709551615#0#0(6@86"/Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/Classes/ProblemStore.h323286127#11#0#11#0#0"0(13@105"#warning dhs in /Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/Classes/ProblemSolution.h323566141#18446744073709551615#0#0(6@89"/Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/Classes/ProblemSolution.h323286127#17#0#17#0#0"0(6@89"/Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/Classes/ProblemSolution.h323286127#17#0#17#0#10"#warning *0(22@12"#warning dhs323566141#356#118#3(7@120"In file included from /Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/Classes/SolvalyzerViewController.m323566141#18446744073709551615#0#0(6@98"/Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/Classes/SolvalyzerViewController.m323363379#10#0#10#0#0"0(7@108"In file included from /Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/Classes/ProblemStore.h323566141#18446744073709551615#0#0(6@86"/Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/Classes/ProblemStore.h323286127#11#0#11#0#0"0(13@105"#warning dhs in /Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/Classes/ProblemSolution.h323566141#18446744073709551615#0#0(6@89"/Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/Classes/ProblemSolution.h323286127#27#0#27#0#0"0(6@89"/Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/Classes/ProblemSolution.h323286127#27#0#27#0#10"#warning *0(22@15"#warning kludge323566141#474#121#3(7@120"In file included from /Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/Classes/SolvalyzerViewController.m323566141#18446744073709551615#0#0(6@98"/Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/Classes/SolvalyzerViewController.m323363379#10#0#10#0#0"0(7@108"In file included from /Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/Classes/ProblemStore.h323566141#18446744073709551615#0#0(6@86"/Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/Classes/ProblemStore.h323286127#11#0#11#0#0"0(13@108"#warning kludge in /Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/Classes/ProblemSolution.h323566141#18446744073709551615#0#0(6@89"/Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/Classes/ProblemSolution.h323286127#39#0#39#0#0"0(6@89"/Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/Classes/ProblemSolution.h323286127#39#0#39#0#10"#warning *0(22@13"#warning dhs2323566141#720#111#2(7@120"In file included from /Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/Classes/SolvalyzerViewController.m323566141#18446744073709551615#0#0(6@98"/Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/Classes/SolvalyzerViewController.m323363379#11#0#11#0#0"0(13@98"#warning dhs2 in /Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/Classes/Problem.h323566141#18446744073709551615#0#0(6@81"/Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/Classes/Problem.h323453615#15#0#15#0#0"0(6@81"/Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/Classes/Problem.h323453615#15#0#15#0#10"#warning *0(22@13"#warning dhs2323566141#831#111#2(7@120"In file included from /Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/Classes/SolvalyzerViewController.m323566141#18446744073709551615#0#0(6@98"/Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/Classes/SolvalyzerViewController.m323363379#11#0#11#0#0"0(13@98"#warning dhs2 in /Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/Classes/Problem.h323566141#18446744073709551615#0#0(6@81"/Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/Classes/Problem.h323453615#22#0#22#0#0"0(6@81"/Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/Classes/Problem.h323453615#22#0#22#0#10"#warning *0(22@69"#warning See the documentation about why this solution does not scale323566141#1067#170#2(7@120"In file included from /Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/Classes/SolvalyzerViewController.m323566141#18446744073709551615#0#0(6@98"/Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/Classes/SolvalyzerViewController.m323363379#12#0#12#0#0"0(13@157"#warning See the documentation about why this solution does not scale in /Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/Classes/SolverView.h323566141#18446744073709551615#0#0(6@84"/Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/Classes/SolverView.h323286127#13#0#13#0#0"0(6@84"/Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/Classes/SolverView.h323286127#13#0#13#0#10"#warning *0(22@148"Incompatible Objective-C types 'struct UIImage *', expected 'struct NSString *' when passing argument 1 of 'setText:' from distinct Objective-C type323566141#1396#261#0(6@98"/Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/Classes/SolvalyzerViewController.m323363379#38#0#38#0#0"0(22@56"Local declaration of 'isCorrect' hides instance variable323566141#1820#169#0(6@98"/Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/Classes/SolvalyzerViewController.m323363379#76#0#76#0#0"0(22@12"#warning dhs323566141#1989#127#0(6@98"/Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/Classes/SolvalyzerViewController.m323363379#83#0#83#0#10"#warning *0(22@39"#warning Treating 'quit' like solution!323566141#2116#154#0(6@98"/Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/Classes/SolvalyzerViewController.m323363379#96#0#96#0#10"#warning *0(0#0#98"/Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/Classes/SolvalyzerViewController.m8614660960#2114"    cd /Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer    setenv LANG en_US.US-ASCII    setenv PATH "/Developer 3/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer 3/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer 3/Platforms/iPhoneOS.platform/Developer/usr/bin/llvm-gcc-4.2" -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -DDEBUG -isysroot "/Developer 3/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk" -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote /Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/build/Solvalyzer.build/Debug-iphoneos/Solvalyzer.build/Solvalyzer-generated-files.hmap -I/Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/build/Solvalyzer.build/Debug-iphoneos/Solvalyzer.build/Solvalyzer-own-target-headers.hmap -I/Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/build/Solvalyzer.build/Debug-iphoneos/Solvalyzer.build/Solvalyzer-all-target-headers.hmap -iquote /Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/build/Solvalyzer.build/Debug-iphoneos/Solvalyzer.build/Solvalyzer-project-headers.hmap -F/Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/build/Debug-iphoneos -I/Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/build/Debug-iphoneos/include -I/Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/build/Solvalyzer.build/Debug-iphoneos/Solvalyzer.build/DerivedSources/armv7 -I/Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/build/Solvalyzer.build/Debug-iphoneos/Solvalyzer.build/DerivedSources -include /var/folders/uj/ujTCxuZ+Er486Hq-CH0Q-E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Solvalyzer_Prefix-gjlkbxhvuokjiwfqplrqpkldqtxx/Solvalyzer_Prefix.pch -c /Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/Classes/SolvalyzerViewController.m -o /Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/build/Solvalyzer.build/Debug-iphoneos/Solvalyzer.build/Objects-normal/armv7/SolvalyzerViewController.o0#
+
+CCompileC build/Solvalyzer.build/Debug-iphoneos/Solvalyzer.build/Objects-normal/armv7/SolverView.o /Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/Classes/SolverView.m normal armv7 objective-c com.apple.compilers.llvmgcc42
+s323566141.255708
+e323566141.351649
+r1
+xCompileC
+xbuild/Solvalyzer.build/Debug-iphoneos/Solvalyzer.build/Objects-normal/armv7/SolverView.o
+x/Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/Classes/SolverView.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvmgcc42
+oIn file included from /Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/Classes/ProblemStore.h:11,
+o                 from /Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/Classes/SolverView.m:11:
+o/Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/Classes/ProblemSolution.h:17:2: warning: #warning dhs
+o/Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/Classes/ProblemSolution.h:27:2: warning: #warning dhs
+o/Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/Classes/ProblemSolution.h:39:2: warning: #warning kludge
+oIn file included from /Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/Classes/SolverView.m:12:
+o/Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/Classes/SolverView.h:13:2: warning: #warning See the documentation about why this solution does not scale
+o/Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/Classes/SolverView.m:56:2: warning: #warning We may not want to start/stop accelerometer updates in this fashion
+o/Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/Classes/SolverView.m:77:2: warning: #warning See warning above start/stopping accelerometer updates
+lSLF07#2@92"Compile /Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/Classes/SolverView.m323566141#323566141#0(1203"In file included from /Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/Classes/ProblemStore.h:11,                 from /Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/Classes/SolverView.m:11:/Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/Classes/ProblemSolution.h:17:2: warning: #warning dhs/Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/Classes/ProblemSolution.h:27:2: warning: #warning dhs/Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/Classes/ProblemSolution.h:39:2: warning: #warning kludgeIn file included from /Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/Classes/SolverView.m:12:/Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/Classes/SolverView.h:13:2: warning: #warning See the documentation about why this solution does not scale/Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/Classes/SolverView.m:56:2: warning: #warning We may not want to start/stop accelerometer updates in this fashion/Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/Classes/SolverView.m:77:2: warning: #warning See warning above start/stopping accelerometer updates6(22@12"#warning dhs323566141#224#118#3(7@106"In file included from /Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/Classes/SolverView.m323566141#18446744073709551615#0#0(6@84"/Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/Classes/SolverView.m323286127#11#0#11#0#0"0(7@108"In file included from /Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/Classes/ProblemStore.h323566141#18446744073709551615#0#0(6@86"/Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/Classes/ProblemStore.h323286127#11#0#11#0#0"0(13@105"#warning dhs in /Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/Classes/ProblemSolution.h323566141#18446744073709551615#0#0(6@89"/Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/Classes/ProblemSolution.h323286127#17#0#17#0#0"0(6@89"/Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/Classes/ProblemSolution.h323286127#17#0#17#0#10"#warning *0(22@12"#warning dhs323566141#342#118#3(7@106"In file included from /Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/Classes/SolverView.m323566141#18446744073709551615#0#0(6@84"/Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/Classes/SolverView.m323286127#11#0#11#0#0"0(7@108"In file included from /Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/Classes/ProblemStore.h323566141#18446744073709551615#0#0(6@86"/Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/Classes/ProblemStore.h323286127#11#0#11#0#0"0(13@105"#warning dhs in /Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/Classes/ProblemSolution.h323566141#18446744073709551615#0#0(6@89"/Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/Classes/ProblemSolution.h323286127#27#0#27#0#0"0(6@89"/Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/Classes/ProblemSolution.h323286127#27#0#27#0#10"#warning *0(22@15"#warning kludge323566141#460#121#3(7@106"In file included from /Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/Classes/SolverView.m323566141#18446744073709551615#0#0(6@84"/Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/Classes/SolverView.m323286127#11#0#11#0#0"0(7@108"In file included from /Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/Classes/ProblemStore.h323566141#18446744073709551615#0#0(6@86"/Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/Classes/ProblemStore.h323286127#11#0#11#0#0"0(13@108"#warning kludge in /Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/Classes/ProblemSolution.h323566141#18446744073709551615#0#0(6@89"/Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/Classes/ProblemSolution.h323286127#39#0#39#0#0"0(6@89"/Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/Classes/ProblemSolution.h323286127#39#0#39#0#10"#warning *0(22@69"#warning See the documentation about why this solution does not scale323566141#692#170#2(7@106"In file included from /Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/Classes/SolverView.m323566141#18446744073709551615#0#0(6@84"/Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/Classes/SolverView.m323286127#12#0#12#0#0"0(13@157"#warning See the documentation about why this solution does not scale in /Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/Classes/SolverView.h323566141#18446744073709551615#0#0(6@84"/Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/Classes/SolverView.h323286127#13#0#13#0#0"0(6@84"/Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/Classes/SolverView.h323286127#13#0#13#0#10"#warning *0(22@76"#warning We may not want to start/stop accelerometer updates in this fashion323566141#862#177#0(6@84"/Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/Classes/SolverView.m323286127#56#0#56#0#10"#warning *0(22@63"#warning See warning above start/stopping accelerometer updates323566141#1039#164#0(6@84"/Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/Classes/SolverView.m323286127#77#0#77#0#10"#warning *0(0#0#84"/Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/Classes/SolverView.m8609295520#2086"    cd /Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer    setenv LANG en_US.US-ASCII    setenv PATH "/Developer 3/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer 3/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer 3/Platforms/iPhoneOS.platform/Developer/usr/bin/llvm-gcc-4.2" -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -DDEBUG -isysroot "/Developer 3/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk" -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote /Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/build/Solvalyzer.build/Debug-iphoneos/Solvalyzer.build/Solvalyzer-generated-files.hmap -I/Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/build/Solvalyzer.build/Debug-iphoneos/Solvalyzer.build/Solvalyzer-own-target-headers.hmap -I/Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/build/Solvalyzer.build/Debug-iphoneos/Solvalyzer.build/Solvalyzer-all-target-headers.hmap -iquote /Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/build/Solvalyzer.build/Debug-iphoneos/Solvalyzer.build/Solvalyzer-project-headers.hmap -F/Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/build/Debug-iphoneos -I/Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/build/Debug-iphoneos/include -I/Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/build/Solvalyzer.build/Debug-iphoneos/Solvalyzer.build/DerivedSources/armv7 -I/Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/build/Solvalyzer.build/Debug-iphoneos/Solvalyzer.build/DerivedSources -include /var/folders/uj/ujTCxuZ+Er486Hq-CH0Q-E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Solvalyzer_Prefix-gjlkbxhvuokjiwfqplrqpkldqtxx/Solvalyzer_Prefix.pch -c /Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/Classes/SolverView.m -o /Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/build/Solvalyzer.build/Debug-iphoneos/Solvalyzer.build/Objects-normal/armv7/SolverView.o0#
+
+CCompileC build/Solvalyzer.build/Debug-iphoneos/Solvalyzer.build/Objects-normal/armv7/main.o /Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/main.m normal armv7 objective-c com.apple.compilers.llvmgcc42
+s323566141.351752
+e323566141.405449
+r1
+xCompileC
+xbuild/Solvalyzer.build/Debug-iphoneos/Solvalyzer.build/Objects-normal/armv7/main.o
+x/Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/main.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvmgcc42
+lSLF07#2@78"Compile /Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/main.m323566141#323566141#0(0"0(0#0#70"/Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/main.m8598491200#2066"    cd /Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer    setenv LANG en_US.US-ASCII    setenv PATH "/Developer 3/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer 3/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer 3/Platforms/iPhoneOS.platform/Developer/usr/bin/llvm-gcc-4.2" -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -DDEBUG -isysroot "/Developer 3/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk" -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote /Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/build/Solvalyzer.build/Debug-iphoneos/Solvalyzer.build/Solvalyzer-generated-files.hmap -I/Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/build/Solvalyzer.build/Debug-iphoneos/Solvalyzer.build/Solvalyzer-own-target-headers.hmap -I/Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/build/Solvalyzer.build/Debug-iphoneos/Solvalyzer.build/Solvalyzer-all-target-headers.hmap -iquote /Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/build/Solvalyzer.build/Debug-iphoneos/Solvalyzer.build/Solvalyzer-project-headers.hmap -F/Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/build/Debug-iphoneos -I/Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/build/Debug-iphoneos/include -I/Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/build/Solvalyzer.build/Debug-iphoneos/Solvalyzer.build/DerivedSources/armv7 -I/Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/build/Solvalyzer.build/Debug-iphoneos/Solvalyzer.build/DerivedSources -include /var/folders/uj/ujTCxuZ+Er486Hq-CH0Q-E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Solvalyzer_Prefix-gjlkbxhvuokjiwfqplrqpkldqtxx/Solvalyzer_Prefix.pch -c /Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/main.m -o /Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/build/Solvalyzer.build/Debug-iphoneos/Solvalyzer.build/Objects-normal/armv7/main.o0#
+
+CCompileXIB /Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/ImageScaleKludgeView.xib
+s323566142.401456
+e323566144.504974
+r1
+xCompileXIB
+x/Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/ImageScaleKludgeView.xib
+lSLF07#2@35"CompileXIB ImageScaleKludgeView.xib323566142#323566144#0(0"0(0#0#88"/Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/ImageScaleKludgeView.xib8606118816#652"    cd /Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.3    setenv PATH "/Developer 3/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer 3/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer 3/usr/bin/ibtool" --errors --warnings --notices --output-format human-readable-text --compile /Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/build/Debug-iphoneos/Solvalyzer.app/ImageScaleKludgeView.nib /Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/ImageScaleKludgeView.xib --sdk "/Developer 3/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk"0#
+
+CCompileXIB /Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/MainWindow.xib
+s323566142.402101
+e323566144.167412
+r1
+xCompileXIB
+x/Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/MainWindow.xib
+lSLF07#2@25"CompileXIB MainWindow.xib323566142#323566144#0(0"0(0#0#78"/Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/MainWindow.xib8603521184#632"    cd /Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.3    setenv PATH "/Developer 3/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer 3/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer 3/usr/bin/ibtool" --errors --warnings --notices --output-format human-readable-text --compile /Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/build/Debug-iphoneos/Solvalyzer.app/MainWindow.nib /Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/MainWindow.xib --sdk "/Developer 3/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk"0#
+
+CCompileXIB /Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/SolvalyzerRootView.xib
+s323566144.167557
+e323566144.985591
+r1
+xCompileXIB
+x/Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/SolvalyzerRootView.xib
+lSLF07#2@33"CompileXIB SolvalyzerRootView.xib323566144#323566144#0(0"0(0#0#86"/Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/SolvalyzerRootView.xib8624634336#648"    cd /Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.3    setenv PATH "/Developer 3/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer 3/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer 3/usr/bin/ibtool" --errors --warnings --notices --output-format human-readable-text --compile /Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/build/Debug-iphoneos/Solvalyzer.app/SolvalyzerRootView.nib /Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/SolvalyzerRootView.xib --sdk "/Developer 3/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk"0#
+
+CCompileXIB /Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/SolvalyzerViewController.xib
+s323566144.505055
+e323566145.069872
+r1
+xCompileXIB
+x/Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/SolvalyzerViewController.xib
+o/* com.apple.ibtool.document.warnings */
+o/Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/SolvalyzerViewController.xib:17: warning: The 'Touch Up Inside' event of 'Rounded Rect Button (dontKnow)' is connected to the 'finalizeSolution:' selector of 'File's Owner', but 'finalizeSolution:' is no longer defined on 'SolvalyzerViewController'.
+o/Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/SolvalyzerViewController.xib:13: warning: The 'Touch Up Inside' event of 'Rounded Rect Button (Quit)' is connected to the 'quitSolving:' selector of 'File's Owner', but 'quitSolving:' is no longer defined on 'SolvalyzerViewController'.
+o/Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/SolvalyzerViewController.xib:16: warning: The 'Touch Up Inside' event of 'Rounded Rect Button (gotItRight!)' is connected to the 'finalizeSolution:' selector of 'File's Owner', but 'finalizeSolution:' is no longer defined on 'SolvalyzerViewController'.
+o/Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/SolvalyzerViewController.xib:-1: warning: The 'view' outlet of 'File's Owner' is connected to 'View' but 'view' is no longer defined on SolvalyzerViewController.
+o/Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/SolvalyzerViewController.xib:-1: warning: The 'problemView' outlet of 'File's Owner' is connected to 'Label (X + Y = ?)' but 'problemView' is no longer defined on SolvalyzerViewController.
+o/Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/SolvalyzerViewController.xib:-1: warning: The 'solverView' outlet of 'File's Owner' is connected to 'Solver View' but 'solverView' is no longer defined on SolvalyzerViewController.
+o/Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/SolvalyzerViewController.xib:12: warning: The 'Touch Up Inside' event of 'Rounded Rect Button (Solved)' is connected to the 'finalizeSolution:' selector of 'File's Owner', but 'finalizeSolution:' is no longer defined on 'SolvalyzerViewController'.
+lSLF07#2@39"CompileXIB SolvalyzerViewController.xib323566144#323566145#0(2008"/* com.apple.ibtool.document.warnings *//Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/SolvalyzerViewController.xib:17: warning: The 'Touch Up Inside' event of 'Rounded Rect Button (dontKnow)' is connected to the 'finalizeSolution:' selector of 'File's Owner', but 'finalizeSolution:' is no longer defined on 'SolvalyzerViewController'./Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/SolvalyzerViewController.xib:13: warning: The 'Touch Up Inside' event of 'Rounded Rect Button (Quit)' is connected to the 'quitSolving:' selector of 'File's Owner', but 'quitSolving:' is no longer defined on 'SolvalyzerViewController'./Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/SolvalyzerViewController.xib:16: warning: The 'Touch Up Inside' event of 'Rounded Rect Button (gotItRight!)' is connected to the 'finalizeSolution:' selector of 'File's Owner', but 'finalizeSolution:' is no longer defined on 'SolvalyzerViewController'./Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/SolvalyzerViewController.xib:-1: warning: The 'view' outlet of 'File's Owner' is connected to 'View' but 'view' is no longer defined on SolvalyzerViewController./Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/SolvalyzerViewController.xib:-1: warning: The 'problemView' outlet of 'File's Owner' is connected to 'Label (X + Y = ?)' but 'problemView' is no longer defined on SolvalyzerViewController./Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/SolvalyzerViewController.xib:-1: warning: The 'solverView' outlet of 'File's Owner' is connected to 'Solver View' but 'solverView' is no longer defined on SolvalyzerViewController./Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/SolvalyzerViewController.xib:12: warning: The 'Touch Up Inside' event of 'Rounded Rect Button (Solved)' is connected to the 'finalizeSolution:' selector of 'File's Owner', but 'finalizeSolution:' is no longer defined on 'SolvalyzerViewController'.7(22@207"The 'Touch Up Inside' event of 'Rounded Rect Button (dontKnow)' is connected to the 'finalizeSolution:' selector of 'File's Owner', but 'finalizeSolution:' is no longer defined on 'SolvalyzerViewController'.323566145#18446744073709551615#0#0(6@92"/Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/SolvalyzerViewController.xib323453315#17#0#17#0#0"0(22@193"The 'Touch Up Inside' event of 'Rounded Rect Button (Quit)' is connected to the 'quitSolving:' selector of 'File's Owner', but 'quitSolving:' is no longer defined on 'SolvalyzerViewController'.323566145#18446744073709551615#0#0(6@92"/Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/SolvalyzerViewController.xib323453315#13#0#13#0#0"0(22@210"The 'Touch Up Inside' event of 'Rounded Rect Button (gotItRight!)' is connected to the 'finalizeSolution:' selector of 'File's Owner', but 'finalizeSolution:' is no longer defined on 'SolvalyzerViewController'.323566145#18446744073709551615#0#0(6@92"/Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/SolvalyzerViewController.xib323453315#16#0#16#0#0"0(22@119"The 'view' outlet of 'File's Owner' is connected to 'View' but 'view' is no longer defined on SolvalyzerViewController.323566145#18446744073709551615#0#0(6@92"/Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/SolvalyzerViewController.xib323453315#18446744073709551615#0#18446744073709551615#0#0"0(22@146"The 'problemView' outlet of 'File's Owner' is connected to 'Label (X + Y = ?)' but 'problemView' is no longer defined on SolvalyzerViewController.323566145#18446744073709551615#0#0(6@92"/Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/SolvalyzerViewController.xib323453315#18446744073709551615#0#18446744073709551615#0#0"0(22@138"The 'solverView' outlet of 'File's Owner' is connected to 'Solver View' but 'solverView' is no longer defined on SolvalyzerViewController.323566145#18446744073709551615#0#0(6@92"/Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/SolvalyzerViewController.xib323453315#18446744073709551615#0#18446744073709551615#0#0"0(22@205"The 'Touch Up Inside' event of 'Rounded Rect Button (Solved)' is connected to the 'finalizeSolution:' selector of 'File's Owner', but 'finalizeSolution:' is no longer defined on 'SolvalyzerViewController'.323566145#18446744073709551615#0#0(6@92"/Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/SolvalyzerViewController.xib323453315#12#0#12#0#0"0(0#0#92"/Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/SolvalyzerViewController.xib8622748032#660"    cd /Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.3    setenv PATH "/Developer 3/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer 3/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer 3/usr/bin/ibtool" --errors --warnings --notices --output-format human-readable-text --compile /Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/build/Debug-iphoneos/Solvalyzer.app/SolvalyzerViewController.nib /Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/SolvalyzerViewController.xib --sdk "/Developer 3/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk"0#
+
+CCopyPNGFile /Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/build/Debug-iphoneos/Solvalyzer.app/icon-72.png icon-72.png
+s323566144.985674
+e323566145.162885
+r1
+xCopyPNGFile
+x/Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/build/Debug-iphoneos/Solvalyzer.app/icon-72.png
+xicon-72.png
+lSLF07#2@71"CopyPNGFile build/Debug-iphoneos/Solvalyzer.app/icon-72.png icon-72.png323566144#323566145#0(0"0(0#0#75"/Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/icon-72.png8622555680#546"    cd /Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer    setenv PATH "/Developer 3/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer 3/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer 3/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/icon-72.png /Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/build/Debug-iphoneos/Solvalyzer.app/icon-72.png0#
+
+CCopyPNGFile /Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/build/Debug-iphoneos/Solvalyzer.app/icon-small-50.png icon-small-50.png
+s323566145.069947
+e323566145.134554
+r1
+xCopyPNGFile
+x/Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/build/Debug-iphoneos/Solvalyzer.app/icon-small-50.png
+xicon-small-50.png
+lSLF07#2@83"CopyPNGFile build/Debug-iphoneos/Solvalyzer.app/icon-small-50.png icon-small-50.png323566145#323566145#0(0"0(0#0#81"/Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/icon-small-50.png8598550176#558"    cd /Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer    setenv PATH "/Developer 3/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer 3/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer 3/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/icon-small-50.png /Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/build/Debug-iphoneos/Solvalyzer.app/icon-small-50.png0#
+
+CCopyPNGFile /Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/build/Debug-iphoneos/Solvalyzer.app/icon-small.png icon-small.png
+s323566145.134642
+e323566145.181262
+r1
+xCopyPNGFile
+x/Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/build/Debug-iphoneos/Solvalyzer.app/icon-small.png
+xicon-small.png
+lSLF07#2@77"CopyPNGFile build/Debug-iphoneos/Solvalyzer.app/icon-small.png icon-small.png323566145#323566145#0(0"0(0#0#78"/Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/icon-small.png8622617728#552"    cd /Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer    setenv PATH "/Developer 3/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer 3/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer 3/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/icon-small.png /Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/build/Debug-iphoneos/Solvalyzer.app/icon-small.png0#
+
+CCopyPNGFile /Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/build/Debug-iphoneos/Solvalyzer.app/icon.png icon.png
+s323566145.163004
+e323566145.193402
+r1
+xCopyPNGFile
+x/Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/build/Debug-iphoneos/Solvalyzer.app/icon.png
+xicon.png
+lSLF07#2@65"CopyPNGFile build/Debug-iphoneos/Solvalyzer.app/icon.png icon.png323566145#323566145#0(0"0(0#0#72"/Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/icon.png8595672032#540"    cd /Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer    setenv PATH "/Developer 3/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer 3/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer 3/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/icon.png /Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/build/Debug-iphoneos/Solvalyzer.app/icon.png0#
+
+CCopyPNGFile /Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/build/Debug-iphoneos/Solvalyzer.app/icon@2x.png icon@2x.png
+s323566145.181349
+e323566145.220836
+r1
+xCopyPNGFile
+x/Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/build/Debug-iphoneos/Solvalyzer.app/icon@2x.png
+xicon@2x.png
+lSLF07#2@71"CopyPNGFile build/Debug-iphoneos/Solvalyzer.app/icon@2x.png icon@2x.png323566145#323566145#0(0"0(0#0#75"/Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/icon@2x.png8603275424#546"    cd /Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer    setenv PATH "/Developer 3/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer 3/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer 3/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/icon@2x.png /Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/build/Debug-iphoneos/Solvalyzer.app/icon@2x.png0#
+
+CCopyPNGFile /Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/build/Debug-iphoneos/Solvalyzer.app/theBest.png theBest.png
+s323566145.220919
+e323566145.309884
+r1
+xCopyPNGFile
+x/Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/build/Debug-iphoneos/Solvalyzer.app/theBest.png
+xtheBest.png
+lSLF07#2@71"CopyPNGFile build/Debug-iphoneos/Solvalyzer.app/theBest.png theBest.png323566145#323566145#0(0"0(0#0#75"/Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/theBest.png8598635936#546"    cd /Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer    setenv PATH "/Developer 3/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer 3/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer 3/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/theBest.png /Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/build/Debug-iphoneos/Solvalyzer.app/theBest.png0#
+
+CCopyPlistFile /Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/build/Debug-iphoneos/Solvalyzer.app/Entitlements.plist Entitlements.plist
+s323566145.193516
+e323566145.524144
+r1
+xCopyPlistFile
+x/Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/build/Debug-iphoneos/Solvalyzer.app/Entitlements.plist
+xEntitlements.plist
+lSLF07#2@23"Copy Entitlements.plist323566145#323566145#0(0"0(0#0#82"/Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/Entitlements.plist8622783296#440"    cd /Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer    setenv PATH "/Developer 3/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer 3/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer 3/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copyplist" --convert binary1 Entitlements.plist --outdir /Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/build/Debug-iphoneos/Solvalyzer.app0#
+
+CCpResource build/Debug-iphoneos/Solvalyzer.app/ResourceRules.plist "/Developer 3/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/ResourceRules.plist"
+s323566138.712092
+e323566138.914539
+r1
+xCpResource
+xbuild/Debug-iphoneos/Solvalyzer.app/ResourceRules.plist
+x/Developer 3/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/ResourceRules.plist
+lSLF07#2@96"Copy /Developer 3/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/ResourceRules.plist323566138#323566138#0(0"0(0#0#91"/Developer 3/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/ResourceRules.plist3418906600707745280#559"    cd /Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer    setenv PATH "/Developer 3/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer 3/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer 3/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp" -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Developer 3/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/ResourceRules.plist" /Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/build/Debug-iphoneos/Solvalyzer.app0#
+
+CGenerateDSYMFile /Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/build/Debug-iphoneos/Solvalyzer.app.dSYM /Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/build/Debug-iphoneos/Solvalyzer.app/Solvalyzer
+s323566142.328802
+e323566142.401367
+r1
+xGenerateDSYMFile
+x/Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/build/Debug-iphoneos/Solvalyzer.app.dSYM
+x/Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/build/Debug-iphoneos/Solvalyzer.app/Solvalyzer
+lSLF07#2@104"GenerateDSYMFile build/Debug-iphoneos/Solvalyzer.app.dSYM build/Debug-iphoneos/Solvalyzer.app/Solvalyzer323566142#323566142#0(0"0(0#0#110"/Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/build/Debug-iphoneos/Solvalyzer.app/Solvalyzer8614367648#454"    cd /Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer    setenv PATH "/Developer 3/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer 3/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer 3/usr/bin/dsymutil" /Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/build/Debug-iphoneos/Solvalyzer.app/Solvalyzer -o /Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/build/Debug-iphoneos/Solvalyzer.app.dSYM0#
+
+CLd /Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/build/Debug-iphoneos/Solvalyzer.app/Solvalyzer normal armv7
+s323566141.410370
+e323566142.328609
+r1
+xLd
+x/Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/build/Debug-iphoneos/Solvalyzer.app/Solvalyzer
+xnormal
+xarmv7
+lSLF07#2@115"Link /Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/build/Debug-iphoneos/Solvalyzer.app/Solvalyzer323566141#323566142#0(0"0(0#0#0"8597869376#1031"    cd /Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer    setenv IPHONEOS_DEPLOYMENT_TARGET 4.3    setenv PATH "/Developer 3/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer 3/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer 3/Platforms/iPhoneOS.platform/Developer/usr/bin/llvm-gcc-4.2" -arch armv7 -isysroot "/Developer 3/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk" -L/Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/build/Debug-iphoneos -F/Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/build/Debug-iphoneos -filelist /Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/build/Solvalyzer.build/Debug-iphoneos/Solvalyzer.build/Objects-normal/armv7/Solvalyzer.LinkFileList -dead_strip -miphoneos-version-min=4.3 -framework CoreMotion -framework UIKit -framework Foundation -framework CoreGraphics -framework MessageUI -prebind -o /Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/build/Debug-iphoneos/Solvalyzer.app/Solvalyzer0#
+
+CProcessInfoPlistFile /Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/build/Debug-iphoneos/Solvalyzer.app/Info.plist Solvalyzer-Info.plist
+s323566138.829257
+e323566138.914746
+r1
+xProcessInfoPlistFile
+x/Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/build/Debug-iphoneos/Solvalyzer.app/Info.plist
+xSolvalyzer-Info.plist
+lSLF07#2@29"Process Solvalyzer-Info.plist323566138#323566138#0(0"0(0#0#85"/Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/Solvalyzer-Info.plist8626197472#678"    cd /Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer    setenv PATH "/Developer 3/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer 3/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility Solvalyzer-Info.plist -genpkginfo /Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/build/Debug-iphoneos/Solvalyzer.app/PkgInfo -expandbuildsettings -format binary -platform iphoneos -resourcerulesfile /Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/build/Debug-iphoneos/Solvalyzer.app/ResourceRules.plist -o /Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/build/Debug-iphoneos/Solvalyzer.app/Info.plist0#
+
+CProcessPCH /var/folders/uj/ujTCxuZ+Er486Hq-CH0Q-E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Solvalyzer_Prefix-gjlkbxhvuokjiwfqplrqpkldqtxx/Solvalyzer_Prefix.pch.gch Solvalyzer_Prefix.pch normal armv7 objective-c com.apple.compilers.llvmgcc42
+s323566138.914911
+e323566140.452667
+r1
+xProcessPCH
+x/var/folders/uj/ujTCxuZ+Er486Hq-CH0Q-E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Solvalyzer_Prefix-gjlkbxhvuokjiwfqplrqpkldqtxx/Solvalyzer_Prefix.pch.gch
+xSolvalyzer_Prefix.pch
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvmgcc42
+lSLF07#2@32"Precompile Solvalyzer_Prefix.pch323566138#323566140#0(0"0(0#0#85"/Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/Solvalyzer_Prefix.pch8624079968#1936"    cd /Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer    setenv LANG en_US.US-ASCII    setenv PATH "/Developer 3/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer 3/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer 3/Platforms/iPhoneOS.platform/Developer/usr/bin/llvm-gcc-4.2" -x objective-c-header -arch armv7 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -DDEBUG -isysroot "/Developer 3/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk" -gdwarf-2 -mthumb -miphoneos-version-min=4.3 -iquote /Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/build/Solvalyzer.build/Debug-iphoneos/Solvalyzer.build/Solvalyzer-generated-files.hmap -I/Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/build/Solvalyzer.build/Debug-iphoneos/Solvalyzer.build/Solvalyzer-own-target-headers.hmap -I/Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/build/Solvalyzer.build/Debug-iphoneos/Solvalyzer.build/Solvalyzer-all-target-headers.hmap -iquote /Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/build/Solvalyzer.build/Debug-iphoneos/Solvalyzer.build/Solvalyzer-project-headers.hmap -F/Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/build/Debug-iphoneos -I/Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/build/Debug-iphoneos/include -I/Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/build/Solvalyzer.build/Debug-iphoneos/Solvalyzer.build/DerivedSources/armv7 -I/Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/build/Solvalyzer.build/Debug-iphoneos/Solvalyzer.build/DerivedSources -c /Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/Solvalyzer_Prefix.pch -o /var/folders/uj/ujTCxuZ+Er486Hq-CH0Q-E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Solvalyzer_Prefix-gjlkbxhvuokjiwfqplrqpkldqtxx/Solvalyzer_Prefix.pch.gch0#
+
+CProcessProductPackaging "/Developer 3/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/Entitlements.plist" /Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/build/Solvalyzer.build/Debug-iphoneos/Solvalyzer.build/Solvalyzer.xcent
+s323566145.598437
+e323566145.621356
+r1
+xProcessProductPackaging
+x/Developer 3/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/Entitlements.plist
+x/Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/build/Solvalyzer.build/Debug-iphoneos/Solvalyzer.build/Solvalyzer.xcent
+lSLF07#2@188"ProcessProductPackaging "/Developer 3/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/Entitlements.plist" build/Solvalyzer.build/Debug-iphoneos/Solvalyzer.build/Solvalyzer.xcent323566145#323566145#0(0"0(0#0#135"/Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/build/Solvalyzer.build/Debug-iphoneos/Solvalyzer.build/Solvalyzer.xcent8624073024#499"    cd /Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer    setenv PATH "/Developer 3/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer 3/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    <com.apple.tools.product-pkg-utility> "/Developer 3/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/Entitlements.plist" -entitlements -format xml -o /Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/build/Solvalyzer.build/Debug-iphoneos/Solvalyzer.build/Solvalyzer.xcent0#
+
+CProcessProductPackaging "/Users/dhs/Library/MobileDevice/Provisioning Profiles/9BE0B653-A834-4752-B43E-CCFDDB8A2521.mobileprovision" /Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/build/Debug-iphoneos/Solvalyzer.app/embedded.mobileprovision
+s323566145.524273
+e323566145.564121
+r1
+xProcessProductPackaging
+x/Users/dhs/Library/MobileDevice/Provisioning Profiles/9BE0B653-A834-4752-B43E-CCFDDB8A2521.mobileprovision
+x/Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/build/Debug-iphoneos/Solvalyzer.app/embedded.mobileprovision
+lSLF07#2@193"ProcessProductPackaging "/Users/dhs/Library/MobileDevice/Provisioning Profiles/9BE0B653-A834-4752-B43E-CCFDDB8A2521.mobileprovision" build/Debug-iphoneos/Solvalyzer.app/embedded.mobileprovision323566145#323566145#0(0"0(0#0#124"/Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/build/Debug-iphoneos/Solvalyzer.app/embedded.mobileprovision8626070176#478"    cd /Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer    setenv PATH "/Developer 3/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer 3/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    <com.apple.tools.product-pkg-utility> "/Users/dhs/Library/MobileDevice/Provisioning Profiles/9BE0B653-A834-4752-B43E-CCFDDB8A2521.mobileprovision" -o /Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/build/Debug-iphoneos/Solvalyzer.app/embedded.mobileprovision0#
+
+CTouch /Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/build/Debug-iphoneos/Solvalyzer.app
+s323566145.564191
+e323566145.598327
+r1
+xTouch
+x/Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/build/Debug-iphoneos/Solvalyzer.app
+lSLF07#2@105"Touch /Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/build/Debug-iphoneos/Solvalyzer.app323566145#323566145#0(0"0(0#0#0"8624869952#321"    cd /Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer    setenv PATH "/Developer 3/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer 3/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/dhs/Documents/xcode/solvalyzerSnapShotMarch31/Solvalyzer/build/Debug-iphoneos/Solvalyzer.app0#
+
