@@ -13,9 +13,12 @@
 
 @interface SolvalyzerRootViewController : UIViewController<SolvalyzerViewControllerDelegate, MFMailComposeViewControllerDelegate> {
   IBOutlet UIButton *restartButton;
+    IBOutlet UIButton *initializeQuestionsButton;
 }
 
 @property (nonatomic, retain) IBOutlet UIButton *restartButton;
+//@property (nonatomic, retain) IBOutlet UIButton *initializeQuestionsButton;
 
 - (IBAction)restartSolvalyzer:(id)sender;
+//- (IBAction)initializeQuestions:(id)sender;
 @end

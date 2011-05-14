@@ -19,7 +19,7 @@
 @synthesize endTime;
 @synthesize solutionImageName;
 @synthesize solutionCorrect;
-@synthesize problemImageIndex;
+//@synthesize problemImageIndex;
 
 
 - (void)dealloc {

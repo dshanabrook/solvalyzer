@@ -12,23 +12,25 @@
 #import "SolutionPoint.h"
 #import "ProblemStore.h"
 
-@interface ProblemStore()
-@property (nonatomic, retain) Problem *currentProblem;
-@property (nonatomic, retain) ProblemSolution *currentSolution;
-@property (nonatomic, retain) SolutionStroke *currentStroke;
-@property (nonatomic, retain) NSDate *startTime;
-@end
+#warning  why was this here?  commented out and changed in .h getting rid of readonly
+#warning possible danger!
+//@interface ProblemStore()
+//@property (nonatomic, retain) Problem *currentProblem;
+//@property (nonatomic, retain) ProblemSolution *currentSolution;
+//@property (nonatomic, retain) SolutionStroke *currentStroke;
+//@property (nonatomic, retain) NSDate *startTime;
+//@end
 
 @implementation ProblemStore
 
-@synthesize currentImageIndex;
+//@synthesize currentImageIndex;
 @synthesize currentProblem;
 @synthesize currentSolution;
 @synthesize currentStroke;
 @synthesize startTime;
 
 - (id)init {
-  if (self==[super init]) {
+  if (self=[super init]) {
     [allProblems release];
     allProblems = [[NSMutableArray alloc] init];
   }
@@ -62,10 +64,10 @@
     self.startTime = [NSDate date];
   }
 #warning shouldn't this be self.currentImageIndex
-    currentImageIndex++;
-    if (currentImageIndex > 3) {
-        currentImageIndex = 1;
-    }
+//    currentImageIndex++;
+//    if (currentImageIndex > 3) {
+ //       currentImageIndex = 1;
+  //  }
   self.currentProblem = [Problem problem];
   self.currentSolution = [ProblemSolution problemSolution];
   //  self.currentSolution.currentImageIndex = currentImageIndex;
@@ -138,7 +140,7 @@
 #warning Quick hacked approach: 
   __block NSMutableArray *rows = [NSMutableArray array];
   NSArray *header = [NSArray arrayWithObjects:@"solutionImageName",
-                    @"problemImageIndex",
+//                    @"problemImageIndex",
                      @"solutionCorrect",
                      @"problemSubmitTimeDelta",
                      @"solutionStartTime",
@@ -165,7 +167,7 @@
       [stroke mapSolutionPoints:^(SolutionPoint *p, NSUInteger pNum) {
         NSMutableArray *d = [NSMutableArray array];
         [d addObject:problem.solution.solutionImageName];
-         [d addObject:problem.solution.problemImageIndex];
+//         [d addObject:problem.solution.problemImageIndex];
           [d addObject:problem.solution.solutionCorrect];
         [d addObject:[problem timeSinceProblemDisplay:problem.problemSubmitTime]];
         [d addObject:[problem timeSinceProblemDisplay:problem.solution.startTime]];

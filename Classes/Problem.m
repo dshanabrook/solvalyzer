@@ -25,7 +25,7 @@
 
 - (id)init {
   if (self =[super init]) {
-    problemImageIndex = 0;
+//    problemImageIndex = 0;
   }
   return self;
 }

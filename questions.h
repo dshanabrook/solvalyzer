@@ -11,16 +11,22 @@
 
 @interface Questions : NSObject {
     int currentQuestion;
-    NSMutableArray *allQuestions;
+    int numberOfQuestions;
+    NSMutableArray *questionImages;
 }
 
-@property(readonly) int currentQuestion;
+@property(nonatomic) int currentQuestion;
+@property(nonatomic) int numberOfQuestions;
 
++(Questions *) sharedQuestions;
 
--(id) initWithQuestions: (NSMutableArray*)ques
-        currentQuestion:(int)cur;
-+(id) sharedQuestions;
+- (NSMutableArray*) questionImages;
 
+- (int) incCurrentQuestion;
+- (void) incNumberOfQuestions;
+
+- (void) resetCurrentQuestion;
+//- (void) setAllQuestions:(NSMutableArray*)input;
   
 @end
 

@@ -12,12 +12,12 @@
 
 @interface Problem : NSObject {
   ProblemSolution *solution;
-    NSNumber *problemImageIndex;
+//    NSNumber *problemImageIndex;
   NSDate *problemDisplayTime;
   NSDate *problemSubmitTime;
 //    int problemImageIndex;
 }
-@property (nonatomic, readonly) NSNumber *problemImageIndex;
+//@property (nonatomic, readonly) NSNumber *problemImageIndex;
 @property (nonatomic, readonly) NSDate *problemDisplayTime;
 @property (nonatomic, readonly) NSDate *problemSubmitTime;
 @property (nonatomic, retain, readonly) ProblemSolution *solution;

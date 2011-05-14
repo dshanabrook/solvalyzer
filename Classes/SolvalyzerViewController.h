@@ -31,7 +31,7 @@
 
 - (IBAction)finalizeSolution:(id)sender;
 - (IBAction)quitSolving:(id)sender;
-- (IBAction)setQuestions:(id)sender;
+//- (IBAction)setQuestions:(id)sender;
 
 
 @end

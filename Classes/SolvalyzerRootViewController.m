@@ -6,6 +6,7 @@
 //  Copyright 2011 Diabolical Labs, LLC. All rights reserved.
 //
 
+#import "questions.h"
 #import "ProblemStore.h"
 #import "Problem.h"
 #import "ProblemSolution.h"
@@ -19,6 +20,7 @@
 @implementation SolvalyzerRootViewController
 
 @synthesize restartButton;
+//@synthesize initializeQuestionsButton;
 
 - (void)presentSolvalyzer {
   self.restartButton.hidden = YES;
@@ -34,6 +36,11 @@
   [self presentSolvalyzer];
 }
 
+//- (IBAction)initializeQuestions:(id)sender {
+//    [[ProblemStore sharedProblemStore] resetProblemStore]; 
+//    [[Questions sharedQuestions] initializeQuestionsFromServer];
+//    [self presentSolvalyzer];
+//}
 - (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)toInterfaceOrientation {
   return YES;
 }

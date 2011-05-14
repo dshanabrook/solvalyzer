@@ -8,36 +8,72 @@
 
 #import "questions.h"
 
+static Questions *sharedQuestions;
 
 @implementation Questions
 
+
 @synthesize currentQuestion;
+@synthesize numberOfQuestions;
 
-
-//- (NSString*) setQuestionSet{
-//    return questionSet;
-//}
-
-//-(NSNumber*) setcurrentQuestion{
- //   return currentQuestion;
-//}
-
--(id) initWithQuestions:(NSMutableArray*)ques
-        currentQuestion:(int)cur;
-
-{
-    self = [self init];
-    currentQuestion = 0;
-    allQuestions = [[NSMutableArray alloc] init];
-    return self;
-}
-+ (Questions*)sharedQuestions {
-    static Questions *question = nil;
-    @synchronized([Questions class]) {
-        if (! question) {
-            question = [[Questions alloc] init];
-        }
++(Questions *) sharedQuestions{
+    if (!sharedQuestions) {
+        sharedQuestions = [[Questions alloc] init];
     }
-    return question;
+    else{
+        [sharedQuestions incCurrentQuestion];
+    }
+    return sharedQuestions;
 }
+
+//could also set currentQuestion= blank when > noq
+-(int) incCurrentQuestion{
+    currentQuestion++;
+    if (currentQuestion > numberOfQuestions) {
+        currentQuestion = 1;
+    }
+    return currentQuestion;
+}
+
+-(void) incNumberOfQuestions{
+    numberOfQuestions++;
+}
+-(void) resetCurrentQuestion {
+    currentQuestion = 1;
+    }
+    
+    
+- (id)init {
+    [self setCurrentQuestion:1];
+    questionImages = [[NSMutableArray alloc] init];
+    [self setNumberOfQuestions:0];
+
+    do {
+        NSString *imageURL = [[NSString alloc] initWithFormat:@"http://public.me.com/ix/davidshanabrook/questions/image%d.png",numberOfQuestions+1];
+        NSURL *URL = [NSURL URLWithString:imageURL];
+        [imageURL release];
+        NSData *imageData = [NSData dataWithContentsOfURL:URL];
+        if (imageData != nil){
+            [self incNumberOfQuestions];
+            [questionImages addObject:imageData];
+            }
+        else {
+            break;
+        }
+    } while (true);
+        return self;
+    }
+
+- (NSMutableArray*) questionImages{
+    return questionImages;
+    }
+
+
+
+
+//-(void) setquestionImages:(NSMutableArray *)input{
+//    [questionImages autorelease];
+//    questionImages = [input retain];
+    
+//}
 @end

@@ -37,15 +37,9 @@
 - (void)viewWillAppear:(BOOL)animated {
     [super viewWillAppear:animated];
     Problem *problem = [[ProblemStore sharedProblemStore] newProblem];
-    NSMutableArray *allQuestions = [Questions sharedQuestions] ;
-    int index = [[ProblemStore sharedProblemStore] currentImageIndex];
-//    NSString *imageURL = [[NSString  alloc]initWithFormat:@"http://public.me.com/ix/davidshanabrook/image%d.png",index];
-//    NSData *imageData = [NSData dataWithContentsOfURL:[NSURL URLWithString:imageURL]];
-//these next two lines do the same thing!!
-//    problemView.image = [UIImage imageWithData:imageData];
- //   problemView.image = [UIImage imageWithData:[allQuestions objectAtIndex:1]];
-//    [problemView setImage:([UIImage imageWithData:allQuestions])];
-    
+    Questions *current = [Questions sharedQuestions];
+    int x = [current currentQuestion] - 1;
+    problemView.image = [UIImage imageWithData:[[current questionImages]  objectAtIndex:x]];
 }
 
 
@@ -87,8 +81,8 @@
   NSString *filename = [NSString stringWithFormat:@"solution-%ld.png", 
                         [[[ProblemStore sharedProblemStore] currentProblem] problemID]];
   currentSolution.solutionCorrect = isCorrect;
-    NSNumber *index2 =[NSNumber numberWithInt:([[ProblemStore sharedProblemStore] currentImageIndex])];
-   currentSolution.problemImageIndex = index2;
+ //   NSNumber *index2 =[NSNumber numberWithInt:([[ProblemStore sharedProblemStore] currentImageIndex])];
+//   currentSolution.problemImageIndex = index2;
   currentSolution.solutionImageName = filename;
   NSData *data = UIImagePNGRepresentation(viewImage);
   [data writeToFile:[currentSolution solutionImagePath] atomically:YES];
@@ -109,19 +103,6 @@
   [solvalyzerDelegate solvalyzerControllerQuit:self];
 }
 
-- (IBAction)setQuestions:(id)sender {
-    NSString *title = [sender titleForState:UIControlStateNormal];
-    NSMutableArray *allQuestions = [[NSMutableArray alloc] init];
-    int i = 0;
-    while (i<100){
-        ++i;
-        NSString *imageURL = [[NSString alloc] initWithFormat:@"http://public.me.com/ix/davidshanabrook/%@/image%d.png",title,i];
-        NSURL *URL = [NSURL URLWithString:imageURL];
-        NSData *imageData = [NSData dataWithContentsOfURL:URL];
-        if (imageData == nil)
-            break;
-        [allQuestions addObject:[UIImage imageWithData:imageData]];
-    }
-}
+
 
 @end
