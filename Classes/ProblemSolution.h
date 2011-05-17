@@ -14,7 +14,7 @@ typedef void(^SolutionStrokeBlock)(SolutionStroke *stroke, NSUInteger strokeNum)
 
 @interface ProblemSolution : NSObject {
   NSString *solutionImageName;
-//    NSNumber *problemImageIndex;
+    NSNumber *problemImageIndex;
     NSString *solutionCorrect;
   NSMutableArray *solutionStrokes;
   NSDate *startTime;
@@ -25,7 +25,8 @@ typedef void(^SolutionStrokeBlock)(SolutionStroke *stroke, NSUInteger strokeNum)
 @property (nonatomic, retain, readonly) NSDate *endTime;
 @property (nonatomic, retain) NSString *solutionImageName;
 @property (nonatomic, retain) NSString *solutionCorrect;
-//@property (nonatomic, retain) NSNumber *problemImageIndex;
+@property (nonatomic) NSNumber *problemImageIndex;
+
 + (ProblemSolution*)problemSolution;
 
 - (void)beginProblemSolution;

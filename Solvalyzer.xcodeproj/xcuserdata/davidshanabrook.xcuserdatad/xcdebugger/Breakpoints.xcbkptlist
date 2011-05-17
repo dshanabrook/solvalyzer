@@ -21,42 +21,14 @@
          shouldBeEnabled = "Yes"
          ignoreCount = "0"
          continueAfterRunningActions = "No"
-         isPathRelative = "1"
-         filePath = "Classes/ProblemStore.m"
-         timestampString = "326998012.947017"
+         isPathRelative = "0"
+         filePath = "/var/folders/0z/j049pbnn36x1zprg1q72gdhb++++fn/T/ycLU2fnz-questions.m"
+         timestampString = "327255761.086554"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "74"
-         endingLineNumber = "74"
-         landmarkName = "-newProblem"
-         landmarkType = "5">
-      </FileBreakpoint>
-      <FileBreakpoint
-         shouldBeEnabled = "Yes"
-         ignoreCount = "0"
-         continueAfterRunningActions = "No"
-         isPathRelative = "1"
-         filePath = "questions.m"
-         timestampString = "327011230.72765"
-         startingColumnNumber = "9223372036854775807"
-         endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "63"
-         endingLineNumber = "63"
-         landmarkName = "-init"
-         landmarkType = "5">
-      </FileBreakpoint>
-      <FileBreakpoint
-         shouldBeEnabled = "Yes"
-         ignoreCount = "0"
-         continueAfterRunningActions = "No"
-         isPathRelative = "1"
-         filePath = "questions.m"
-         timestampString = "327011230.72765"
-         startingColumnNumber = "9223372036854775807"
-         endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "47"
-         endingLineNumber = "47"
-         landmarkName = "-init"
+         startingLineNumber = "21"
+         endingLineNumber = "21"
+         landmarkName = "+sharedQuestions"
          landmarkType = "5">
       </FileBreakpoint>
    </FileBreakpoints>

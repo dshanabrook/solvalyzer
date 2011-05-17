@@ -38,8 +38,8 @@
     [super viewWillAppear:animated];
     Problem *problem = [[ProblemStore sharedProblemStore] newProblem];
     Questions *current = [Questions sharedQuestions];
-    int x = [current currentQuestion] - 1;
-    problemView.image = [UIImage imageWithData:[[current questionImages]  objectAtIndex:x]];
+    [current incCurrentQuestion];
+    problemView.image = [UIImage imageWithData:[[current questionImages]  objectAtIndex:[current currentQuestion]]];
 }
 
 
@@ -81,8 +81,10 @@
   NSString *filename = [NSString stringWithFormat:@"solution-%ld.png", 
                         [[[ProblemStore sharedProblemStore] currentProblem] problemID]];
   currentSolution.solutionCorrect = isCorrect;
- //   NSNumber *index2 =[NSNumber numberWithInt:([[ProblemStore sharedProblemStore] currentImageIndex])];
-//   currentSolution.problemImageIndex = index2;
+#warning set problemImageIndex here
+    Questions *current = [Questions sharedQuestions];
+    int x = [current currentQuestion];
+  currentSolution.problemImageIndex =  [NSNumber numberWithInteger:x];
   currentSolution.solutionImageName = filename;
   NSData *data = UIImagePNGRepresentation(viewImage);
   [data writeToFile:[currentSolution solutionImagePath] atomically:YES];

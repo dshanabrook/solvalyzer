@@ -19,11 +19,12 @@
 @synthesize endTime;
 @synthesize solutionImageName;
 @synthesize solutionCorrect;
-//@synthesize problemImageIndex;
+@synthesize problemImageIndex;
 
 
 - (void)dealloc {
   [solutionImageName release];
+//    [problemImageIndex release];
   [solutionCorrect release];
   [startTime release];
   [endTime release];

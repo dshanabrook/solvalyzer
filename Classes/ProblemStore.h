@@ -16,7 +16,6 @@
 typedef void(^ProblemBlock)(Problem *problem);
 
 @interface ProblemStore : NSObject {
-  //  int currentImageIndex;
   Problem *currentProblem;
   ProblemSolution *currentSolution;
   SolutionStroke *currentStroke;
@@ -24,7 +23,6 @@ typedef void(^ProblemBlock)(Problem *problem);
   NSMutableArray *allProblems;
 }
 
-//@property (readonly) int currentImageIndex;
 @property (nonatomic, retain) Problem *currentProblem;
 @property (nonatomic, retain) ProblemSolution *currentSolution;
 @property (nonatomic, retain) SolutionStroke *currentStroke;

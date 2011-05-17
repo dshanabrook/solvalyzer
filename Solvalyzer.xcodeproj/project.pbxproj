@@ -74,8 +74,8 @@
 		19190FB013286D7100550793 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
 		19190FB213286DEB00550793 /* Entitlements.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Entitlements.plist; sourceTree = "<group>"; };
 		19CE78CB13311ECF0097C054 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
-		AB2F8ADA1362E94C00171651 /* questions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = questions.h; sourceTree = SOURCE_ROOT; };
-		AB2F8ADB1362E94C00171651 /* questions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = questions.m; sourceTree = SOURCE_ROOT; };
+		AB2F8ADA1362E94C00171651 /* questions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = questions.h; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		AB2F8ADB1362E94C00171651 /* questions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = questions.m; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
 		AB5E7BD213477BF100226393 /* theBest.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = theBest.png; sourceTree = "<group>"; };
 		AB85CA071355F38F0021A7DB /* SolvalyzerViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SolvalyzerViewController.xib; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
@@ -170,8 +170,8 @@
 				19190F7E13286C5400550793 /* ProblemSolution.h */,
 				19190F7F13286C5400550793 /* ProblemSolution.m */,
 				19190F8013286C5400550793 /* ProblemStore.h */,
-				19190F8113286C5400550793 /* ProblemStore.m */,
 				19190F8213286C5400550793 /* SolutionPoint.h */,
+				19190F8113286C5400550793 /* ProblemStore.m */,
 				19190F8313286C5400550793 /* SolutionPoint.m */,
 				19190F8413286C5400550793 /* SolutionStroke.h */,
 				19190F8513286C5400550793 /* SolutionStroke.m */,

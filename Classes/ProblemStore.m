@@ -5,7 +5,7 @@
 //  Created by Andrew Hannon on 3/7/11.
 //  Copyright 2011 Diabolical Labs, LLC. All rights reserved.
 //
-
+#import "questions.h"
 #import "Problem.h"
 #import "ProblemSolution.h"
 #import "SolutionStroke.h"
@@ -63,14 +63,8 @@
   if (! startTime) {
     self.startTime = [NSDate date];
   }
-#warning shouldn't this be self.currentImageIndex
-//    currentImageIndex++;
-//    if (currentImageIndex > 3) {
- //       currentImageIndex = 1;
-  //  }
   self.currentProblem = [Problem problem];
   self.currentSolution = [ProblemSolution problemSolution];
-  //  self.currentSolution.currentImageIndex = currentImageIndex;
   return self.currentProblem;
 }
 
@@ -140,7 +134,7 @@
 #warning Quick hacked approach: 
   __block NSMutableArray *rows = [NSMutableArray array];
   NSArray *header = [NSArray arrayWithObjects:@"solutionImageName",
-//                    @"problemImageIndex",
+                     @"problemImageIndex",
                      @"solutionCorrect",
                      @"problemSubmitTimeDelta",
                      @"solutionStartTime",
@@ -167,7 +161,7 @@
       [stroke mapSolutionPoints:^(SolutionPoint *p, NSUInteger pNum) {
         NSMutableArray *d = [NSMutableArray array];
         [d addObject:problem.solution.solutionImageName];
-//         [d addObject:problem.solution.problemImageIndex];
+          [d addObject:problem.solution.problemImageIndex];
           [d addObject:problem.solution.solutionCorrect];
         [d addObject:[problem timeSinceProblemDisplay:problem.problemSubmitTime]];
         [d addObject:[problem timeSinceProblemDisplay:problem.solution.startTime]];

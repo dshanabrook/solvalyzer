@@ -11,18 +11,18 @@
 
 @interface Questions : NSObject {
     int currentQuestion;
-    int numberOfQuestions;
+    int maxQuestion;
     NSMutableArray *questionImages;
 }
 
 @property(nonatomic) int currentQuestion;
-@property(nonatomic) int numberOfQuestions;
+@property(nonatomic) int maxQuestion;
 
 +(Questions *) sharedQuestions;
 
 - (NSMutableArray*) questionImages;
 
-- (int) incCurrentQuestion;
+- (void) incCurrentQuestion;
 - (void) incNumberOfQuestions;
 
 - (void) resetCurrentQuestion;

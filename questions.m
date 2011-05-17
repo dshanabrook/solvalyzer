@@ -14,42 +14,41 @@ static Questions *sharedQuestions;
 
 
 @synthesize currentQuestion;
-@synthesize numberOfQuestions;
+@synthesize maxQuestion;
 
 +(Questions *) sharedQuestions{
     if (!sharedQuestions) {
         sharedQuestions = [[Questions alloc] init];
     }
-    else{
-        [sharedQuestions incCurrentQuestion];
-    }
     return sharedQuestions;
 }
 
 //could also set currentQuestion= blank when > noq
--(int) incCurrentQuestion{
+-(void) incCurrentQuestion{
     currentQuestion++;
-    if (currentQuestion > numberOfQuestions) {
-        currentQuestion = 1;
+    if (currentQuestion >= maxQuestion) {
+        currentQuestion = 0;
     }
-    return currentQuestion;
 }
 
 -(void) incNumberOfQuestions{
-    numberOfQuestions++;
+    maxQuestion++;
 }
 -(void) resetCurrentQuestion {
-    currentQuestion = 1;
+    currentQuestion = -1;
     }
     
-    
+
+#warning  why doesn't unitl (imageData!nil) work instead of break?
 - (id)init {
-    [self setCurrentQuestion:1];
+#warning assumes at least on question!  hack
     questionImages = [[NSMutableArray alloc] init];
-    [self setNumberOfQuestions:0];
+    [self setMaxQuestion:0];
+    [self setCurrentQuestion:-1];
+
 
     do {
-        NSString *imageURL = [[NSString alloc] initWithFormat:@"http://public.me.com/ix/davidshanabrook/questions/image%d.png",numberOfQuestions+1];
+        NSString *imageURL = [[NSString alloc] initWithFormat:@"http://public.me.com/ix/davidshanabrook/questions/image%d.png",maxQuestion];
         NSURL *URL = [NSURL URLWithString:imageURL];
         [imageURL release];
         NSData *imageData = [NSData dataWithContentsOfURL:URL];

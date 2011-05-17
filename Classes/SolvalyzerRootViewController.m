@@ -36,11 +36,7 @@
   [self presentSolvalyzer];
 }
 
-//- (IBAction)initializeQuestions:(id)sender {
-//    [[ProblemStore sharedProblemStore] resetProblemStore]; 
-//    [[Questions sharedQuestions] initializeQuestionsFromServer];
-//    [self presentSolvalyzer];
-//}
+
 - (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)toInterfaceOrientation {
   return YES;
 }

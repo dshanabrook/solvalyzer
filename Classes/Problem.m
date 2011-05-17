@@ -15,17 +15,14 @@
 
 @implementation Problem
 
-//note: not synthesizing problemImageINdex
 @synthesize solution;
 @synthesize problemDisplayTime;
 @synthesize problemSubmitTime;
-//@dynamic problemImageIndex;
 @dynamic problemID;
 
 
 - (id)init {
   if (self =[super init]) {
-//    problemImageIndex = 0;
   }
   return self;
 }
@@ -57,8 +54,5 @@
 - (NSNumber*)timeSinceProblemDisplay:(NSDate*)d {
   return [NSNumber numberWithDouble:[d timeIntervalSinceDate:problemDisplayTime]];
 }
-
-//- (int) problemImageIndex {
-//    return (int) 1;
 
 @end
