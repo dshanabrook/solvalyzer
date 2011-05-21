@@ -30,6 +30,7 @@
 		19190FB113286D7100550793 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 19190FB013286D7100550793 /* MessageUI.framework */; };
 		19190FB313286DEB00550793 /* Entitlements.plist in Resources */ = {isa = PBXBuildFile; fileRef = 19190FB213286DEB00550793 /* Entitlements.plist */; };
 		19CE78CC13311ECF0097C054 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 19CE78CB13311ECF0097C054 /* CoreMotion.framework */; };
+		7931823713873A14001C4FDF /* studentModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 7931823613873A14001C4FDF /* studentModel.m */; };
 		AB01B86F134BEA3B00729183 /* ProblemSolution.m in Sources */ = {isa = PBXBuildFile; fileRef = 19190F7F13286C5400550793 /* ProblemSolution.m */; };
 		AB2F8ADC1362E94C00171651 /* questions.m in Sources */ = {isa = PBXBuildFile; fileRef = AB2F8ADB1362E94C00171651 /* questions.m */; };
 		AB5E7BD313477BF100226393 /* theBest.png in Resources */ = {isa = PBXBuildFile; fileRef = AB5E7BD213477BF100226393 /* theBest.png */; };
@@ -74,6 +75,8 @@
 		19190FB013286D7100550793 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
 		19190FB213286DEB00550793 /* Entitlements.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Entitlements.plist; sourceTree = "<group>"; };
 		19CE78CB13311ECF0097C054 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
+		7931823513873A14001C4FDF /* studentModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = studentModel.h; sourceTree = SOURCE_ROOT; };
+		7931823613873A14001C4FDF /* studentModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = studentModel.m; sourceTree = SOURCE_ROOT; };
 		AB2F8ADA1362E94C00171651 /* questions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = questions.h; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
 		AB2F8ADB1362E94C00171651 /* questions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = questions.m; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
 		AB5E7BD213477BF100226393 /* theBest.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = theBest.png; sourceTree = "<group>"; };
@@ -163,6 +166,8 @@
 		19CE78C713311DD90097C054 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				7931823513873A14001C4FDF /* studentModel.h */,
+				7931823613873A14001C4FDF /* studentModel.m */,
 				AB2F8ADA1362E94C00171651 /* questions.h */,
 				AB2F8ADB1362E94C00171651 /* questions.m */,
 				19190F7C13286C5400550793 /* Problem.h */,
@@ -170,8 +175,8 @@
 				19190F7E13286C5400550793 /* ProblemSolution.h */,
 				19190F7F13286C5400550793 /* ProblemSolution.m */,
 				19190F8013286C5400550793 /* ProblemStore.h */,
-				19190F8213286C5400550793 /* SolutionPoint.h */,
 				19190F8113286C5400550793 /* ProblemStore.m */,
+				19190F8213286C5400550793 /* SolutionPoint.h */,
 				19190F8313286C5400550793 /* SolutionPoint.m */,
 				19190F8413286C5400550793 /* SolutionStroke.h */,
 				19190F8513286C5400550793 /* SolutionStroke.m */,
@@ -281,6 +286,7 @@
 				19190FAE13286C7700550793 /* main.m in Sources */,
 				AB01B86F134BEA3B00729183 /* ProblemSolution.m in Sources */,
 				AB2F8ADC1362E94C00171651 /* questions.m in Sources */,
+				7931823713873A14001C4FDF /* studentModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

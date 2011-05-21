@@ -136,6 +136,7 @@
   NSArray *header = [NSArray arrayWithObjects:@"solutionImageName",
                      @"problemImageIndex",
                      @"solutionCorrect",
+                     @"correctnessLevel",
                      @"problemSubmitTimeDelta",
                      @"solutionStartTime",
                      @"solutionSubmitTime",
@@ -148,6 +149,7 @@
     // solutionImageName
       //problemImageIndex
       //solutionCorrect
+      //correctneLevel
     // problemDisplayTime
     // problemSubmitTime 
     // [solution]startTime
@@ -163,6 +165,8 @@
         [d addObject:problem.solution.solutionImageName];
           [d addObject:problem.solution.problemImageIndex];
           [d addObject:problem.solution.solutionCorrect];
+#warning either have to add student model to problem (wrong!) or better just access the singleton value here.  But then this should also be done for the problemImageIndex, removing it and accessing the singleton directly.
+          [d addObject:problem.solution.correctnessLevel];
         [d addObject:[problem timeSinceProblemDisplay:problem.problemSubmitTime]];
         [d addObject:[problem timeSinceProblemDisplay:problem.solution.startTime]];
         [d addObject:[problem timeSinceProblemDisplay:problem.solution.endTime]];

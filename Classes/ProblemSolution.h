@@ -16,6 +16,7 @@ typedef void(^SolutionStrokeBlock)(SolutionStroke *stroke, NSUInteger strokeNum)
   NSString *solutionImageName;
     NSNumber *problemImageIndex;
     NSString *solutionCorrect;
+    NSNumber *correctnessLevel;
   NSMutableArray *solutionStrokes;
   NSDate *startTime;
   NSDate *endTime;
@@ -25,7 +26,8 @@ typedef void(^SolutionStrokeBlock)(SolutionStroke *stroke, NSUInteger strokeNum)
 @property (nonatomic, retain, readonly) NSDate *endTime;
 @property (nonatomic, retain) NSString *solutionImageName;
 @property (nonatomic, retain) NSString *solutionCorrect;
-@property (nonatomic) NSNumber *problemImageIndex;
+@property (nonatomic, retain) NSNumber *problemImageIndex;
+@property (nonatomic, retain) NSNumber *correctnessLevel;
 
 + (ProblemSolution*)problemSolution;
 
@@ -35,7 +37,6 @@ typedef void(^SolutionStrokeBlock)(SolutionStroke *stroke, NSUInteger strokeNum)
 
 - (void)mapSolutionStrokes:(SolutionStrokeBlock)block;
 - (NSUInteger)strokeCount;
-
 #warning kludge
 - (NSString*)solutionImagePath;
 

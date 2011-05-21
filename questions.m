@@ -40,8 +40,8 @@ static Questions *sharedQuestions;
     
 
 #warning  why doesn't unitl (imageData!nil) work instead of break?
-- (id)init {
 #warning assumes at least on question!  hack
+- (id)init {
     questionImages = [[NSMutableArray alloc] init];
     [self setMaxQuestion:0];
     [self setCurrentQuestion:-1];

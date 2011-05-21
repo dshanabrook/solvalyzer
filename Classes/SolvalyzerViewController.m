@@ -7,6 +7,7 @@
 //
 
 #import <QuartzCore/QuartzCore.h>
+#import "studentModel.h"
 #import "questions.h"
 #import "ProblemStore.h"
 #import "Problem.h"
@@ -80,12 +81,11 @@
   ProblemSolution *currentSolution = [[ProblemStore sharedProblemStore] currentSolution];
   NSString *filename = [NSString stringWithFormat:@"solution-%ld.png", 
                         [[[ProblemStore sharedProblemStore] currentProblem] problemID]];
-  currentSolution.solutionCorrect = isCorrect;
-#warning set problemImageIndex here
-    Questions *current = [Questions sharedQuestions];
-    int x = [current currentQuestion];
-  currentSolution.problemImageIndex =  [NSNumber numberWithInteger:x];
-  currentSolution.solutionImageName = filename;
+    currentSolution.solutionImageName = filename;
+    currentSolution.solutionCorrect = isCorrect;
+    int x = [[Questions sharedQuestions] currentQuestion];
+    currentSolution.problemImageIndex =  [NSNumber numberWithInteger:x];
+    currentSolution.correctnessLevel = correctnessLevel;
   NSData *data = UIImagePNGRepresentation(viewImage);
   [data writeToFile:[currentSolution solutionImagePath] atomically:YES];
 }
@@ -95,6 +95,12 @@
     [self writeSolutionImage:title];
   [[ProblemStore sharedProblemStore] solutionSubmitted];
   [solvalyzerDelegate solvalyzerControllerSolved:self];
+    
+    StudentModel *currentStudentModel = [StudentModel sharedStudentModel];
+    if ([title isEqualToString:@"Got it right!"])
+        [currentStudentModel incCorrectnessLevel];
+    else
+        [currentStudentModel decCorrectnessLevel];
 }
 
 - (IBAction)quitSolving:(id)sender {

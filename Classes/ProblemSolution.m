@@ -20,6 +20,7 @@
 @synthesize solutionImageName;
 @synthesize solutionCorrect;
 @synthesize problemImageIndex;
+@synthesize correctnessLevel;
 
 
 - (void)dealloc {
