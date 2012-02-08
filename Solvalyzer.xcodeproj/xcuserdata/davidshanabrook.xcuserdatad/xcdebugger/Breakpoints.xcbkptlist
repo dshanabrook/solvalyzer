@@ -22,27 +22,13 @@
          ignoreCount = "0"
          continueAfterRunningActions = "No"
          isPathRelative = "0"
-         filePath = "/var/folders/0z/j049pbnn36x1zprg1q72gdhb++++fn/T/ycLU2fnz-questions.m"
+         filePath = "../../../../../../../../var/folders/0z/j049pbnn36x1zprg1q72gdhb++++fn/T/ycLU2fnz-questions.m"
          timestampString = "327255761.086554"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
          startingLineNumber = "21"
          endingLineNumber = "21"
          landmarkName = "+sharedQuestions"
-         landmarkType = "5">
-      </FileBreakpoint>
-      <FileBreakpoint
-         shouldBeEnabled = "Yes"
-         ignoreCount = "0"
-         continueAfterRunningActions = "No"
-         isPathRelative = "1"
-         filePath = "Classes/SolvalyzerViewController.m"
-         timestampString = "327698630.889316"
-         startingColumnNumber = "9223372036854775807"
-         endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "88"
-         endingLineNumber = "88"
-         landmarkName = "-writeSolutionImage:"
          landmarkType = "5">
       </FileBreakpoint>
    </FileBreakpoints>

@@ -133,7 +133,8 @@
 - (NSData*)problemStoreToData {
 #warning Quick hacked approach: 
   __block NSMutableArray *rows = [NSMutableArray array];
-  NSArray *header = [NSArray arrayWithObjects:@"solutionImageName",
+  NSArray *header = [NSArray arrayWithObjects:
+                     @"solutionImageName",
                      @"problemImageIndex",
                      @"solutionCorrect",
                      @"correctnessLevel",

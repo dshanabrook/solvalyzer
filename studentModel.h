@@ -20,6 +20,6 @@
 
 -(void) incCorrectnessLevel;
 -(void) decCorrectnessLevel;
-
+-(void) resetSharedStudentModel;
 + (StudentModel *) sharedStudentModel;
 @end

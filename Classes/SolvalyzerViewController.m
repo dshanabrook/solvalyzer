@@ -38,9 +38,8 @@
 - (void)viewWillAppear:(BOOL)animated {
     [super viewWillAppear:animated];
     Problem *problem = [[ProblemStore sharedProblemStore] newProblem];
-    Questions *current = [Questions sharedQuestions];
-    [current incCurrentQuestion];
-    problemView.image = [UIImage imageWithData:[[current questionImages]  objectAtIndex:[current currentQuestion]]];
+    [[Questions sharedQuestions]incCurrentQuestion];
+    problemView.image = [UIImage imageWithData:[[[Questions sharedQuestions] questionImages]  objectAtIndex:[[Questions sharedQuestions] currentQuestion]]];
 }
 
 
@@ -85,22 +84,27 @@
     currentSolution.solutionCorrect = isCorrect;
     int x = [[Questions sharedQuestions] currentQuestion];
     currentSolution.problemImageIndex =  [NSNumber numberWithInteger:x];
-    currentSolution.correctnessLevel = correctnessLevel;
+    int y = [[StudentModel sharedStudentModel] correctnessLevel];
+    currentSolution.correctnessLevel = [NSNumber numberWithInteger:y];
   NSData *data = UIImagePNGRepresentation(viewImage);
   [data writeToFile:[currentSolution solutionImagePath] atomically:YES];
 }
 
 - (IBAction)finalizeSolution:(id)sender {
-   NSString *title = [sender titleForState:UIControlStateNormal];
-    [self writeSolutionImage:title];
-  [[ProblemStore sharedProblemStore] solutionSubmitted];
-  [solvalyzerDelegate solvalyzerControllerSolved:self];
-    
-    StudentModel *currentStudentModel = [StudentModel sharedStudentModel];
+    NSString *title = [sender titleForState:UIControlStateNormal];
+
     if ([title isEqualToString:@"Got it right!"])
-        [currentStudentModel incCorrectnessLevel];
+        [[StudentModel sharedStudentModel] incCorrectnessLevel];
     else
-        [currentStudentModel decCorrectnessLevel];
+        [[StudentModel sharedStudentModel] decCorrectnessLevel];
+    [self writeSolutionImage:title];
+    if ([[Questions sharedQuestions] currentQuestion] >= [[Questions sharedQuestions] maxQuestion]) {
+        [self writeSolutionImage:@"maxedOut"];
+        [[ProblemStore sharedProblemStore] solutionSubmitted];
+        [solvalyzerDelegate solvalyzerControllerQuit:self];
+    }
+    else
+        [solvalyzerDelegate solvalyzerControllerSolved:self];
 }
 
 - (IBAction)quitSolving:(id)sender {

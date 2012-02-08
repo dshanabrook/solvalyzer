@@ -44,5 +44,8 @@ static StudentModel *sharedStudentModel;
     }
         return sharedStudentModel;
 }
+- (void)resetSharedStudentModel {
+    self.correctnessLevel = 0;
+}
 
 @end

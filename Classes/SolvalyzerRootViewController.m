@@ -6,6 +6,7 @@
 //  Copyright 2011 Diabolical Labs, LLC. All rights reserved.
 //
 
+#import "studentModel.h"
 #import "questions.h"
 #import "ProblemStore.h"
 #import "Problem.h"
@@ -33,6 +34,8 @@
 
 - (IBAction)restartSolvalyzer:(id)sender {
   [[ProblemStore sharedProblemStore] resetProblemStore]; 
+    [[StudentModel sharedStudentModel] resetSharedStudentModel];
+    [[Questions sharedQuestions] resetCurrentQuestion];
   [self presentSolvalyzer];
 }
 

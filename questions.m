@@ -26,16 +26,16 @@ static Questions *sharedQuestions;
 //could also set currentQuestion= blank when > noq
 -(void) incCurrentQuestion{
     currentQuestion++;
-    if (currentQuestion >= maxQuestion) {
-        currentQuestion = 0;
-    }
+//    if (currentQuestion >= maxQuestion) {
+//        currentQuestion = 0;
+ //   }
 }
 
 -(void) incNumberOfQuestions{
     maxQuestion++;
 }
 -(void) resetCurrentQuestion {
-    currentQuestion = -1;
+    currentQuestion =-1;
     }
     
 
@@ -43,22 +43,21 @@ static Questions *sharedQuestions;
 #warning assumes at least on question!  hack
 - (id)init {
     questionImages = [[NSMutableArray alloc] init];
-    [self setMaxQuestion:0];
+    [self setMaxQuestion:-1];
     [self setCurrentQuestion:-1];
 
 
     do {
-        NSString *imageURL = [[NSString alloc] initWithFormat:@"http://public.me.com/ix/davidshanabrook/questions/image%d.png",maxQuestion];
+        NSString *imageURL = [[NSString alloc] initWithFormat:@"http://public.me.com/ix/davidshanabrook/questions/image%d.png",maxQuestion+1];
         NSURL *URL = [NSURL URLWithString:imageURL];
         [imageURL release];
         NSData *imageData = [NSData dataWithContentsOfURL:URL];
         if (imageData != nil){
             [self incNumberOfQuestions];
             [questionImages addObject:imageData];
-            }
-        else {
-            break;
         }
+        else 
+            break;
     } while (true);
         return self;
     }
