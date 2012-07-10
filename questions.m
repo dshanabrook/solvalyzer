@@ -48,7 +48,7 @@ static Questions *sharedQuestions;
 
 
     do {
-        NSString *imageURL = [[NSString alloc] initWithFormat:@"http://public.me.com/ix/davidshanabrook/questions/image%d.png",maxQuestion+1];
+        NSString *imageURL = [[NSString alloc] initWithFormat:@"http://dl.dropbox.com/u/38837548/questions/image%d.png",maxQuestion+1];
         NSURL *URL = [NSURL URLWithString:imageURL];
         [imageURL release];
         NSData *imageData = [NSData dataWithContentsOfURL:URL];
