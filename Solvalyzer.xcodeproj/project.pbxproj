@@ -230,7 +230,7 @@
 		19190F4F13286C0700550793 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0420;
+				LastUpgradeCheck = 0450;
 				ORGANIZATIONNAME = "Diabolical Labs, LLC";
 			};
 			buildConfigurationList = 19190F5213286C0700550793 /* Build configuration list for PBXProject "Solvalyzer" */;
