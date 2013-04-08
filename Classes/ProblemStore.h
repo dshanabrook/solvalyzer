@@ -11,7 +11,7 @@
 #import "ProblemSolution.h"
 
 @class SolutionStroke;
-@class Problem;
+@class Problem ;
 
 typedef void(^ProblemBlock)(Problem *problem);
 
@@ -23,10 +23,10 @@ typedef void(^ProblemBlock)(Problem *problem);
   NSMutableArray *allProblems;
 }
 
-@property (nonatomic, retain) Problem *currentProblem;
-@property (nonatomic, retain) ProblemSolution *currentSolution;
-@property (nonatomic, retain) SolutionStroke *currentStroke;
-@property (nonatomic, retain) NSDate *startTime;
+@property (nonatomic, retain, readonly) Problem *currentProblem;
+@property (nonatomic, retain, readonly) ProblemSolution *currentSolution;
+@property (nonatomic, retain, readonly) SolutionStroke *currentStroke;
+@property (nonatomic, retain, readonly) NSDate *startTime;
 
 + (ProblemStore*)sharedProblemStore;
 

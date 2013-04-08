@@ -98,13 +98,12 @@
     else
         [[StudentModel sharedStudentModel] decCorrectnessLevel];
     [self writeSolutionImage:title];
-    if ([[Questions sharedQuestions] currentQuestion] >= [[Questions sharedQuestions] maxQuestion]) {
-        [self writeSolutionImage:@"maxedOut"];
-        [[ProblemStore sharedProblemStore] solutionSubmitted];
+    [[ProblemStore sharedProblemStore] solutionSubmitted];
+    if ([[Questions sharedQuestions] currentQuestion] >= [[Questions sharedQuestions] maxQuestion])
         [solvalyzerDelegate solvalyzerControllerQuit:self];
-    }
     else
         [solvalyzerDelegate solvalyzerControllerSolved:self];
+    
 }
 
 - (IBAction)quitSolving:(id)sender {

@@ -14,12 +14,12 @@
 
 #warning  why was this here?  commented out and changed in .h getting rid of readonly
 #warning possible danger!
-//@interface ProblemStore()
-//@property (nonatomic, retain) Problem *currentProblem;
-//@property (nonatomic, retain) ProblemSolution *currentSolution;
-//@property (nonatomic, retain) SolutionStroke *currentStroke;
-//@property (nonatomic, retain) NSDate *startTime;
-//@end
+@interface ProblemStore()
+@property (nonatomic, retain) Problem *currentProblem;
+@property (nonatomic, retain) ProblemSolution *currentSolution;
+@property (nonatomic, retain) SolutionStroke *currentStroke;
+@property (nonatomic, retain) NSDate *startTime;
+@end
 
 @implementation ProblemStore
 
