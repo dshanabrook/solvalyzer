@@ -18,8 +18,8 @@ typedef void(^SolutionPointBlock)(SolutionPoint *point, NSUInteger pointNum);
   NSMutableArray *solutionPoints;
 }
 
-@property (nonatomic, retain, readonly) NSDate *startTime;
-@property (nonatomic, retain, readonly) NSDate *endTime;
+@property (nonatomic, strong, readonly) NSDate *startTime;
+@property (nonatomic, strong, readonly) NSDate *endTime;
 
 + (SolutionStroke*)solutionStroke;
 

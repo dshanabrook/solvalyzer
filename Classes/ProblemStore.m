@@ -15,10 +15,10 @@
 #warning  why was this here?  commented out and changed in .h getting rid of readonly
 #warning possible danger!
 @interface ProblemStore()
-@property (nonatomic, retain) Problem *currentProblem;
-@property (nonatomic, retain) ProblemSolution *currentSolution;
-@property (nonatomic, retain) SolutionStroke *currentStroke;
-@property (nonatomic, retain) NSDate *startTime;
+@property (nonatomic, strong) Problem *currentProblem;
+@property (nonatomic, strong) ProblemSolution *currentSolution;
+@property (nonatomic, strong) SolutionStroke *currentStroke;
+@property (nonatomic, strong) NSDate *startTime;
 @end
 
 @implementation ProblemStore
@@ -31,19 +31,11 @@
 
 - (id)init {
   if (self=[super init]) {
-    [allProblems release];
     allProblems = [[NSMutableArray alloc] init];
   }
   return self;
 }
 
-- (void)dealloc {
-  [currentStroke release];
-  [currentSolution release];
-  [currentProblem release];
-  [startTime release];
-  [super dealloc];
-}
 
 + (ProblemStore*)sharedProblemStore {
   static ProblemStore *store = nil;
@@ -115,7 +107,6 @@
   self.currentSolution = nil;
   self.currentStroke = nil;
   self.startTime = nil;
-  [allProblems release];
   allProblems = [[NSMutableArray alloc] init];
 }
 
@@ -132,9 +123,8 @@
 
 - (NSData*)problemStoreToData {
 #warning Quick hacked approach: 
-  __block NSMutableArray *rows = [NSMutableArray array];
-  NSArray *header = [NSArray arrayWithObjects:
-                     @"solutionImageName",
+  __unsafe_unretained NSMutableArray *rows = [NSMutableArray array];
+  NSArray *header = @[@"solutionImageName",
                      @"problemImageIndex",
                      @"solutionCorrect",
                      @"correctnessLevel",
@@ -144,7 +134,7 @@
                      @"strokeStartTime",
                      @"strokeEndTime",
                      @"x", @"y", @"pointTime",
-                     @"accel_x", @"accel_y", @"accel_z", nil];
+                     @"accel_x", @"accel_y", @"accel_z"];
   [rows addObject:[header componentsJoinedByString:@","]];
   for (Problem *problem in allProblems) {
     // solutionImageName
@@ -173,12 +163,12 @@
         [d addObject:[problem timeSinceProblemDisplay:problem.solution.endTime]];
         [d addObject:[problem timeSinceProblemDisplay:stroke.startTime]];
         [d addObject:[problem timeSinceProblemDisplay:stroke.endTime]];
-        [d addObject:[NSNumber numberWithFloat:p.solutionPoint.x]];
-        [d addObject:[NSNumber numberWithFloat:p.solutionPoint.y]];
+        [d addObject:@(p.solutionPoint.x)];
+        [d addObject:@(p.solutionPoint.y)];
         [d addObject:[problem timeSinceProblemDisplay:p.strokeTime]];
-        [d addObject:[NSNumber numberWithDouble:p.solutionAcceleration.x]];
-        [d addObject:[NSNumber numberWithDouble:p.solutionAcceleration.y]];
-        [d addObject:[NSNumber numberWithDouble:p.solutionAcceleration.z]];
+        [d addObject:@(p.solutionAcceleration.x)];
+        [d addObject:@(p.solutionAcceleration.y)];
+        [d addObject:@(p.solutionAcceleration.z)];
         [rows addObject:[d componentsJoinedByString:@","]];
       }];
     }];

@@ -9,8 +9,8 @@
 #import "SolutionStroke.h"
 
 @interface SolutionStroke()
-@property (nonatomic, retain) NSDate *startTime;
-@property (nonatomic, retain) NSDate *endTime;
+@property (nonatomic, strong) NSDate *startTime;
+@property (nonatomic, strong) NSDate *endTime;
 @end
 
 @implementation SolutionStroke
@@ -19,18 +19,11 @@
 @synthesize endTime;
 
 + (SolutionStroke*)solutionStroke {
-  return [[[SolutionStroke alloc] init] autorelease];
+  return [[SolutionStroke alloc] init];
 }
 
-- (void)dealloc {
-  [startTime release];
-  [endTime release];
-  [solutionPoints release];
-  [super dealloc];
-}
 
 - (void)beginStroke {
-  [solutionPoints release];
   solutionPoints = [[NSMutableArray alloc] init];
   self.startTime = [NSDate date];
 }

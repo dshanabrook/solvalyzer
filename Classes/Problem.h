@@ -17,7 +17,7 @@
 }
 @property (nonatomic, readonly) NSDate *problemDisplayTime;
 @property (nonatomic, readonly) NSDate *problemSubmitTime;
-@property (nonatomic, retain, readonly) ProblemSolution *solution;
+@property (nonatomic, strong, readonly) ProblemSolution *solution;
 @property (readonly) long problemID;
 
 

@@ -10,7 +10,7 @@
 #import "Problem.h"
 
 @interface Problem()
-@property (nonatomic, retain) ProblemSolution *solution;
+@property (nonatomic, strong) ProblemSolution *solution;
 @end
 
 @implementation Problem
@@ -28,31 +28,24 @@
 }
 
 + (Problem*)problem {
-  return [[[Problem alloc] init] autorelease];
+  return [[Problem alloc] init];
 }
 
-- (void)dealloc {
-  [problemDisplayTime release];
-  [solution release];
-  [super dealloc];
-}
 
 - (long)problemID {
   return (long)floor([problemDisplayTime timeIntervalSinceReferenceDate]);
 }
 
 - (void)problemDisplayed {
-  [problemDisplayTime release];
   problemDisplayTime = [[NSDate alloc] init];
 }
 
 - (void)solutionSubmitted:(ProblemSolution*)sol {
   self.solution = sol;
-  [problemSubmitTime release];
   problemSubmitTime = [[NSDate alloc] init];
 }
 - (NSNumber*)timeSinceProblemDisplay:(NSDate*)d {
-  return [NSNumber numberWithDouble:[d timeIntervalSinceDate:problemDisplayTime]];
+  return @([d timeIntervalSinceDate:problemDisplayTime]);
 }
 
 @end

@@ -33,10 +33,6 @@ static StudentModel *sharedStudentModel;
 }
 
 
-- (void)dealloc
-{
-    [super dealloc];
-}
 
 + (StudentModel *) sharedStudentModel{
     if (!sharedStudentModel) {

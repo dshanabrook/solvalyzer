@@ -21,8 +21,7 @@
   if (self=[self init]) {
     solutionPoint = p;
     solutionAcceleration = accel;
-    [strokeTime release];
-    strokeTime = [t retain];
+    strokeTime = t;
   }
   return self;
 }
@@ -30,15 +29,10 @@
 + (SolutionPoint*)solutionPoint:(CGPoint)p 
                withAcceleration:(CMAcceleration)accel
                          atTime:(NSDate*)strokeTime {
-  return [[[SolutionPoint alloc] initWithSolutionPoint:p 
+  return [[SolutionPoint alloc] initWithSolutionPoint:p 
                                       withAcceleration:accel
-                                                atTime:strokeTime]
-          autorelease];
+                                                atTime:strokeTime];
 }
 
-- (void)dealloc {
-  [strokeTime release];
-  [super dealloc];
-}
 
 @end

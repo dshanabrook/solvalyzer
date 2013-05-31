@@ -64,7 +64,7 @@
 
 #warning Kludge part 2
 - (NSString*)documentsDirectory {
-  return [NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES) objectAtIndex:0];
+  return NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES)[0];
 }
 
 - (NSString*)solutionImagePath {

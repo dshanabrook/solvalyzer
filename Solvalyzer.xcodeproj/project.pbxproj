@@ -7,16 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7904D9731756DBD200C3E363 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7904D9721756DBD200C3E363 /* Security.framework */; };
 		7947BA3215AC8D4E002C6988 /* Problem.m in Sources */ = {isa = PBXBuildFile; fileRef = 19190F7D13286C5400550793 /* Problem.m */; };
 		7947BA3315AC8D4E002C6988 /* ProblemStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 19190F8113286C5400550793 /* ProblemStore.m */; };
 		7947BA3415AC8D4E002C6988 /* SolutionPoint.m in Sources */ = {isa = PBXBuildFile; fileRef = 19190F8313286C5400550793 /* SolutionPoint.m */; };
 		7947BA3515AC8D4E002C6988 /* SolutionStroke.m in Sources */ = {isa = PBXBuildFile; fileRef = 19190F8513286C5400550793 /* SolutionStroke.m */; };
-		7947BA3615AC8D4E002C6988 /* SolvalyzerAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 19190F8713286C5400550793 /* SolvalyzerAppDelegate.m */; };
-		7947BA3715AC8D4E002C6988 /* SolvalyzerRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 19190F8913286C5400550793 /* SolvalyzerRootViewController.m */; };
-		7947BA3815AC8D4E002C6988 /* SolvalyzerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 19190F8B13286C5400550793 /* SolvalyzerViewController.m */; };
-		7947BA3915AC8D4E002C6988 /* SolverView.m in Sources */ = {isa = PBXBuildFile; fileRef = 19190F8D13286C5400550793 /* SolverView.m */; };
-		7947BA3A15AC8D4E002C6988 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 19190FA513286C7700550793 /* main.m */; };
-		7947BA3B15AC8D4E002C6988 /* ProblemSolution.m in Sources */ = {isa = PBXBuildFile; fileRef = 19190F7F13286C5400550793 /* ProblemSolution.m */; };
+		7947BA3615AC8D4E002C6988 /* SolvalyzerAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 19190F8713286C5400550793 /* SolvalyzerAppDelegate.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		7947BA3715AC8D4E002C6988 /* SolvalyzerRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 19190F8913286C5400550793 /* SolvalyzerRootViewController.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		7947BA3815AC8D4E002C6988 /* SolvalyzerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 19190F8B13286C5400550793 /* SolvalyzerViewController.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		7947BA3915AC8D4E002C6988 /* SolverView.m in Sources */ = {isa = PBXBuildFile; fileRef = 19190F8D13286C5400550793 /* SolverView.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		7947BA3A15AC8D4E002C6988 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 19190FA513286C7700550793 /* main.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		7947BA3B15AC8D4E002C6988 /* ProblemSolution.m in Sources */ = {isa = PBXBuildFile; fileRef = 19190F7F13286C5400550793 /* ProblemSolution.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		7947BA3C15AC8D4E002C6988 /* questions.m in Sources */ = {isa = PBXBuildFile; fileRef = AB2F8ADB1362E94C00171651 /* questions.m */; };
 		7947BA3D15AC8D4E002C6988 /* studentModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 7931823613873A14001C4FDF /* studentModel.m */; };
 		7947BA3F15AC8D4E002C6988 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 19CE78CB13311ECF0097C054 /* CoreMotion.framework */; };
@@ -74,6 +75,8 @@
 		19190FB013286D7100550793 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
 		19190FB213286DEB00550793 /* Entitlements.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Entitlements.plist; sourceTree = "<group>"; };
 		19CE78CB13311ECF0097C054 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
+		7904D9701756DB3800C3E363 /* DropboxSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = DropboxSDK.framework; sourceTree = "<group>"; };
+		7904D9721756DBD200C3E363 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 		7931823513873A14001C4FDF /* studentModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = studentModel.h; sourceTree = SOURCE_ROOT; };
 		7931823613873A14001C4FDF /* studentModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = studentModel.m; sourceTree = SOURCE_ROOT; };
 		7947BA1B15AC8CD3002C6988 /* touchMath-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "touchMath-Info.plist"; sourceTree = "<group>"; };
@@ -98,6 +101,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7904D9731756DBD200C3E363 /* Security.framework in Frameworks */,
 				7947BA3F15AC8D4E002C6988 /* CoreMotion.framework in Frameworks */,
 				7947BA4015AC8D4E002C6988 /* UIKit.framework in Frameworks */,
 				7947BA4115AC8D4E002C6988 /* Foundation.framework in Frameworks */,
@@ -112,6 +116,7 @@
 		19190F4D13286C0700550793 = {
 			isa = PBXGroup;
 			children = (
+				7904D9721756DBD200C3E363 /* Security.framework */,
 				AB5E7BD213477BF100226393 /* theBest.png */,
 				19CE78CB13311ECF0097C054 /* CoreMotion.framework */,
 				19190FB213286DEB00550793 /* Entitlements.plist */,
@@ -134,6 +139,7 @@
 		19190F5B13286C0700550793 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				7904D9701756DB3800C3E363 /* DropboxSDK.framework */,
 				19190FB013286D7100550793 /* MessageUI.framework */,
 				19190F5C13286C0700550793 /* UIKit.framework */,
 				19190F5E13286C0700550793 /* Foundation.framework */,
@@ -414,7 +420,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_OBJC_ARC = YES;
 				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = Solvalyzer_Prefix.pch;
@@ -430,7 +441,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_OBJC_ARC = YES;
 				COPY_PHASE_STRIP = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = Solvalyzer_Prefix.pch;
 				GCC_THUMB_SUPPORT = NO;
@@ -446,7 +462,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_OBJC_ARC = YES;
 				COPY_PHASE_STRIP = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = Solvalyzer_Prefix.pch;
 				GCC_THUMB_SUPPORT = NO;

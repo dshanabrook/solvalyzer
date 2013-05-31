@@ -23,10 +23,10 @@ typedef void(^ProblemBlock)(Problem *problem);
   NSMutableArray *allProblems;
 }
 
-@property (nonatomic, retain, readonly) Problem *currentProblem;
-@property (nonatomic, retain, readonly) ProblemSolution *currentSolution;
-@property (nonatomic, retain, readonly) SolutionStroke *currentStroke;
-@property (nonatomic, retain, readonly) NSDate *startTime;
+@property (nonatomic, strong, readonly) Problem *currentProblem;
+@property (nonatomic, strong, readonly) ProblemSolution *currentSolution;
+@property (nonatomic, strong, readonly) SolutionStroke *currentStroke;
+@property (nonatomic, strong, readonly) NSDate *startTime;
 
 + (ProblemStore*)sharedProblemStore;
 

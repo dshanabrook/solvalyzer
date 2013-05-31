@@ -39,7 +39,7 @@
     [super viewWillAppear:animated];
     Problem *problem = [[ProblemStore sharedProblemStore] newProblem];
     [[Questions sharedQuestions]incCurrentQuestion];
-    problemView.image = [UIImage imageWithData:[[[Questions sharedQuestions] questionImages]  objectAtIndex:[[Questions sharedQuestions] currentQuestion]]];
+    problemView.image = [UIImage imageWithData:[[Questions sharedQuestions] questionImages][[[Questions sharedQuestions] currentQuestion]]];
 }
 
 
@@ -83,9 +83,9 @@
     currentSolution.solutionImageName = filename;
     currentSolution.solutionCorrect = isCorrect;
     int x = [[Questions sharedQuestions] currentQuestion];
-    currentSolution.problemImageIndex =  [NSNumber numberWithInteger:x];
+    currentSolution.problemImageIndex =  @(x);
     int y = [[StudentModel sharedStudentModel] correctnessLevel];
-    currentSolution.correctnessLevel = [NSNumber numberWithInteger:y];
+    currentSolution.correctnessLevel = @(y);
   NSData *data = UIImagePNGRepresentation(viewImage);
   [data writeToFile:[currentSolution solutionImagePath] atomically:YES];
 }
