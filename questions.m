@@ -38,29 +38,26 @@ static Questions *sharedQuestions;
     currentQuestion =-1;
     }
     
-
-#warning  why doesn't unitl (imageData!nil) work instead of break?
 #warning assumes at least on question!  hack
 - (id)init {
     questionImages = [[NSMutableArray alloc] init];
     [self setMaxQuestion:-1];
     [self setCurrentQuestion:-1];
-
-
-    do {
+    Boolean finished = false;
+    
+    while (!finished){
         NSString *imageURL = [[NSString alloc] initWithFormat:@"http://dl.dropbox.com/u/38837548/questions/image%d.png",maxQuestion+1];
         NSURL *URL = [NSURL URLWithString:imageURL];
-        [imageURL release];
         NSData *imageData = [NSData dataWithContentsOfURL:URL];
         if (imageData != nil){
             [self incNumberOfQuestions];
             [questionImages addObject:imageData];
         }
-        else 
-            break;
-    } while (true);
-        return self;
+        else
+            finished = TRUE;
     }
+    return self;
+}
 
 - (NSMutableArray*) questionImages{
     return questionImages;
