@@ -12,7 +12,8 @@
 #import "Problem.h"
 #import "ProblemSolution.h"
 #import "SolvalyzerRootViewController.h"
-#import <DropboxSDK/DropboxSDK.h>
+#import <AWSS3/AWSS3.h>
+
 
 @interface SolvalyzerRootViewController()
 - (void)presentSolvalyzer;
@@ -90,6 +91,16 @@
     
     long problemSetID = [[ProblemStore sharedProblemStore] uniqueID];
     NSString *fileName = [NSString stringWithFormat:@"problem-set-%ld.csv", problemSetID];
+    
+    AmazonS3Client *s3Client = [[AmazonS3Client alloc] initWithAccessKey:@"AKIAIXRARZOIBKMFV5OA" withSecretKey:@"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"];
+    
+    [s3Client createBucket:[[[S3CreateBucketRequest alloc] initWithName:@"touchData"] autorelease]];
+
+    S3PutObjectRequest *por = [[[S3PutObjectRequest alloc] initWithKey:fileName inBucket:@"touchData"] autorelease];
+  //  por.contentType = @"image/jpeg";
+    por.data = seriesData;
+    [s3Client putObject:por];
+
     
     
     //get the documents directory:
