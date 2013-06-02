@@ -37,6 +37,7 @@
 		7947BA4E15AC8D4E002C6988 /* theBest.png in Resources */ = {isa = PBXBuildFile; fileRef = AB5E7BD213477BF100226393 /* theBest.png */; };
 		7947BA4F15AC8D4E002C6988 /* SolvalyzerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AB85CA071355F38F0021A7DB /* SolvalyzerViewController.xib */; };
 		794EC066175A444100BA7689 /* AWSS3.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 794EC065175A444100BA7689 /* AWSS3.framework */; };
+		79D92DAA175A5210000A768A /* AWSRuntime.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79D92DA9175A5210000A768A /* AWSRuntime.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -91,6 +92,7 @@
 		7947BA5415AC8D4E002C6988 /* touchMath.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = touchMath.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7947BA5615AC8D4E002C6988 /* Solvalyzer copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "Solvalyzer copy-Info.plist"; path = "/Users/davidshanabrook/Documents/xcode/solvalyzer-git/Solvalyzer copy-Info.plist"; sourceTree = "<absolute>"; };
 		794EC065175A444100BA7689 /* AWSS3.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AWSS3.framework; path = "aws-ios-sdk-1.6.0/AWSS3.framework"; sourceTree = "<group>"; };
+		79D92DA9175A5210000A768A /* AWSRuntime.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AWSRuntime.framework; path = "aws-ios-sdk-1.6.0/AWSRuntime.framework"; sourceTree = "<group>"; };
 		AB2F8ADA1362E94C00171651 /* questions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = questions.h; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
 		AB2F8ADB1362E94C00171651 /* questions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = questions.m; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
 		AB5E7BD213477BF100226393 /* theBest.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = theBest.png; sourceTree = "<group>"; };
@@ -102,6 +104,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				79D92DAA175A5210000A768A /* AWSRuntime.framework in Frameworks */,
 				794EC066175A444100BA7689 /* AWSS3.framework in Frameworks */,
 				7904D9731756DBD200C3E363 /* Security.framework in Frameworks */,
 				7947BA3F15AC8D4E002C6988 /* CoreMotion.framework in Frameworks */,
@@ -140,6 +143,7 @@
 		19190F5B13286C0700550793 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				79D92DA9175A5210000A768A /* AWSRuntime.framework */,
 				7904D9721756DBD200C3E363 /* Security.framework */,
 				794EC065175A444100BA7689 /* AWSS3.framework */,
 				19190FB013286D7100550793 /* MessageUI.framework */,
