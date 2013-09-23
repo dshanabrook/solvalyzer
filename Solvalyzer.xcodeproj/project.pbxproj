@@ -80,15 +80,6 @@
 		7904D9721756DBD200C3E363 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 		7931823513873A14001C4FDF /* studentModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = studentModel.h; sourceTree = SOURCE_ROOT; };
 		7931823613873A14001C4FDF /* studentModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = studentModel.m; sourceTree = SOURCE_ROOT; };
-		7947BA1B15AC8CD3002C6988 /* touchMath-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "touchMath-Info.plist"; sourceTree = "<group>"; };
-		7947BA1D15AC8CD3002C6988 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		7947BA1F15AC8CD3002C6988 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		7947BA2115AC8CD3002C6988 /* touchMath-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "touchMath-Prefix.pch"; sourceTree = "<group>"; };
-		7947BA2215AC8CD3002C6988 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		7947BA2315AC8CD3002C6988 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		7947BA2615AC8CD3002C6988 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
-		7947BA2815AC8CD3002C6988 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		7947BA2915AC8CD3002C6988 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		7947BA5415AC8D4E002C6988 /* touchMath.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = touchMath.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7947BA5615AC8D4E002C6988 /* Solvalyzer copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "Solvalyzer copy-Info.plist"; path = "/Users/davidshanabrook/Documents/xcode/solvalyzer-git/Solvalyzer copy-Info.plist"; sourceTree = "<absolute>"; };
 		794F84BE17EE63BF007321F1 /* AWSS3.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AWSS3.framework; path = touchMath/AWSS3.framework; sourceTree = "<group>"; };
@@ -125,7 +116,6 @@
 				19CE78CB13311ECF0097C054 /* CoreMotion.framework */,
 				19190FB213286DEB00550793 /* Entitlements.plist */,
 				19190F6213286C0700550793 /* Solvalyzer */,
-				7947BA1915AC8CD3002C6988 /* touchMath */,
 				19190F5B13286C0700550793 /* Frameworks */,
 				19190F5913286C0700550793 /* Products */,
 				7947BA5615AC8D4E002C6988 /* Solvalyzer copy-Info.plist */,
@@ -228,30 +218,6 @@
 			name = View;
 			sourceTree = "<group>";
 		};
-		7947BA1915AC8CD3002C6988 /* touchMath */ = {
-			isa = PBXGroup;
-			children = (
-				7947BA2215AC8CD3002C6988 /* AppDelegate.h */,
-				7947BA2315AC8CD3002C6988 /* AppDelegate.m */,
-				7947BA2515AC8CD3002C6988 /* MainStoryboard.storyboard */,
-				7947BA2815AC8CD3002C6988 /* ViewController.h */,
-				7947BA2915AC8CD3002C6988 /* ViewController.m */,
-				7947BA1A15AC8CD3002C6988 /* Supporting Files */,
-			);
-			path = touchMath;
-			sourceTree = "<group>";
-		};
-		7947BA1A15AC8CD3002C6988 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				7947BA1B15AC8CD3002C6988 /* touchMath-Info.plist */,
-				7947BA1C15AC8CD3002C6988 /* InfoPlist.strings */,
-				7947BA1F15AC8CD3002C6988 /* main.m */,
-				7947BA2115AC8CD3002C6988 /* touchMath-Prefix.pch */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -340,25 +306,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		7947BA1C15AC8CD3002C6988 /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				7947BA1D15AC8CD3002C6988 /* en */,
-			);
-			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		7947BA2515AC8CD3002C6988 /* MainStoryboard.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				7947BA2615AC8CD3002C6988 /* en */,
-			);
-			name = MainStoryboard.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		19190F7713286C0700550793 /* Debug */ = {
