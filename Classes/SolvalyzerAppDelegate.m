@@ -23,11 +23,15 @@
 	// Set the view controller as the window's root view controller and display.
   self.window.rootViewController = self.viewController;
   [self.window makeKeyAndVisible];
-  
-  SolvalyzerViewController *c = [[SolvalyzerViewController alloc] initWithNibName:@"SolvalyzerViewController" bundle:nil];
+        //dhs
+ /*
+    SolvalyzerViewController *c = [[SolvalyzerViewController alloc] initWithNibName:@"SolvalyzerViewController" bundle:nil];
   c.solvalyzerDelegate = self.viewController;
   [self.viewController presentModalViewController:c animated:NO];
   [c release];
+  */
+    SolvalyzerRootViewController *rc = [[SolvalyzerRootViewController alloc] initWithNibName:@"SolvalyzerRootViewController" bundle:nil];
+    
   
 	return YES;
 }

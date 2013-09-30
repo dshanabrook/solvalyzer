@@ -31,7 +31,7 @@
   c.modalTransitionStyle = UIModalTransitionStyleCrossDissolve;
   c.solvalyzerDelegate = self;
 [self presentModalViewController:c animated:YES];
-  [c release];
+        [c release];
 }
 
 - (IBAction)restartSolvalyzer:(id)sender {

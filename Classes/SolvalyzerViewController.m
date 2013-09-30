@@ -13,6 +13,7 @@
 #import "Problem.h"
 #import "SolverView.h"
 #import "SolvalyzerViewController.h"
+#import "SolvalyzerRootViewController.h"
 
 @implementation SolvalyzerViewController
 
@@ -99,10 +100,16 @@
         [[StudentModel sharedStudentModel] decCorrectnessLevel];
     [self writeSolutionImage:title];
     [[ProblemStore sharedProblemStore] solutionSubmitted];
-    if ([[Questions sharedQuestions] currentQuestion] >= [[Questions sharedQuestions] maxQuestion])
-        [solvalyzerDelegate solvalyzerControllerQuit:self];
-    else
+    NSLog(@"Current Value=%d   Max Questions=%d",[[Questions sharedQuestions] currentQuestion],[[Questions sharedQuestions] maxQuestion]);
+    if ([[Questions sharedQuestions] currentQuestion] >= [[Questions sharedQuestions] maxQuestion]){
+            [solvalyzerDelegate solvalyzerControllerQuit:self];
+        UIAlertView *alert =[[UIAlertView alloc]initWithTitle:@"No More" message:@"Therer are no more questions" delegate:nil cancelButtonTitle:nil otherButtonTitles:@"OK", nil];
+        [alert show];
+    }
+    else{
+        
         [solvalyzerDelegate solvalyzerControllerSolved:self];
+    }
     
 }
 
@@ -112,6 +119,8 @@
     [self writeSolutionImage:title];
   [[ProblemStore sharedProblemStore] solutionSubmitted];
   [solvalyzerDelegate solvalyzerControllerQuit:self];
+    
+     SolvalyzerRootViewController *rc = [[SolvalyzerRootViewController alloc] initWithNibName:@"SolvalyzerRootViewController" bundle:nil];
 }
 
 

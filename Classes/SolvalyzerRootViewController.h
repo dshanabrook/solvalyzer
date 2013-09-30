@@ -21,4 +21,8 @@
 
 - (IBAction)restartSolvalyzer:(id)sender;
 //- (IBAction)initializeQuestions:(id)sender;
+
+@property (unsafe_unretained, nonatomic) IBOutlet UIPickerView *genderPicker;
+@property (unsafe_unretained, nonatomic) IBOutlet UISlider *mathApptitudeSlider;
+@property (unsafe_unretained, nonatomic) IBOutlet UISlider *mathLikabilitySlider;
 @end
