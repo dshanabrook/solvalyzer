@@ -32,6 +32,9 @@
 - (IBAction)finalizeSolution:(id)sender;
 - (IBAction)quitSolving:(id)sender;
 - (IBAction)setQuestions:(id)sender;
+@property (strong, nonatomic) IBOutlet UIScrollView *scrollView;
+- (IBAction)upAction:(id)sender;
+- (IBAction)downAction:(id)sender;
 
 
 @end
