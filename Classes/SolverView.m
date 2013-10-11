@@ -30,8 +30,12 @@
   CGContextStrokePath(context);  
 }
 
+//Change HERE
 - (void)drawRect:(CGRect)rect {
+    //Here
   __block CGContextRef context = UIGraphicsGetCurrentContext();
+    //CGContextAddRect(context, CGRectMake(0, 0, 1024, 1620));
+    //[contentView.layer renderInContext:context];
   CGContextSaveGState(context);
   CGContextSetStrokeColorWithColor(context, [[UIColor blackColor] CGColor]);
   CGContextSetLineWidth(context, 4.0f);
@@ -41,6 +45,7 @@
     [self drawStroke:stroke inContext:context];
   }];
   CGContextRestoreGState(context);
+    UIGraphicsEndImageContext();
 }
 
 ////////////////////////////////////////
@@ -63,6 +68,7 @@
 
 - (void)touchesMoved:(NSSet *)touches 
            withEvent:(UIEvent *)event {
+    
   UITouch *touch = [touches anyObject];
   [[ProblemStore sharedProblemStore] strokeContinuedAtPoint:[touch locationInView:self]
                                            withAcceleration:motionManager.accelerometerData.acceleration];
