@@ -32,11 +32,13 @@
 
 - (void)viewDidLoad {
   [super viewDidLoad];
+    self.view.frame=CGRectMake(0, 0, 1024, 1602);
   [[NSBundle mainBundle] loadNibNamed:@"ImageScaleKludgeView" owner:self options:nil];
-    
     //ScrollView
     // set the content size to be the size our our whole frame
     self.scrollView.contentSize = self.scrollView.frame.size;
+    self.solverView.frame=CGRectMake(0, 0, 1024, 1602);
+    [self.scrollView addSubview:self.solverView];
     // then set frame to be the size of the view's frame
     self.scrollView.frame = self.view.frame;
     // now add our scroll view to the main view
@@ -139,7 +141,7 @@
     CGRect rect= self.scrollView.frame;
     CGFloat x = rect.origin.x;
     CGPoint point = self.scrollView.contentOffset;
-    CGFloat y = point.y - 15;
+    CGFloat y = point.y - 50;
     CGRect goTo =CGRectMake(x, y, rect.size.width, rect.size.height);
     [self.scrollView scrollRectToVisible:goTo animated:YES];
 }
@@ -148,7 +150,7 @@
     CGRect rect= self.scrollView.frame;
     CGFloat x = rect.origin.x;
     CGPoint point = self.scrollView.contentOffset;
-    CGFloat y = point.y + 15;    CGRect goTo =CGRectMake(x, y, rect.size.width, rect.size.height);
+    CGFloat y = point.y + 50;    CGRect goTo =CGRectMake(x, y, rect.size.width, rect.size.height);
     [self.scrollView scrollRectToVisible:goTo animated:YES];
 }
 @end
