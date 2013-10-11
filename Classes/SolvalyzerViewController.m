@@ -16,7 +16,7 @@
 #import "SolvalyzerRootViewController.h"
 
 @implementation SolvalyzerViewController
-
+#define scrollSize 500
 @synthesize problemView;
 @synthesize solverView;
 @synthesize scaleKludgeView;
@@ -139,7 +139,7 @@
     CGRect rect= self.scrollView.frame;
     CGFloat x = rect.origin.x;
     CGPoint point = self.scrollView.contentOffset;
-    CGFloat y = point.y - 15;
+    CGFloat y = point.y - scrollSize;
     CGRect goTo =CGRectMake(x, y, rect.size.width, rect.size.height);
     [self.scrollView scrollRectToVisible:goTo animated:YES];
 }
@@ -148,7 +148,17 @@
     CGRect rect= self.scrollView.frame;
     CGFloat x = rect.origin.x;
     CGPoint point = self.scrollView.contentOffset;
-    CGFloat y = point.y + 15;    CGRect goTo =CGRectMake(x, y, rect.size.width, rect.size.height);
+    CGFloat y = point.y + scrollSize;
+    CGRect goTo =CGRectMake(x, y, rect.size.width, rect.size.height);
+    [self.scrollView scrollRectToVisible:goTo animated:YES];
+}
+
+- (IBAction)sliderAction:(id)sender {
+    CGRect rect= self.scrollView.frame;
+    CGFloat x = rect.origin.x ;
+    CGPoint point = self.scrollView.contentOffset;
+    CGFloat y = point.y + [_sliderAction value];
+    CGRect goTo =CGRectMake(x, y, rect.size.width, rect.size.height);
     [self.scrollView scrollRectToVisible:goTo animated:YES];
 }
 @end

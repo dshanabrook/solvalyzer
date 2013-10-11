@@ -58,7 +58,6 @@
 		19190F8713286C5400550793 /* SolvalyzerAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SolvalyzerAppDelegate.m; path = Classes/SolvalyzerAppDelegate.m; sourceTree = SOURCE_ROOT; };
 		19190F8813286C5400550793 /* SolvalyzerRootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SolvalyzerRootViewController.h; path = Classes/SolvalyzerRootViewController.h; sourceTree = SOURCE_ROOT; };
 		19190F8913286C5400550793 /* SolvalyzerRootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SolvalyzerRootViewController.m; path = Classes/SolvalyzerRootViewController.m; sourceTree = SOURCE_ROOT; };
-		19190F8A13286C5400550793 /* SolvalyzerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; name = SolvalyzerViewController.h; path = ../Classes/SolvalyzerViewController.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
 		19190F8B13286C5400550793 /* SolvalyzerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; name = SolvalyzerViewController.m; path = Classes/SolvalyzerViewController.m; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
 		19190F8C13286C5400550793 /* SolverView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SolverView.h; path = Classes/SolverView.h; sourceTree = SOURCE_ROOT; };
 		19190F8D13286C5400550793 /* SolverView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SolverView.m; path = Classes/SolverView.m; sourceTree = SOURCE_ROOT; };
@@ -84,6 +83,7 @@
 		7947BA5615AC8D4E002C6988 /* Solvalyzer copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "Solvalyzer copy-Info.plist"; path = "/Users/davidshanabrook/Documents/xcode/solvalyzer-git/Solvalyzer copy-Info.plist"; sourceTree = "<absolute>"; };
 		794F84BE17EE63BF007321F1 /* AWSS3.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AWSS3.framework; path = touchMath/AWSS3.framework; sourceTree = "<group>"; };
 		794F84C017EE63FE007321F1 /* AWSRuntime.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AWSRuntime.framework; sourceTree = "<group>"; };
+		79984D6C1807242700443306 /* SolvalyzerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = SolvalyzerViewController.h; path = Classes/SolvalyzerViewController.h; sourceTree = SOURCE_ROOT; };
 		AB2F8ADA1362E94C00171651 /* questions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = questions.h; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
 		AB2F8ADB1362E94C00171651 /* questions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = questions.m; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
 		AB5E7BD213477BF100226393 /* theBest.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = theBest.png; sourceTree = "<group>"; };
@@ -203,7 +203,7 @@
 			children = (
 				19190F8813286C5400550793 /* SolvalyzerRootViewController.h */,
 				19190F8913286C5400550793 /* SolvalyzerRootViewController.m */,
-				19190F8A13286C5400550793 /* SolvalyzerViewController.h */,
+				79984D6C1807242700443306 /* SolvalyzerViewController.h */,
 				19190F8B13286C5400550793 /* SolvalyzerViewController.m */,
 			);
 			name = Controller;

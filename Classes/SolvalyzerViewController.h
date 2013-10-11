@@ -36,5 +36,6 @@
 - (IBAction)upAction:(id)sender;
 - (IBAction)downAction:(id)sender;
 
+@property (unsafe_unretained, nonatomic) IBOutlet UISlider *sliderAction;
 
 @end

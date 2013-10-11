@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.iPad.XIB" version="3.0" toolsVersion="4510" systemVersion="12F37" targetRuntime="iOS.CocoaTouch.iPad" propertyAccessControl="none">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.iPad.XIB" version="3.0" toolsVersion="4510" systemVersion="13A598" targetRuntime="iOS.CocoaTouch.iPad" propertyAccessControl="none">
     <dependencies>
         <deployment defaultVersion="1072" identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3742"/>
@@ -9,6 +9,7 @@
             <connections>
                 <outlet property="problemView" destination="39" id="59"/>
                 <outlet property="scrollView" destination="JG7-Qz-deV" id="2tq-vn-lUn"/>
+                <outlet property="sliderAction" destination="htP-3u-Pib" id="N1h-FH-2Xj"/>
                 <outlet property="solverView" destination="5" id="10"/>
                 <outlet property="view" destination="2" id="57"/>
             </connections>
@@ -47,7 +48,7 @@
                             </connections>
                         </button>
                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="16">
-                            <rect key="frame" x="142" y="479" width="107" height="37"/>
+                            <rect key="frame" x="68" y="126" width="107" height="37"/>
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="15"/>
                             <state key="normal" title="Got it right!">
@@ -58,7 +59,7 @@
                             </connections>
                         </button>
                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="17">
-                            <rect key="frame" x="463" y="479" width="98" height="37"/>
+                            <rect key="frame" x="72" y="209" width="98" height="37"/>
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="15"/>
                             <state key="normal" title="Not Sure">
@@ -69,7 +70,7 @@
                             </connections>
                         </button>
                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="8X6-zt-bld">
-                            <rect key="frame" x="455" y="745" width="114" height="44"/>
+                            <rect key="frame" x="890" y="524" width="114" height="44"/>
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             <color key="backgroundColor" red="0.098039217289999994" green="0.098039217289999994" blue="0.098039217289999994" alpha="1" colorSpace="calibratedRGB"/>
                             <fontDescription key="fontDescription" type="system" pointSize="27"/>
@@ -79,7 +80,7 @@
                             </connections>
                         </button>
                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="aeJ-LE-zJX">
-                            <rect key="frame" x="455" y="797" width="114" height="60"/>
+                            <rect key="frame" x="890" y="54" width="114" height="60"/>
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             <color key="backgroundColor" red="0.098039217289999994" green="0.098039217289999994" blue="0.098039217289999994" alpha="1" colorSpace="calibratedRGB"/>
                             <fontDescription key="fontDescription" type="system" pointSize="27"/>
@@ -90,6 +91,13 @@
                                 <action selector="downAction:" destination="-1" eventType="touchUpInside" id="bfa-RQ-bai"/>
                             </connections>
                         </button>
+                        <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" minValue="0.0" maxValue="500" id="htP-3u-Pib">
+                            <rect key="frame" x="59" y="939" width="118" height="34"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <connections>
+                                <action selector="sliderAction:" destination="-1" eventType="valueChanged" id="wJV-RK-59s"/>
+                            </connections>
+                        </slider>
                     </subviews>
                     <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                 </view>
