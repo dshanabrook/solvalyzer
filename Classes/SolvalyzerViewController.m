@@ -31,19 +31,21 @@
 }
 
 - (void)viewDidLoad {
-  [super viewDidLoad];
-    self.view.frame=CGRectMake(0, 0, 1024, 1602);
-  [[NSBundle mainBundle] loadNibNamed:@"ImageScaleKludgeView" owner:self options:nil];
-    //ScrollView
-    // set the content size to be the size our our whole frame
-    self.scrollView.contentSize = self.scrollView.frame.size;
-    self.solverView.frame=CGRectMake(0, 0, 1024, 1602);
+    self.view.frame=CGRectMake(0, 0, 1024, 2000);
+    self.view.bounds=CGRectMake(0, 0, 1024, 2000);
+    self.scrollView.frame=self.view.frame;
+    self.scrollView.bounds=CGRectMake(0, 0, 1024, 2000);
+    self.scrollView.contentSize=self.scrollView.frame.size;
+    self.solverView.frame=self.scrollView.frame;
+    self.solverView.bounds=CGRectMake(0, 0, 1024, 2000);
     [self.scrollView addSubview:self.solverView];
-    // then set frame to be the size of the view's frame
-    self.scrollView.frame = self.view.frame;
-    // now add our scroll view to the main view
     [self.view addSubview:self.scrollView];
-
+    
+    
+    
+    
+    [super viewDidLoad];
+    [[NSBundle mainBundle] loadNibNamed:@"ImageScaleKludgeView" owner:self options:nil];
 
 
 }

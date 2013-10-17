@@ -18,6 +18,7 @@
   [super dealloc];
 }
 
+
 - (void)drawStroke:(SolutionStroke*)stroke inContext:(CGContextRef)context {
   CGContextBeginPath(context);  
   [stroke mapSolutionPoints:^(SolutionPoint *point, NSUInteger pointNum) {
@@ -29,7 +30,20 @@
   }];
   CGContextStrokePath(context);  
 }
-
+-(void)setBounds:(CGRect)bounds{
+    bounds=CGRectMake(0, 0, 1024, 2000);
+}
+- (void)drawRect:(CGRect)rect {
+    CGContextRef context = UIGraphicsGetCurrentContext();
+    CGContextSetStrokeColorWithColor(context, [[UIColor blackColor] CGColor]);
+    CGContextSetLineWidth(context, 4.0f);
+    CGContextSetLineCap(context, kCGLineCapRound);
+    CGContextSetLineJoin(context, kCGLineJoinRound);
+    [[ProblemStore sharedProblemStore] mapCurrentSolutionStrokes:^(SolutionStroke *stroke,   NSUInteger strokeNum) {
+        [self drawStroke:stroke inContext:context];
+    }];
+}
+/*
 //Change HERE
 - (void)drawRect:(CGRect)rect {
     //Here
@@ -47,7 +61,7 @@
   CGContextRestoreGState(context);
     UIGraphicsEndImageContext();
 }
-
+*/
 ////////////////////////////////////////
 // Touch Handling
 ////////////////////////////////////////
