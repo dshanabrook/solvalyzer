@@ -22,10 +22,21 @@
 
 @implementation SolvalyzerRootViewController
 
+@synthesize studentName;
 @synthesize restartButton;
 //@synthesize initializeQuestionsButton;
+//adding a navigation bar
+-(void) performAdd:(id)parmSender {
+    NSLog(@"action method got logged");
+    
+}
 
 - (void)presentSolvalyzer {
+    
+    
+    self.title = @"First Controller";
+    self.navigationItem.rightBarButtonItem = [[UIBarButtonItem alloc]initWithTitle:@"add" style:UIButtonTypeRoundedRect
+                                                                            target:self action:@selector(performAdd:)];
   self.restartButton.hidden = YES;
   SolvalyzerViewController *c = [[SolvalyzerViewController alloc] initWithNibName:@"SolvalyzerViewController" bundle:nil];
   c.modalTransitionStyle = UIModalTransitionStyleCrossDissolve;
@@ -34,6 +45,9 @@
         [c release];
 }
 
+-(IBAction)boySwitch:(id)sender{
+    [self.]
+}
 - (IBAction)restartSolvalyzer:(id)sender {
   [[ProblemStore sharedProblemStore] resetProblemStore]; 
     [[StudentModel sharedStudentModel] resetSharedStudentModel];
@@ -45,6 +59,14 @@
 - (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)toInterfaceOrientation {
   return YES;
 }
+    
+    -(BOOL) textFieldShouldReturn:(UITextField *) textField {
+        if ([textField isEqual:self.studentName]){
+            [textField resignFirstResponder];
+        }
+    return YES;
+}
+
 
 ////////////////////////////////////////
 // SolvalyzerViewControllerDelegate

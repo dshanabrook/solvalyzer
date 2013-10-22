@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		7904D9731756DBD200C3E363 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7904D9721756DBD200C3E363 /* Security.framework */; };
+		791C92151810B39600DF9CD1 /* boyIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 791C92141810B39600DF9CD1 /* boyIcon.png */; };
+		791C92171810B39C00DF9CD1 /* girlIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 791C92161810B39C00DF9CD1 /* girlIcon.png */; };
+		791C92191810CB4700DF9CD1 /* math questions in Resources */ = {isa = PBXBuildFile; fileRef = 791C92181810CB4700DF9CD1 /* math questions */; };
 		7947BA3215AC8D4E002C6988 /* Problem.m in Sources */ = {isa = PBXBuildFile; fileRef = 19190F7D13286C5400550793 /* Problem.m */; };
 		7947BA3315AC8D4E002C6988 /* ProblemStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 19190F8113286C5400550793 /* ProblemStore.m */; };
 		7947BA3415AC8D4E002C6988 /* SolutionPoint.m in Sources */ = {isa = PBXBuildFile; fileRef = 19190F8313286C5400550793 /* SolutionPoint.m */; };
@@ -38,6 +41,7 @@
 		7947BA4F15AC8D4E002C6988 /* SolvalyzerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AB85CA071355F38F0021A7DB /* SolvalyzerViewController.xib */; };
 		794F84BF17EE63BF007321F1 /* AWSS3.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 794F84BE17EE63BF007321F1 /* AWSS3.framework */; };
 		794F84C117EE63FE007321F1 /* AWSRuntime.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 794F84C017EE63FE007321F1 /* AWSRuntime.framework */; };
+		798529571816388E005D2B42 /* stamped 05_30_13 assent.png in Resources */ = {isa = PBXBuildFile; fileRef = 798529561816388D005D2B42 /* stamped 05_30_13 assent.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -58,7 +62,6 @@
 		19190F8713286C5400550793 /* SolvalyzerAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SolvalyzerAppDelegate.m; path = Classes/SolvalyzerAppDelegate.m; sourceTree = SOURCE_ROOT; };
 		19190F8813286C5400550793 /* SolvalyzerRootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SolvalyzerRootViewController.h; path = Classes/SolvalyzerRootViewController.h; sourceTree = SOURCE_ROOT; };
 		19190F8913286C5400550793 /* SolvalyzerRootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SolvalyzerRootViewController.m; path = Classes/SolvalyzerRootViewController.m; sourceTree = SOURCE_ROOT; };
-		19190F8A13286C5400550793 /* SolvalyzerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; name = SolvalyzerViewController.h; path = ../Classes/SolvalyzerViewController.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
 		19190F8B13286C5400550793 /* SolvalyzerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; name = SolvalyzerViewController.m; path = Classes/SolvalyzerViewController.m; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
 		19190F8C13286C5400550793 /* SolverView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SolverView.h; path = Classes/SolverView.h; sourceTree = SOURCE_ROOT; };
 		19190F8D13286C5400550793 /* SolverView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SolverView.m; path = Classes/SolverView.m; sourceTree = SOURCE_ROOT; };
@@ -78,12 +81,17 @@
 		19190FB213286DEB00550793 /* Entitlements.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Entitlements.plist; sourceTree = "<group>"; };
 		19CE78CB13311ECF0097C054 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
 		7904D9721756DBD200C3E363 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		791C921318106E2B00DF9CD1 /* SolvalyzerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = SolvalyzerViewController.h; path = Classes/SolvalyzerViewController.h; sourceTree = SOURCE_ROOT; };
+		791C92141810B39600DF9CD1 /* boyIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = boyIcon.png; sourceTree = SOURCE_ROOT; };
+		791C92161810B39C00DF9CD1 /* girlIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = girlIcon.png; sourceTree = SOURCE_ROOT; };
+		791C92181810CB4700DF9CD1 /* math questions */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "math questions"; sourceTree = "<group>"; };
 		7931823513873A14001C4FDF /* studentModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = studentModel.h; sourceTree = SOURCE_ROOT; };
 		7931823613873A14001C4FDF /* studentModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = studentModel.m; sourceTree = SOURCE_ROOT; };
 		7947BA5415AC8D4E002C6988 /* touchMath.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = touchMath.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7947BA5615AC8D4E002C6988 /* Solvalyzer copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "Solvalyzer copy-Info.plist"; path = "/Users/davidshanabrook/Documents/xcode/solvalyzer-git/Solvalyzer copy-Info.plist"; sourceTree = "<absolute>"; };
 		794F84BE17EE63BF007321F1 /* AWSS3.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AWSS3.framework; path = touchMath/AWSS3.framework; sourceTree = "<group>"; };
 		794F84C017EE63FE007321F1 /* AWSRuntime.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AWSRuntime.framework; sourceTree = "<group>"; };
+		798529561816388D005D2B42 /* stamped 05_30_13 assent.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "stamped 05_30_13 assent.png"; sourceTree = SOURCE_ROOT; };
 		AB2F8ADA1362E94C00171651 /* questions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = questions.h; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
 		AB2F8ADB1362E94C00171651 /* questions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = questions.m; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
 		AB5E7BD213477BF100226393 /* theBest.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = theBest.png; sourceTree = "<group>"; };
@@ -112,6 +120,7 @@
 		19190F4D13286C0700550793 = {
 			isa = PBXGroup;
 			children = (
+				791C92181810CB4700DF9CD1 /* math questions */,
 				AB5E7BD213477BF100226393 /* theBest.png */,
 				19CE78CB13311ECF0097C054 /* CoreMotion.framework */,
 				19190FB213286DEB00550793 /* Entitlements.plist */,
@@ -164,6 +173,9 @@
 		19190F6313286C0700550793 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				798529561816388D005D2B42 /* stamped 05_30_13 assent.png */,
+				791C92161810B39C00DF9CD1 /* girlIcon.png */,
+				791C92141810B39600DF9CD1 /* boyIcon.png */,
 				19190F9F13286C7700550793 /* icon-72.png */,
 				19190FA013286C7700550793 /* icon-small-50.png */,
 				19190FA113286C7700550793 /* icon-small.png */,
@@ -203,7 +215,7 @@
 			children = (
 				19190F8813286C5400550793 /* SolvalyzerRootViewController.h */,
 				19190F8913286C5400550793 /* SolvalyzerRootViewController.m */,
-				19190F8A13286C5400550793 /* SolvalyzerViewController.h */,
+				791C921318106E2B00DF9CD1 /* SolvalyzerViewController.h */,
 				19190F8B13286C5400550793 /* SolvalyzerViewController.m */,
 			);
 			name = Controller;
@@ -272,8 +284,12 @@
 				7947BA4515AC8D4E002C6988 /* ImageScaleKludgeView.xib in Resources */,
 				7947BA4615AC8D4E002C6988 /* MainWindow.xib in Resources */,
 				7947BA4715AC8D4E002C6988 /* SolvalyzerRootView.xib in Resources */,
+				791C92191810CB4700DF9CD1 /* math questions in Resources */,
 				7947BA4815AC8D4E002C6988 /* icon-72.png in Resources */,
+				798529571816388E005D2B42 /* stamped 05_30_13 assent.png in Resources */,
+				791C92171810B39C00DF9CD1 /* girlIcon.png in Resources */,
 				7947BA4915AC8D4E002C6988 /* icon-small-50.png in Resources */,
+				791C92151810B39600DF9CD1 /* boyIcon.png in Resources */,
 				7947BA4A15AC8D4E002C6988 /* icon-small.png in Resources */,
 				7947BA4B15AC8D4E002C6988 /* icon.png in Resources */,
 				7947BA4C15AC8D4E002C6988 /* icon@2x.png in Resources */,

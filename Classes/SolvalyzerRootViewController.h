@@ -11,18 +11,23 @@
 #import "SolvalyzerViewController.h"
 
 
-@interface SolvalyzerRootViewController : UIViewController<SolvalyzerViewControllerDelegate, MFMailComposeViewControllerDelegate> {
-  IBOutlet UIButton *restartButton;
-    IBOutlet UIButton *initializeQuestionsButton;
+@interface SolvalyzerRootViewController : UIViewController<SolvalyzerViewControllerDelegate, MFMailComposeViewControllerDelegate, UITextFieldDelegate> {
+
 }
 
 @property (nonatomic, retain) IBOutlet UIButton *restartButton;
-//@property (nonatomic, retain) IBOutlet UIButton *initializeQuestionsButton;
 
 - (IBAction)restartSolvalyzer:(id)sender;
-//- (IBAction)initializeQuestions:(id)sender;
 
-@property (unsafe_unretained, nonatomic) IBOutlet UIPickerView *genderPicker;
-@property (unsafe_unretained, nonatomic) IBOutlet UISlider *mathApptitudeSlider;
-@property (unsafe_unretained, nonatomic) IBOutlet UISlider *mathLikabilitySlider;
+@property (strong, nonatomic) IBOutlet UISlider *mathAttitude;
+@property (strong, nonatomic) IBOutlet UISlider *mathAptitude;
+@property (strong, nonatomic) IBOutlet UISlider *mathAnxiety;
+@property (unsafe_unretained, nonatomic) IBOutlet UISlider *iPadAttitude;
+
+@property (strong, nonatomic) IBOutlet UISwitch *boySwitch;
+
+@property (strong, nonatomic) IBOutlet UISwitch *girlSwitch;
+@property (strong, nonatomic) IBOutlet UITextField *studentName;
+
+-(IBAction)boySwitch:(id)sender;
 @end

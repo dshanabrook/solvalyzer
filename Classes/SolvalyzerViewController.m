@@ -14,8 +14,10 @@
 #import "SolverView.h"
 #import "SolvalyzerViewController.h"
 #import "SolvalyzerRootViewController.h"
+#define SCROLL_AMOUNT 300
 
 @implementation SolvalyzerViewController
+
 
 @synthesize problemView;
 @synthesize solverView;
@@ -30,6 +32,7 @@
   [super dealloc];
 }
 
+
 - (void)viewDidLoad {
     self.view.frame=CGRectMake(0, 0, 1024, 2000);
     self.view.bounds=CGRectMake(0, 0, 1024, 2000);
@@ -38,13 +41,18 @@
     self.scrollView.contentSize=self.scrollView.frame.size;
     self.solverView.frame=self.scrollView.frame;
     self.solverView.bounds=CGRectMake(0, 0, 1024, 2000);
+        //dhs, these add scrollbar and two finger scroll but only work in a limited area
+        // [self.scrollView showsVerticalScrollIndicator];
+        //self.scrollView.panGestureRecognizer.minimumNumberOfTouches = 2;
+
     [self.scrollView addSubview:self.solverView];
     [self.view addSubview:self.scrollView];
     
     
     
-    
     [super viewDidLoad];
+
+    
     [[NSBundle mainBundle] loadNibNamed:@"ImageScaleKludgeView" owner:self options:nil];
 
 
@@ -140,10 +148,11 @@
 
 
 - (IBAction)upAction:(id)sender {
+    
     CGRect rect= self.scrollView.frame;
     CGFloat x = rect.origin.x;
     CGPoint point = self.scrollView.contentOffset;
-    CGFloat y = point.y - 50;
+    CGFloat y = point.y - SCROLL_AMOUNT;
     CGRect goTo =CGRectMake(x, y, rect.size.width, rect.size.height);
     [self.scrollView scrollRectToVisible:goTo animated:YES];
 }
@@ -152,7 +161,7 @@
     CGRect rect= self.scrollView.frame;
     CGFloat x = rect.origin.x;
     CGPoint point = self.scrollView.contentOffset;
-    CGFloat y = point.y + 50;    CGRect goTo =CGRectMake(x, y, rect.size.width, rect.size.height);
+    CGFloat y = point.y + SCROLL_AMOUNT;    CGRect goTo =CGRectMake(x, y, rect.size.width, rect.size.height);
     [self.scrollView scrollRectToVisible:goTo animated:YES];
 }
 @end

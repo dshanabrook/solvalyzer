@@ -10,8 +10,8 @@
 
 
 @interface StudentModel : NSObject {
-    int  correctnessLevel;
-    int correctnessCutoff;
+      int  correctnessLevel;
+        int correctnessCutoff;
     
 }
 
