@@ -9,15 +9,19 @@
 #import <UIKit/UIKit.h>
 #import <MessageUI/MessageUI.h>
 #import "SolvalyzerViewController.h"
+#import "Student.h"
 
 
 @interface SolvalyzerRootViewController : UIViewController<SolvalyzerViewControllerDelegate, MFMailComposeViewControllerDelegate, UITextFieldDelegate> {
 
 }
 
+@property (nonatomic, strong) Student *aStudent;
+
 @property (nonatomic, retain) IBOutlet UIButton *restartButton;
 
 - (IBAction)restartSolvalyzer:(id)sender;
+
 
 @property (strong, nonatomic) IBOutlet UISlider *mathAttitude;
 @property (strong, nonatomic) IBOutlet UISlider *mathAptitude;
@@ -29,5 +33,4 @@
 @property (strong, nonatomic) IBOutlet UISwitch *girlSwitch;
 @property (strong, nonatomic) IBOutlet UITextField *studentName;
 
--(IBAction)boySwitch:(id)sender;
 @end

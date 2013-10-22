@@ -9,7 +9,7 @@
             <connections>
                 <outlet property="boySwitch" destination="Aqk-8B-PQ1" id="b40-K9-Oau"/>
                 <outlet property="girlSwitch" destination="e4m-fG-9Gy" id="Oar-u7-jg2"/>
-                <outlet property="ipadAttitude" destination="Ws3-G9-XXG" id="4x0-mQ-CtY"/>
+                <outlet property="iPadAttitude" destination="Ws3-G9-XXG" id="vGv-X7-qft"/>
                 <outlet property="mathAnxiety" destination="Wvp-bN-9qo" id="jq2-cK-K31"/>
                 <outlet property="mathAptitude" destination="98g-br-pbp" id="m60-mO-KT1"/>
                 <outlet property="mathAttitude" destination="H9C-TQ-LIG" id="ol3-JP-X3l"/>
@@ -142,7 +142,7 @@
                     <fontDescription key="fontDescription" type="system" pointSize="12"/>
                     <nil key="highlightedColor"/>
                 </label>
-                <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" id="Ws3-G9-XXG">
+                <slider opaque="NO" contentMode="scaleToFill" restorationIdentifier="iPadAttitude" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" id="Ws3-G9-XXG">
                     <rect key="frame" x="391" y="597" width="277" height="34"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                 </slider>

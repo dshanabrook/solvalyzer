@@ -6,7 +6,7 @@
 //  Copyright 2011 Diabolical Labs, LLC. All rights reserved.
 //
 
-#import "studentModel.h"
+#import "Student.h"
 #import "questions.h"
 #import "ProblemStore.h"
 #import "Problem.h"
@@ -23,11 +23,41 @@
 @implementation SolvalyzerRootViewController
 
 @synthesize studentName;
+@synthesize girlSwitch;
+@synthesize boySwitch;
+
 @synthesize restartButton;
 //@synthesize initializeQuestionsButton;
 //adding a navigation bar
 -(void) performAdd:(id)parmSender {
     NSLog(@"action method got logged");
+    
+}
+
+- (void)viewDidLoad {
+        //switches
+    [self.boySwitch addTarget:self
+                       action:@selector(switchIsChanged:)
+             forControlEvents:UIControlEventValueChanged];
+    [self.girlSwitch addTarget:self
+                        action:@selector(switchIsChanged:)
+              forControlEvents:UIControlEventValueChanged];
+    [self.mathAnxiety addTarget:self
+                     action:@selector(sliderValueChanged:)
+           forControlEvents:UIControlEventValueChanged];
+    [self.mathAttitude addTarget:self
+                         action:@selector(sliderValueChanged:)
+               forControlEvents:UIControlEventValueChanged];
+    [self.mathAptitude addTarget:self
+                         action:@selector(sliderValueChanged:)
+               forControlEvents:UIControlEventValueChanged];
+    [self.iPadAttitude addTarget:self
+                         action:@selector(sliderValueChanged:)
+               forControlEvents:UIControlEventValueChanged];
+}
+
+-(void) viewDidUnload {
+        //handle switches
     
 }
 
@@ -40,17 +70,44 @@
   self.restartButton.hidden = YES;
   SolvalyzerViewController *c = [[SolvalyzerViewController alloc] initWithNibName:@"SolvalyzerViewController" bundle:nil];
   c.modalTransitionStyle = UIModalTransitionStyleCrossDissolve;
-  c.solvalyzerDelegate = self;
+    
+   c.solvalyzerDelegate = self;
 [self presentModalViewController:c animated:YES];
         [c release];
 }
 
--(IBAction)boySwitch:(id)sender{
-    [self.]
+    //only one switch on at a timeipad
+- (void) switchIsChanged:(UISwitch *)paramSender{
+    if (paramSender == self.girlSwitch) {
+        NSLog(@"turning girlSwith %d", [self.girlSwitch isOn]);
+        [self.boySwitch setOn:![self.girlSwitch isOn] animated:YES];
+        self.aStudent.isaGirl = YES;
+    }
+    else {
+        [self.girlSwitch setOn:![self.boySwitch isOn] animated:YES];
+        NSLog(@"turning boySwitch %d", [self.boySwitch isOn]);
+        self.aStudent.isaGirl = YES;
+    }
 }
+
+- (void) sliderValueChanged:(UISlider *)paramSender{
+    
+    if ([paramSender isEqual:self.mathAnxiety])
+        self.aStudent.mathAnxietyValue = [NSNumber numberWithFloat:self.mathAnxiety.value];
+    else if ([paramSender isEqual:self.mathAptitude])
+        self.aStudent.mathAptitudeValue = [NSNumber numberWithFloat:self.mathAptitude.value];
+    else if ([paramSender isEqual:self.mathAptitude])
+        self.aStudent.mathAptitudeValue = [NSNumber numberWithFloat:self.mathAptitude.value];
+    else if ([paramSender isEqual:self.iPadAttitude])
+        self.aStudent.iPadAttitudeValue = [NSNumber numberWithFloat:self.iPadAttitude.value];
+         
+        NSLog(@"ipad %f aptitude %f attitude %f anxiety %f", self.iPadAttitude.value, self.mathAptitude.value, self.mathAttitude.value, self.mathAnxiety.value);
+    }
+    
+    
 - (IBAction)restartSolvalyzer:(id)sender {
   [[ProblemStore sharedProblemStore] resetProblemStore]; 
-    [[StudentModel sharedStudentModel] resetSharedStudentModel];
+        //    [[StudentModel sharedStudentModel] resetSharedStudentModel];
     [[Questions sharedQuestions] resetCurrentQuestion];
   [self presentSolvalyzer];
 }

@@ -42,6 +42,7 @@
 		794F84BF17EE63BF007321F1 /* AWSS3.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 794F84BE17EE63BF007321F1 /* AWSS3.framework */; };
 		794F84C117EE63FE007321F1 /* AWSRuntime.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 794F84C017EE63FE007321F1 /* AWSRuntime.framework */; };
 		798529571816388E005D2B42 /* stamped 05_30_13 assent.png in Resources */ = {isa = PBXBuildFile; fileRef = 798529561816388D005D2B42 /* stamped 05_30_13 assent.png */; };
+		7985295A1816C5EF005D2B42 /* Student.m in Sources */ = {isa = PBXBuildFile; fileRef = 798529591816C5EF005D2B42 /* Student.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -92,6 +93,8 @@
 		794F84BE17EE63BF007321F1 /* AWSS3.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AWSS3.framework; path = touchMath/AWSS3.framework; sourceTree = "<group>"; };
 		794F84C017EE63FE007321F1 /* AWSRuntime.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AWSRuntime.framework; sourceTree = "<group>"; };
 		798529561816388D005D2B42 /* stamped 05_30_13 assent.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "stamped 05_30_13 assent.png"; sourceTree = SOURCE_ROOT; };
+		798529581816C5EF005D2B42 /* Student.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Student.h; sourceTree = SOURCE_ROOT; };
+		798529591816C5EF005D2B42 /* Student.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Student.m; sourceTree = SOURCE_ROOT; };
 		AB2F8ADA1362E94C00171651 /* questions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = questions.h; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
 		AB2F8ADB1362E94C00171651 /* questions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = questions.m; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
 		AB5E7BD213477BF100226393 /* theBest.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = theBest.png; sourceTree = "<group>"; };
@@ -202,6 +205,8 @@
 				19190F7F13286C5400550793 /* ProblemSolution.m */,
 				19190F8013286C5400550793 /* ProblemStore.h */,
 				19190F8113286C5400550793 /* ProblemStore.m */,
+				798529581816C5EF005D2B42 /* Student.h */,
+				798529591816C5EF005D2B42 /* Student.m */,
 				19190F8213286C5400550793 /* SolutionPoint.h */,
 				19190F8313286C5400550793 /* SolutionPoint.m */,
 				19190F8413286C5400550793 /* SolutionStroke.h */,
@@ -317,6 +322,7 @@
 				7947BA3A15AC8D4E002C6988 /* main.m in Sources */,
 				7947BA3B15AC8D4E002C6988 /* ProblemSolution.m in Sources */,
 				7947BA3C15AC8D4E002C6988 /* questions.m in Sources */,
+				7985295A1816C5EF005D2B42 /* Student.m in Sources */,
 				7947BA3D15AC8D4E002C6988 /* studentModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
