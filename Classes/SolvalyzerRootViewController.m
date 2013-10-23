@@ -35,6 +35,8 @@
 }
 
 - (void)viewDidLoad {
+        //textfield
+        // [self.studentName.inputView =
         //switches
     [self.boySwitch addTarget:self
                        action:@selector(switchIsChanged:)
@@ -58,6 +60,7 @@
 
 -(void) viewDidUnload {
         //handle switches
+        //check somewhere for name of person if (([addThisCity.text  isEqual: @""])
     
 }
 
@@ -90,6 +93,19 @@
     }
 }
 
+    //entered name and hit return
+-(BOOL)textFieldShouldReturn:(UITextField *)textField{
+    textField.tag = 1;
+    self.aStudent.name = textField.text;
+    [textField resignFirstResponder];
+    return YES;
+}
+
+
+-(IBAction)clearKeyboardButton:(id)sender {
+    [self.view endEditing:YES];
+}
+
 - (void) sliderValueChanged:(UISlider *)paramSender{
     
     if ([paramSender isEqual:self.mathAnxiety])
@@ -117,12 +133,12 @@
   return YES;
 }
     
-    -(BOOL) textFieldShouldReturn:(UITextField *) textField {
-        if ([textField isEqual:self.studentName]){
-            [textField resignFirstResponder];
-        }
-    return YES;
-}
+    //    -(BOOL) textFieldShouldReturn:(UITextField *) textField {
+    //        if ([textField isEqual:self.studentName]){
+    //          [textField resignFirstResponder];
+    //        }
+    //    return YES;
+    //}
 
 
 ////////////////////////////////////////
