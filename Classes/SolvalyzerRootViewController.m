@@ -112,7 +112,7 @@
 -(IBAction)participate:(id)sender{
         //hide buttons
     _participateButton.hidden = YES;
-    _notParticipateButton.hidden = NO;
+    _notParticipateButton.hidden = YES;
         //show text field
     _signatureTextField.hidden = NO;
         //show keyboard
@@ -123,8 +123,11 @@
 -(IBAction)notParticipate:(id)sender{
         //hide buttons, permission slip
     _participateButton.hidden = YES;
-    _notParticipateButton.hidden = NO;
-     _permissionImageView.hidden = YES;
+    _notParticipateButton.hidden = YES;
+     _signatureTextField.hidden = NO;
+    _signatureTextField.userInteractionEnabled = NO;
+    _signatureTextField.text = @"STUDENT NOT PARTICIPATING IN STUDY";
+    _permissionImageView.hidden = YES;
 
     
 }
