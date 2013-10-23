@@ -92,18 +92,41 @@
         self.aStudent.isaGirl = YES;
     }
 }
+    //use this to not hide signature window: https://developer.apple.com/library/ios/documentation/StringsTextFonts/Conceptual/TextAndWebiPhoneOS/KeyboardManagement/KeyboardManagement.html
 
     //entered name and hit return
 -(BOOL)textFieldShouldReturn:(UITextField *)textField{
-    textField.tag = 1;
-    self.aStudent.name = textField.text;
-    [textField resignFirstResponder];
+    if ([textField.restorationIdentifier isEqualToString: @"signatureText"]){
+        self.aStudent.name = textField.text;
+        _permissionImageView.hidden = YES;
+        [textField resignFirstResponder];
+    }
+    else {
+        textField.tag = 1;
+        self.aStudent.name = textField.text;
+        [textField resignFirstResponder];
+    }
     return YES;
 }
 
+-(IBAction)participate:(id)sender{
+        //hide buttons
+    _participateButton.hidden = YES;
+    _notParticipateButton.hidden = NO;
+        //show text field
+    _signatureTextField.hidden = NO;
+        //show keyboard
+    [_signatureTextField becomeFirstResponder];
+}
 
--(IBAction)clearKeyboardButton:(id)sender {
-    [self.view endEditing:YES];
+
+-(IBAction)notParticipate:(id)sender{
+        //hide buttons, permission slip
+    _participateButton.hidden = YES;
+    _notParticipateButton.hidden = NO;
+     _permissionImageView.hidden = YES;
+
+    
 }
 
 - (void) sliderValueChanged:(UISlider *)paramSender{

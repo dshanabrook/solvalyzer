@@ -13,8 +13,11 @@
                 <outlet property="mathAnxiety" destination="Wvp-bN-9qo" id="jq2-cK-K31"/>
                 <outlet property="mathAptitude" destination="98g-br-pbp" id="m60-mO-KT1"/>
                 <outlet property="mathAttitude" destination="H9C-TQ-LIG" id="ol3-JP-X3l"/>
+                <outlet property="notParticipateButton" destination="S3c-Lj-fyc" id="Nhh-tv-fRv"/>
+                <outlet property="participateButton" destination="p7Z-JG-Jt3" id="TUI-vA-fSI"/>
+                <outlet property="permissionImageView" destination="zzs-Yj-4Xr" id="osI-ge-CG3"/>
                 <outlet property="restartButton" destination="4" id="As8-oF-oZ7"/>
-                <outlet property="studentName" destination="cN4-jz-f4u" id="f5W-U1-WSZ"/>
+                <outlet property="signatureTextField" destination="Wyh-JH-xK5" id="ppI-8h-hn7"/>
                 <outlet property="view" destination="1" id="3"/>
             </connections>
         </placeholder>
@@ -35,7 +38,7 @@
                     </connections>
                 </button>
                 <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="wordWrap" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Cvg-I6-Io0">
-                    <rect key="frame" x="141" y="38" width="699" height="80"/>
+                    <rect key="frame" x="151" y="38" width="646" height="80"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                     <string key="text">Welcome to to mathTouch, a new way of doing math assignments.  It is really just like your normal work, except instead of using paper and pencil, you will use the iPad and your finger.  </string>
                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
@@ -43,40 +46,31 @@
                     <nil key="highlightedColor"/>
                 </label>
                 <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="I am a girl." lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="LOB-ep-r3A">
-                    <rect key="frame" x="258" y="258" width="90" height="21"/>
+                    <rect key="frame" x="223" y="263" width="90" height="21"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                     <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                     <nil key="highlightedColor"/>
                 </label>
                 <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="I am a boy." lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="t31-3q-v72">
-                    <rect key="frame" x="258" y="213" width="90" height="21"/>
+                    <rect key="frame" x="223" y="213" width="90" height="21"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                     <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                     <nil key="highlightedColor"/>
                 </label>
                 <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="My name is: " lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="FRg-kE-UbZ">
-                    <rect key="frame" x="258" y="306" width="98" height="21"/>
+                    <rect key="frame" x="223" y="161" width="98" height="21"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                     <nil key="highlightedColor"/>
                 </label>
-                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" id="cN4-jz-f4u">
-                    <rect key="frame" x="386" y="306" width="224" height="30"/>
-                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                    <textInputTraits key="textInputTraits"/>
-                    <connections>
-                        <outlet property="delegate" destination="-1" id="Kxf-Dm-OPw"/>
-                    </connections>
-                </textField>
                 <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" id="e4m-fG-9Gy">
-                    <rect key="frame" x="378" y="253" width="51" height="31"/>
+                    <rect key="frame" x="352" y="253" width="51" height="31"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                 </switch>
                 <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" id="Aqk-8B-PQ1">
-                    <rect key="frame" x="378" y="213" width="51" height="31"/>
+                    <rect key="frame" x="352" y="213" width="51" height="31"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                 </switch>
                 <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" id="H9C-TQ-LIG">
@@ -233,10 +227,44 @@
                     <fontDescription key="fontDescription" type="system" pointSize="12"/>
                     <nil key="highlightedColor"/>
                 </label>
+                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="stamped 05_30_13 assent_Cropped.png" id="zzs-Yj-4Xr">
+                    <rect key="frame" x="-16" y="20" width="977" height="748"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                </imageView>
+                <textField hidden="YES" opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" restorationIdentifier="signatureText" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Type your name here to sign" borderStyle="roundedRect" minimumFontSize="17" clearButtonMode="always" id="Wyh-JH-xK5">
+                    <rect key="frame" x="340" y="157" width="345" height="30"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits"/>
+                    <connections>
+                        <outlet property="delegate" destination="-1" id="rkh-XT-ATc"/>
+                    </connections>
+                </textField>
+                <button opaque="NO" contentMode="scaleToFill" selected="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="p7Z-JG-Jt3">
+                    <rect key="frame" x="325" y="608" width="212" height="22"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <state key="normal" title="Yes I want to participate"/>
+                    <connections>
+                        <action selector="participate:" destination="-1" eventType="touchUpInside" id="9ik-dC-jWh"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" selected="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="S3c-Lj-fyc">
+                    <rect key="frame" x="317" y="658" width="229" height="30"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <state key="normal" title="No, I would rather not participate">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="notParticipate:" destination="-1" eventType="touchUpInside" id="fz2-0t-uPU"/>
+                    </connections>
+                </button>
             </subviews>
             <color key="backgroundColor" red="0.89622528700000004" green="0.89622528700000004" blue="0.89622528700000004" alpha="1" colorSpace="calibratedRGB"/>
             <simulatedStatusBarMetrics key="simulatedStatusBarMetrics" statusBarStyle="blackOpaque"/>
             <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
         </view>
     </objects>
+    <resources>
+        <image name="stamped 05_30_13 assent_Cropped.png" width="927" height="1008"/>
+    </resources>
 </document>

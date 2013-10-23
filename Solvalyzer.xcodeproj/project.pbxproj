@@ -11,6 +11,7 @@
 		791C92151810B39600DF9CD1 /* boyIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 791C92141810B39600DF9CD1 /* boyIcon.png */; };
 		791C92171810B39C00DF9CD1 /* girlIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 791C92161810B39C00DF9CD1 /* girlIcon.png */; };
 		791C92191810CB4700DF9CD1 /* math questions in Resources */ = {isa = PBXBuildFile; fileRef = 791C92181810CB4700DF9CD1 /* math questions */; };
+		792E067518176CFE000AA2A2 /* stamped 05_30_13 assent_Cropped.png in Resources */ = {isa = PBXBuildFile; fileRef = 792E067418176CFE000AA2A2 /* stamped 05_30_13 assent_Cropped.png */; };
 		7947BA3215AC8D4E002C6988 /* Problem.m in Sources */ = {isa = PBXBuildFile; fileRef = 19190F7D13286C5400550793 /* Problem.m */; };
 		7947BA3315AC8D4E002C6988 /* ProblemStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 19190F8113286C5400550793 /* ProblemStore.m */; };
 		7947BA3415AC8D4E002C6988 /* SolutionPoint.m in Sources */ = {isa = PBXBuildFile; fileRef = 19190F8313286C5400550793 /* SolutionPoint.m */; };
@@ -86,6 +87,7 @@
 		791C92141810B39600DF9CD1 /* boyIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = boyIcon.png; sourceTree = SOURCE_ROOT; };
 		791C92161810B39C00DF9CD1 /* girlIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = girlIcon.png; sourceTree = SOURCE_ROOT; };
 		791C92181810CB4700DF9CD1 /* math questions */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "math questions"; sourceTree = "<group>"; };
+		792E067418176CFE000AA2A2 /* stamped 05_30_13 assent_Cropped.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "stamped 05_30_13 assent_Cropped.png"; sourceTree = SOURCE_ROOT; };
 		7931823513873A14001C4FDF /* studentModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = studentModel.h; sourceTree = SOURCE_ROOT; };
 		7931823613873A14001C4FDF /* studentModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = studentModel.m; sourceTree = SOURCE_ROOT; };
 		7947BA5415AC8D4E002C6988 /* touchMath.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = touchMath.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -184,6 +186,7 @@
 				19190FA113286C7700550793 /* icon-small.png */,
 				19190FA213286C7700550793 /* icon.png */,
 				19190FA313286C7700550793 /* icon@2x.png */,
+				792E067418176CFE000AA2A2 /* stamped 05_30_13 assent_Cropped.png */,
 				19190FA413286C7700550793 /* Logo.opacity */,
 				19190FA513286C7700550793 /* main.m */,
 				19190FA613286C7700550793 /* Solvalyzer_Prefix.pch */,
@@ -294,6 +297,7 @@
 				798529571816388E005D2B42 /* stamped 05_30_13 assent.png in Resources */,
 				791C92171810B39C00DF9CD1 /* girlIcon.png in Resources */,
 				7947BA4915AC8D4E002C6988 /* icon-small-50.png in Resources */,
+				792E067518176CFE000AA2A2 /* stamped 05_30_13 assent_Cropped.png in Resources */,
 				791C92151810B39600DF9CD1 /* boyIcon.png in Resources */,
 				7947BA4A15AC8D4E002C6988 /* icon-small.png in Resources */,
 				7947BA4B15AC8D4E002C6988 /* icon.png in Resources */,
