@@ -6,7 +6,7 @@
 //  Copyright 2011 Diabolical Labs, LLC. All rights reserved.
 //
 
-    //#import "Student.h"
+#import "Student.h"
 #import "questions.h"
 #import "ProblemStore.h"
 #import "Problem.h"
@@ -31,12 +31,9 @@
 //adding a navigation bar
 -(void) performAdd:(id)parmSender {
     NSLog(@"action method got logged");
-    
 }
 
-- (void)viewDidLoad {
-        //textfield
-        // [self.studentName.inputView =
+- (void)viewDidLoad {    
         //switches
     [self.boySwitch addTarget:self
                        action:@selector(switchIsChanged:)
@@ -60,7 +57,7 @@
 
 -(void) viewDidUnload {
         //handle switches
-        //check somewhere for name of person if (([addThisCity.text  isEqual: @""])
+        //check somewhere for name of person if   isEqual: @""])
     
 }
 
@@ -243,7 +240,23 @@
         por.contentType = @"image/png";
         por.data = UIImagePNGRepresentation(image);
         [s3Client putObject:por];
-    }];
+            }];
+    
+            //now write the student data
+        NSString *studentFileName = [NSString stringWithFormat:@"student-info-%ld.csv", problemSetID];
+        S3PutObjectRequest *por2 = [[[S3PutObjectRequest alloc] initWithKey:studentFileName inBucket:@"touchdata2"] autorelease];
+    NSString *sex = nil;
+    if (self.aStudent.isaGirl) {
+        sex = @"girl";
+    } else {
+         sex = @"boy";
+    }
+    
+    NSString *stringData = [NSString stringWithFormat:@"%@\t%@\t%@\t%@\t%@",self.aStudent.name, sex, self.aStudent.mathAptitudeValue, self.aStudent.mathAnxietyValue, self.aStudent.iPadAttitudeValue];
+    
+    por2.data = [stringData dataUsingEncoding:NSUTF8StringEncoding];
+     [s3Client putObject:por2];
+
 
     
     
