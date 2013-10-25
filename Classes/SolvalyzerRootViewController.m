@@ -33,7 +33,7 @@
     NSLog(@"action method got logged");
 }
 
-- (void)viewDidLoad {    
+- (void)viewDidLoad {
         //switches
     [self.boySwitch addTarget:self
                        action:@selector(switchIsChanged:)
@@ -67,13 +67,13 @@
     self.title = @"First Controller";
     self.navigationItem.rightBarButtonItem = [[UIBarButtonItem alloc]initWithTitle:@"add" style:UIButtonTypeRoundedRect
                                                                             target:self action:@selector(performAdd:)];
-  self.restartButton.hidden = YES;
-  SolvalyzerViewController *c = [[SolvalyzerViewController alloc] initWithNibName:@"SolvalyzerViewController" bundle:nil];
-  c.modalTransitionStyle = UIModalTransitionStyleCrossDissolve;
+    self.restartButton.hidden = YES;
+    SolvalyzerViewController *c = [[SolvalyzerViewController alloc] initWithNibName:@"SolvalyzerViewController" bundle:nil];
+    c.modalTransitionStyle = UIModalTransitionStyleCrossDissolve;
     
-   c.solvalyzerDelegate = self;
-[self presentModalViewController:c animated:YES];
-        [c release];
+    c.solvalyzerDelegate = self;
+    [self presentModalViewController:c animated:YES];
+    [c release];
 }
 
     //only one switch on at a timeipad
