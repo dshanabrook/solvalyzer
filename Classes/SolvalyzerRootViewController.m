@@ -199,10 +199,11 @@
  */
 
 - (void) solvalyzerControllerQuit:(SolvalyzerViewController *)controller{
-    
+NSLog(@"solvalyzerControllerQuit");
     [self dismissModalViewControllerAnimated:NO];
+NSLog(@"start Amazons3client");
     AmazonS3Client *s3Client = [[AmazonS3Client alloc] initWithAccessKey:@"AKIAIXRARZOIBKMFV5OA" withSecretKey:@"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"];
-    
+
     NSData *seriesData = [[ProblemStore sharedProblemStore] problemStoreToData];
     long problemSetID = [[ProblemStore sharedProblemStore] uniqueID];
     NSString *fileName = [NSString stringWithFormat:@"problem-set-%ld.csv", problemSetID];
@@ -256,6 +257,7 @@
     
     por2.data = [stringData dataUsingEncoding:NSUTF8StringEncoding];
      [s3Client putObject:por2];
+NSLog(@"END Amazons3client");
 
 
     

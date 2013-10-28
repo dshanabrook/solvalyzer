@@ -14,7 +14,7 @@
 #import "SolverView.h"
 #import "SolvalyzerViewController.h"
 #import "SolvalyzerRootViewController.h"
-#define SCROLL_AMOUNT 300
+#define SCROLL_AMOUNT 200
 
 @implementation SolvalyzerViewController
 
@@ -26,6 +26,7 @@
 
 #warning was this release the problem?
 - (void)dealloc {
+    NSLog(@"dealloc");
   [problemView release];
   [solverView release];
   [scaleKludgeView release];
@@ -34,6 +35,7 @@
 
 
 - (void)viewDidLoad {
+    NSLog(@"viewDidLoad");
     self.view.frame=CGRectMake(0, 0, 1024, 2000);
     self.view.bounds=CGRectMake(0, 0, 1024, 2000);
     self.scrollView.frame=self.view.frame;
@@ -59,6 +61,7 @@
 }
 
 - (void)viewWillAppear:(BOOL)animated {
+    NSLog(@"viewWillAppear");
     [super viewWillAppear:animated];
     Problem *problem = [[ProblemStore sharedProblemStore] newProblem];
     [[Questions sharedQuestions]incCurrentQuestion];
@@ -67,11 +70,13 @@
 
 
 - (void)viewDidAppear:(BOOL)animated {
+    NSLog(@"viewDidLoad");
   [super viewDidAppear:animated];  
   [[ProblemStore sharedProblemStore] problemDisplayed];
 }
 
 - (void)viewDidUnload {
+    NSLog(@"viewDidUnLoad");
 #warning again is this correct?
  self.problemView = nil;
   self.solverView = nil;
@@ -81,6 +86,7 @@
 
 
 - (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)toInterfaceOrientation {
+    NSLog(@"shouldAutorotateToInterfaceOrientation");
   return YES;
 }
 
@@ -88,7 +94,8 @@
 // Actions
 ////////////////////////////////////////
 
-- (void)writeSolutionImage: (id)isCorrect { 
+- (void)writeSolutionImage: (id)isCorrect {
+NSLog(@"writeSolutionImage");
   UIGraphicsBeginImageContext(self.view.bounds.size);
   [self.view.layer renderInContext:UIGraphicsGetCurrentContext()];
   UIImage *viewImage = UIGraphicsGetImageFromCurrentImageContext();
@@ -99,7 +106,8 @@
   [self.scaleKludgeView.layer renderInContext:UIGraphicsGetCurrentContext()];
   viewImage = UIGraphicsGetImageFromCurrentImageContext();
   UIGraphicsEndImageContext();
-  
+NSLog(@"set currentSolution, filename");
+
   ProblemSolution *currentSolution = [[ProblemStore sharedProblemStore] currentSolution];
   NSString *filename = [NSString stringWithFormat:@"solution-%ld.png", 
                         [[[ProblemStore sharedProblemStore] currentProblem] problemID]];
@@ -114,6 +122,7 @@
 }
 
 - (IBAction)finalizeSolution:(id)sender {
+     NSLog(@"finalizeSolution");
     NSString *title = [sender titleForState:UIControlStateNormal];
 
     if ([title isEqualToString:@"Got it right!"])
@@ -124,7 +133,8 @@
     [[ProblemStore sharedProblemStore] solutionSubmitted];
     NSLog(@"Current Value=%d   Max Questions=%d",[[Questions sharedQuestions] currentQuestion],[[Questions sharedQuestions] maxQuestion]);
     if ([[Questions sharedQuestions] currentQuestion] >= [[Questions sharedQuestions] maxQuestion]){
-            [solvalyzerDelegate solvalyzerControllerQuit:self];
+        NSLog(@"no more questions");
+        [solvalyzerDelegate solvalyzerControllerQuit:self];
         UIAlertView *alert =[[UIAlertView alloc]initWithTitle:@"No More" message:@"Therer are no more questions" delegate:nil cancelButtonTitle:nil otherButtonTitles:@"OK", nil];
         [alert show];
     }
@@ -136,6 +146,7 @@
 }
 
 - (IBAction)quitSolving:(id)sender {
+     NSLog(@"quitSolving");
    NSString *title = [sender titleForState:UIControlStateNormal];
 #warning Treating 'quit' like solution!
     [self writeSolutionImage:title];
@@ -148,6 +159,7 @@
 
 
 - (IBAction)upAction:(id)sender {
+     NSLog(@"upAction");
     
     CGRect rect= self.scrollView.frame;
     CGFloat x = rect.origin.x;
@@ -158,6 +170,7 @@
 }
 
 - (IBAction)downAction:(id)sender {
+     NSLog(@"downAction");
     CGRect rect= self.scrollView.frame;
     CGFloat x = rect.origin.x;
     CGPoint point = self.scrollView.contentOffset;

@@ -122,6 +122,7 @@
 }
 
 - (NSData*)problemStoreToData {
+NSLog(@"probleStoreToData");
 #warning Quick hacked approach: 
   __unsafe_unretained NSMutableArray *rows = [NSMutableArray array];
   NSArray *header = @[@"solutionImageName",
