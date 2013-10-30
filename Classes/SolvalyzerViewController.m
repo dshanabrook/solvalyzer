@@ -160,7 +160,8 @@ NSLog(@"set currentSolution, filename");
 
 - (IBAction)upAction:(id)sender {
      NSLog(@"upAction");
-    
+        //   yourButton.frame = CGRectMake(self.view.frame.size.width/2 - yourButton.frame.size.width/2, self.view.frame.size.height/2 - yourButton.frame.size.height/2, yourButton.frame.size.width, yourButton.frame.size.height);
+
     CGRect rect= self.scrollView.frame;
     CGFloat x = rect.origin.x;
     CGPoint point = self.scrollView.contentOffset;
