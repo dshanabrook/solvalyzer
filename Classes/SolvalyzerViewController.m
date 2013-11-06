@@ -43,21 +43,10 @@
     self.scrollView.contentSize=self.scrollView.frame.size;
     self.solverView.frame=self.scrollView.frame;
     self.solverView.bounds=CGRectMake(0, 0, 1024, 2000);
-        //dhs, these add scrollbar and two finger scroll but only work in a limited area
-        // [self.scrollView showsVerticalScrollIndicator];
-        //self.scrollView.panGestureRecognizer.minimumNumberOfTouches = 2;
-
     [self.scrollView addSubview:self.solverView];
     [self.view addSubview:self.scrollView];
-    
-    
-    
     [super viewDidLoad];
-
-    
     [[NSBundle mainBundle] loadNibNamed:@"ImageScaleKludgeView" owner:self options:nil];
-
-
 }
 
 - (void)viewWillAppear:(BOOL)animated {
@@ -161,6 +150,8 @@ NSLog(@"set currentSolution, filename");
 - (IBAction)upAction:(id)sender {
      NSLog(@"upAction");
         //   yourButton.frame = CGRectMake(self.view.frame.size.width/2 - yourButton.frame.size.width/2, self.view.frame.size.height/2 - yourButton.frame.size.height/2, yourButton.frame.size.width, yourButton.frame.size.height);
+
+    UIButton * upButton = [[UIButton buttonWithType:UIButtonTypeCustom] retain];
 
     CGRect rect= self.scrollView.frame;
     CGFloat x = rect.origin.x;
