@@ -116,6 +116,7 @@
 }
 
 - (void)mapAllProblems:(ProblemBlock)block {
+    NSLog(@"mapAllProblems");
   for (Problem *problem in allProblems) {
     block(problem);
   }
